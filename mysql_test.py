@@ -76,7 +76,7 @@ if __name__ == '__main__':
     for i in row:
         print i
     #获取结果数据-批量
-#打印表中的多少数据
+    #打印表中的多少数据
     info = cur.fetchmany(out)
     for ii in info:
         print ii
