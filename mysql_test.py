@@ -1,6 +1,18 @@
 #!/usr/bin/python2.7
 # coding=utf-8
 #参考<python使用mysql数据库>http://www.cnblogs.com/fnng/p/3565912.html
+'''
+#mysql初始化-shell
+mysql=/usr/local/mysql/bin/mysql
+$mysql -uroot -pwqw  < init.sql
+------
+$mysql -uroot -p123456 <<EOF  
+source /root/temp.sql;  
+select current_date();  
+delete from tempdb.tb_tmp where id=3;  
+select * from tempdb.tb_tmp where id=2;  
+EOF 
+'''
 
 import MySQLdb
 import sys
