@@ -28,8 +28,10 @@ delete from tempdb.tb_tmp where id=3;
 select * from tempdb.tb_tmp where id=2;  
 EOF
 ```
-## python爬虫
-
+## 爬虫
+### python抓取链接二手房数据
+- [链家二手房数据分析](https://zhuanlan.zhihu.com/p/25132058)
+- [scrapy爬链家成都房价并可视化](https://github.com/happyte/buyhouse)
 ## json使用
 
 ### shell中使用json
