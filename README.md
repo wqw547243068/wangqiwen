@@ -39,6 +39,7 @@ EOF
 - #[2016-12-31] shell中使用json
 - 安装：
 > pip install git+https://github.com/dominictarr/JSON.sh#egg=JSON.sh
+
 - 使用：
 ```shell
 echo '{"a":2,"b":[3,6,8]}' |JSON.sh
