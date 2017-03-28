@@ -50,3 +50,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 可视化
 ### 地图数据可视化
 - [地图汇](http://www.dituhui.com/)
+
+## 学习资料
+### 数学基础
+- [六大概率分布](http://www.csuldw.com/2016/08/19/2016-08-19-probability-distributions/)
