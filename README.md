@@ -54,3 +54,4 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 学习资料
 ### 数学基础
 - [六大概率分布](http://www.csuldw.com/2016/08/19/2016-08-19-probability-distributions/)
+- [最优化算法-避开鞍点](http://www.csuldw.com/2016/07/10/2016-07-10-saddlepoints/)
