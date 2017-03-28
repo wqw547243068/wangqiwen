@@ -32,6 +32,7 @@ EOF
 ### python抓取链接二手房数据
 - [链家二手房数据分析](https://zhuanlan.zhihu.com/p/25132058)
 - [scrapy爬链家成都房价并可视化](https://github.com/happyte/buyhouse)
+- [抓知乎爬虫](http://www.csuldw.com/2016/11/05/2016-11-05-simulate-zhihu-login/)
 
 ## json使用
 
