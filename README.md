@@ -50,6 +50,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 可视化
 ### 地图数据可视化
 - [地图汇](http://www.dituhui.com/)
+- [5min上手写echarts第一个图标](http://echarts.baidu.com/echarts2/doc/start.html),[echarts如何从json文件读数据？](http://bbs.csdn.net/topics/392042291)
 
 ## 学习资料
 ### 数学基础
