@@ -75,6 +75,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - 其他
 ### 深度学习
 - 深度学习书籍：[Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[Andrej Karpathy博客](http://karpathy.github.io/neuralnets/),[Colah's Blog](http://colah.github.io/)
+### 知识图谱
+- [精益知识图谱方法论](http://blog.memect.cn/?p=2005)
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
 - [互联网黑名单](https://github.com/shengxinjing/programmer-job-blacklist)
