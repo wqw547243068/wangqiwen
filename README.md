@@ -89,3 +89,4 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [区块链](http://t.cn/R6HR9ji)：分布式总账技术，所有节点都记录账本，更安全
 ## 产品
 - [APP技术框架](http://www.woshipm.com/pmd/240656.html),[产品必懂的web建站技术](http://www.woshipm.com/pmd/155064.html)
+- [产品经理面试指南](http://www.woshipm.com/topic/ms)
