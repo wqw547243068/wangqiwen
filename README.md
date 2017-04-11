@@ -62,8 +62,12 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
    - 频率学派认为参数固定，通过无数字实验可以估计出参数值——客观；
    - 贝叶斯学派认为参数和数据都是随机的，参数也服从一定的分布，需要借助经验——主观
 - 大矩阵相乘：[分布式版本](http://weibo.com/ttarticle/p/show?id=2309404091643656571557),[MapReduce实现矩阵相乘](http://blog.csdn.net/jiangsanfeng1111/article/details/51025744)，[Hadoop实现大矩阵相乘之我见](http://www.cnblogs.com/eczhou/p/3340731.html)
- - A大B小,![图](http://images.cnitblog.com/blog/310680/201309/26133812-99b31a08aa934015a11a19cc178713db.png)
- - AB都大,![图](http://images.cnitblog.com/blog/310680/201309/26133859-83d01098a7ac4192a7ff02fbaacb2369.png)
+ - A大B小(内存受限)
+ ![图](http://images.cnitblog.com/blog/310680/201309/26133812-99b31a08aa934015a11a19cc178713db.png)
+ - AB都大(内存受限)
+ ![图](http://images.cnitblog.com/blog/310680/201309/26133859-83d01098a7ac4192a7ff02fbaacb2369.png)
+ - 不受内存限制（最小粒度）
+ ![图](http://images.cnitblog.com/blog/310680/201309/26134115-f5041d455fbe4ef98e3653a77cb31774.png)
 - 其他
 
 ### 推荐系统
