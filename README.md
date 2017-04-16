@@ -111,3 +111,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 产品
 - [APP技术框架](http://www.woshipm.com/pmd/240656.html),[产品必懂的web建站技术](http://www.woshipm.com/pmd/155064.html)
 - [产品经理面试指南](http://www.woshipm.com/topic/ms)
+
+## 经济学
+- [银行和货币系统真相视频](http://v.youku.com/v_show/id_XNzIxMDQyODAw.html?spm=a2h0j.8191423.module_basic_relation.5~5!2~5~5!3~5~5~A),[出品方goldsilver](https://goldsilver.com/hidden-secrets/)
+## 工具
