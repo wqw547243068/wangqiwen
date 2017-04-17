@@ -62,7 +62,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  - 学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。
  - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
 - 学习金字塔
-![学习金字塔](http://img.mp.itc.cn/upload/20161226/6b4c5ea0005d44459f67234d85e91f5b_th.jpeg)
+![学习金字塔](https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=dae5bdf00ef79052ef4a4f383cc3fbf2/78310a55b319ebc44d04b87a8526cffc1f1716d1.jpg)
 ### 数学基础
 - [线性代数的本质-Essence of Linear Algebra-视频教程](http://www.3blue1brown.com/)，[Bilibili上双语视频教程](http://www.bilibili.com/video/av6731067/). 《数学拾遗》[英文版百度云地址](https://pan.baidu.com/share/link?shareid=1204761446&uk=2416092239&fid=2111748288)
 ![Essence of Linear Algebra](https://pic4.zhimg.com/v2-f0b763934f02eda66a5eef93cc47eaa3_b.jpg)
