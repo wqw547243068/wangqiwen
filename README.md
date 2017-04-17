@@ -53,8 +53,18 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [5min上手写echarts第一个图标](http://echarts.baidu.com/echarts2/doc/start.html),[echarts如何从json文件读数据？](http://bbs.csdn.net/topics/392042291)
 
 ## 学习资料
+### 学习技巧
+- @爱可可-爱生活：
+ - 互联时代怎么阅读？
+ - 读书重在结构生长，形成扎实的支撑；
+ - 碎片阅读重在视野的纳新和扩展，开枝散叶；
+ - 思考重在提炼和关联，勾画错综的经脉。
+ - 学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。
+ - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
+- 学习金字塔
+![学习金字塔](http://img.mp.itc.cn/upload/20161226/6b4c5ea0005d44459f67234d85e91f5b_th.jpeg)
 ### 数学基础
-- [线性代数的本质-Essence of Linear Algebra-视频教程](http://www.3blue1brown.com/)，[Bilibili上双语视频教程](http://www.bilibili.com/video/av6731067/)
+- [线性代数的本质-Essence of Linear Algebra-视频教程](http://www.3blue1brown.com/)，[Bilibili上双语视频教程](http://www.bilibili.com/video/av6731067/). 《数学拾遗》[英文版百度云地址](https://pan.baidu.com/share/link?shareid=1204761446&uk=2416092239&fid=2111748288)
 ![Essence of Linear Algebra](https://pic4.zhimg.com/v2-f0b763934f02eda66a5eef93cc47eaa3_b.jpg)
 - [六大概率分布](http://www.csuldw.com/2016/08/19/2016-08-19-probability-distributions/)
 - [最优化算法-避开鞍点](http://www.csuldw.com/2016/07/10/2016-07-10-saddlepoints/)
@@ -83,6 +93,11 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - 案例分享：[世纪佳缘推荐系统经验分享](http://www.csdn.net/article/2015-02-15/2823976)
 - 其他
 ### 机器学习
+#### 算法总结
+- [scikit-learn官方总结](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html#)
+![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
+- 算法对比
+
 #### 机器学习经验总结
 - [Google机器学习经验总结](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
