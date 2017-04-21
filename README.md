@@ -101,7 +101,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - 其他
 ### 机器学习
 #### 特征工程
-- 江湖名言：数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已
+- 江湖名言：<font color=#0099ff size=5 face="黑体">数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已</font>
 - [知乎：特征工程到底是什么](https://www.zhihu.com/question/29316149),[使用sklearn做特征工程](http://www.cnblogs.com/jasonfreak/p/5448385.html)，特征工程常用方法：
 ![常用方法](https://pic3.zhimg.com/20e4522e6104ad71fc543cc21f402b36_r.png)
 #### 算法总结
