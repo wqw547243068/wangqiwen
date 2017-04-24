@@ -112,6 +112,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [scikit-learn官方总结](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html#)
 ![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
 - 算法对比
+- 《统计学习方法》总结：![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 
 #### 机器学习经验总结
 - [Google机器学习经验总结](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
