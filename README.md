@@ -111,6 +111,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  特征工程常用方法：
 ![常用方法](https://pic3.zhimg.com/20e4522e6104ad71fc543cc21f402b36_r.png)
 #### 算法总结
+- 微软-ML算法指南：[pdf版下载地址](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet)
+![微软算法](微软-ML算法指南.png)
 - [scikit-learn官方总结](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html#)
 ![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
 - 算法对比
