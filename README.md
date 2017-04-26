@@ -165,9 +165,10 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  # pandas读取excel数据示例
  # 【2016-7-30】 参考：十分钟搞定pandas：http://www.cnblogs.com/chaosimple/p/4153083.html
 - [go语言入门](http://www.yiibai.com/go/go_start.html)
-## 新技术
+## 技术分享
 - [区块链](http://t.cn/R6HR9ji)：分布式总账技术，所有节点都记录账本，更安全
 - 寒小阳：计算广告小窥【[上](http://blog.csdn.net/han_xiaoyang/article/details/50580423),[中](http://blog.csdn.net/han_xiaoyang/article/details/50697074),[下](http://blog.csdn.net/han_xiaoyang/article/details/52275318)】
+- [左耳朵耗子-酷壳](http://coolshell.cn/)
 ## 产品
 - [APP技术框架](http://www.woshipm.com/pmd/240656.html),[产品必懂的web建站技术](http://www.woshipm.com/pmd/155064.html)
 - [产品经理面试指南](http://www.woshipm.com/topic/ms)
