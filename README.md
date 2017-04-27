@@ -115,7 +115,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  - 1.过抽样：简单赋值负样本——最常用，容易过拟合，SVM模型里用途不大
  - 2.欠抽样：随机减少正样本——造成信息丢失
  - 3.算法层面：（1）重构训练集，按错分代价对训练集重构（2）代价敏感函数，大样本高代价，小样本低代价
- - 4.特征工程：
+ - 4.特征选择：选取有区分度的特征
 #### 算法总结
 - 微软-ML算法指南：[pdf版下载地址](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet)
 ![微软算法](微软-ML算法指南.png)
