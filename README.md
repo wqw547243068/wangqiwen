@@ -135,10 +135,12 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 #### 算法总结
 - 微软-ML算法指南：[pdf版下载地址](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet)
 ![微软算法](微软-ML算法指南.png)
+ - [详细讲解](How to choose algorithms for Microsoft Azure Machine Learning)
 - [scikit-learn官方总结](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html#)
 ![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
 - 算法对比
 《统计学习方法》总结：
+
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
 #### 机器学习经验总结
