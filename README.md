@@ -6,8 +6,9 @@
 | 功能 | 方法 | 备注 |
 |----|:------:|:---- |
 | 终端用户名自定义 | 系统偏好设置->共享->编辑电脑名称  | - |
-| bar | bar  | bar |
-| baz | baz  | baz |
+| 画图工具OmniGraffle+Pro+6 | [下载地址](http://www.onlinedown.net/soft/87746.htm),[注册码](http://blog.csdn.net/x_focus/article/details/41349623)  | 兼容viso，功能强大 |
+| 安装pip | sudo easy_install pip  | pip直接安装其他工具 |
+| 翻墙 | 1.有代理ip的直接设置：网络->高级->代理->勾选网页代理+安全网页代理，输入服务器域名及端口，无需填入账号。2.用[lantern下载](https://github.com/getlantern/forum/issues/833) | 备选方案很多 |
 
 ## python使用mysql方法
 ### 安装方法
