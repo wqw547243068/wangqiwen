@@ -38,6 +38,7 @@ select * from tempdb.tb_tmp where id=2;
 EOF
 ```
 - [PostgreSQL学习笔记](http://www.cnblogs.com/stephen-liu74/archive/2012/06/08/2315679.html)
+
 ## 爬虫
 ### python抓取链接二手房数据
 - [链家二手房数据分析](https://zhuanlan.zhihu.com/p/25132058)
@@ -179,6 +180,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ![图](http://images2015.cnblogs.com/blog/1025005/201609/1025005-20160924130454027-1184504966.png)
 ## 工具
 - 视频下载工具：[硕鼠](http://tv.cntv.cn/video/C10435/9d677bac906247de9782b1104a70110e)(可以下载流视频),[维棠](http://www.vidown.cn/)
+- [lantern下载](https://github.com/getlantern/forum/issues/833)
 ## 编程语言
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 - [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html)
