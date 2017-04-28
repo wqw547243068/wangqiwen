@@ -90,6 +90,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ### 计算机基础
 - 排序算法总结：[视觉感受常见排序算法](http://blog.jobbole.com/11745/)
 ![对比](http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif)
+### 分布式计算
+- [flume+kafka+hdfs+storm组合](http://www.aboutyun.com/thread-6855-1-1.html)
 ### 推荐系统
 - [项量：关于LDA，pLSA，SVD和Word2vector的一些看法](https://zhuanlan.zhihu.com/p/21377575)：
   - SVD算法是指在SVD的基础上引入隐式反馈，使用用户的历史浏览数据、用户历史评分数据、电影的历史浏览数据、电影的历史评分数据等作为新的参数
@@ -126,7 +128,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - 算法对比
 《统计学习方法》总结：
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
-
+- [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
 #### 机器学习经验总结
 - [Google机器学习经验总结](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 
