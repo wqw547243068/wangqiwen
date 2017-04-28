@@ -28,6 +28,7 @@ delete from tempdb.tb_tmp where id=3;
 select * from tempdb.tb_tmp where id=2;  
 EOF
 ```
+- [PostgreSQL学习笔记](http://www.cnblogs.com/stephen-liu74/archive/2012/06/08/2315679.html)
 ## 爬虫
 ### python抓取链接二手房数据
 - [链家二手房数据分析](https://zhuanlan.zhihu.com/p/25132058)
