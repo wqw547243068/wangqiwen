@@ -10,6 +10,8 @@
 | 安装pip | sudo easy_install pip  | pip直接安装其他工具 |
 | 翻墙 | 1.有代理ip的直接设置：网络->高级->代理->勾选网页代理+安全网页代理，输入服务器域名及端口，无需填入账号。2.用[lantern下载](https://github.com/getlantern/forum/issues/833) | 备选方案很多 |
 |vim颜色显示|1.vim ~/.vimrc,2.添加colorscheme desert;syntax on |vim [sublime颜色主题](http://www.cnblogs.com/fsjohnhuang/p/3911611.html)|
+|shell目录颜色显示|开启方法：编辑~/.bash_profile,增加：export CLICOLOR=1
+export LSCOLORS=exfxaxdxcxegedabagacad|注：[如何在shell字符串中显示彩色字符？](http://7938217.blog.51cto.com/7928217/1651807/)|
 
 ## python使用mysql方法
 ### 安装方法
