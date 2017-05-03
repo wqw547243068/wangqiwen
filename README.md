@@ -1,10 +1,25 @@
 # 个人代码集锦
+
 [TOC]
+
 积累平时的代码
 名词解释
     解释
         select * from table where a=3 limit 10;
-> 备注信息
+> 备注信息：[MarkDown语法笔记（完整版）](http://blog.csdn.net/witnessai1/article/details/52551362)
+---
+流程图：
+flow
+st=>start: Start:>https://www.zybuluo.com
+io=>inputoutput: verification
+op=>operation: Your Operation
+cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
+e=>end
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io
+***
 ## macbook配置
 - 汇总
 
@@ -196,8 +211,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 编程语言
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 - [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html)
- # pandas读取excel数据示例
- # 【2016-7-30】 参考：十分钟搞定pandas：http://www.cnblogs.com/chaosimple/p/4153083.html
+- pandas读取excel数据示例
+ 2016-7-30】 参考：十分钟搞定pandas：http://www.cnblogs.com/chaosimple/p/4153083.html
 - [go语言入门](http://www.yiibai.com/go/go_start.html)
 ## 技术分享
 - [区块链](http://t.cn/R6HR9ji)：分布式总账技术，所有节点都记录账本，更安全
