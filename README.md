@@ -209,6 +209,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - 视频下载工具：[硕鼠](http://tv.cntv.cn/video/C10435/9d677bac906247de9782b1104a70110e)(可以下载流视频),[维棠](http://www.vidown.cn/)
 - [lantern下载](https://github.com/getlantern/forum/issues/833)
 ## 编程语言
+- [命令式编程和声明式编程的区别](http://www.vaikan.com/imperative-vs-declarative/)
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 - [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html)
 - pandas读取excel数据示例
