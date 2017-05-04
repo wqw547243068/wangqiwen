@@ -218,6 +218,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [go语言入门](http://www.yiibai.com/go/go_start.html)
 ## 技术分享
 - [区块链](http://t.cn/R6HR9ji)：分布式总账技术，所有节点都记录账本，更安全
+- [图像hash算法：如何判断图像相似？](http://blog.csdn.net/zmazon/article/details/8618775)
 - 寒小阳：计算广告小窥【[上](http://blog.csdn.net/han_xiaoyang/article/details/50580423),[中](http://blog.csdn.net/han_xiaoyang/article/details/50697074),[下](http://blog.csdn.net/han_xiaoyang/article/details/52275318)】
 - [左耳朵耗子-酷壳](http://coolshell.cn/)，[王银](http://www.yinwang.org/)
 ## 产品
