@@ -6,7 +6,7 @@
 名词解释
     解释
         select * from table where a=3 limit 10;
-> 备注信息：[MarkDown语法笔记（完整版）](http://blog.csdn.net/witnessai1/article/details/52551362)
+> 备注信息：[MarkDown语法笔记（完整版）](http://blog.csdn.net/witnessai1/article/details/52551362)，[马克飞象markdown语法在线测试](https://maxiang.io/)
 ---
 流程图：
 flow
