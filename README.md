@@ -220,18 +220,9 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 - [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html)
 - pandas读取excel数据示例
- 2016-7-30】 参考：十分钟搞定pandas：http://www.cnblogs.com/chaosimple/p/4153083.html
-- [go语言入门](http://www.yiibai.com/go/go_start.html)
-## 技术分享
-- [区块链](http://t.cn/R6HR9ji)：分布式总账技术，所有节点都记录账本，更安全
-- [图像hash算法：如何判断图像相似？](http://blog.csdn.net/zmazon/article/details/8618775)
-- 寒小阳：计算广告小窥【[上](http://blog.csdn.net/han_xiaoyang/article/details/50580423),[中](http://blog.csdn.net/han_xiaoyang/article/details/50697074),[下](http://blog.csdn.net/han_xiaoyang/article/details/52275318)】
-- [左耳朵耗子-酷壳](http://coolshell.cn/)，[王银](http://www.yinwang.org/)
-## 产品
-- [APP技术框架](http://www.woshipm.com/pmd/240656.html),[产品必懂的web建站技术](http://www.woshipm.com/pmd/155064.html)
-- [产品经理面试指南](http://www.woshipm.com/topic/ms)
-- [【麦子学院】产品经理从零到无穷【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/6116209.html)
-
-## 经济学
-- [银行和货币系统真相视频](http://v.youku.com/v_show/id_XNzIxMDQyODAw.html?spm=a2h0j.8191423.module_basic_relation.5~5!2~5~5!3~5~5~A),[出品方goldsilver](https://goldsilver.com/hidden-secrets/)
-## 其他
+ 2016-7-30】
+## 视频资源
+### 公开课
+- 哈佛大学《公正》系列公开课：[哈佛英文主页](http://justiceharvard.org/justicecourse/),[网易中文翻译](http://v.163.com/special/sandel/episode06.html)
+ - 自律更自由：康德
+- 其他
