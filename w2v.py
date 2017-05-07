@@ -9,6 +9,9 @@ import jieba
 #import nltk 
 import json
   
+#a=jieba.cut(str,cut_all=False)
+#print '/'.join(a)
+  
 logging.basicConfig(format='%(asctime)s:%(levelname)s:%(message)s',level=logging.INFO)    
 start1 = time.clock()   
 input_file_name = u'E:/百度云/IT技术_new/编程语言/python/demo/word/result.txt' # 原始文件Unicode编码
