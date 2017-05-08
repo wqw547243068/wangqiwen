@@ -215,6 +215,17 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 工具
 - 视频下载工具：[硕鼠](http://tv.cntv.cn/video/C10435/9d677bac906247de9782b1104a70110e)(可以下载流视频),[维棠](http://www.vidown.cn/)
 - [lantern下载](https://github.com/getlantern/forum/issues/833)
+### 实验评估
+- 第一种：A/B-Test. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
+ - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
+- [ab-test有什么局限性？](https://www.zhihu.com/question/19631253)
+ - 首先，A/B测试只有在关键效绩指标(KPI, or Key Performance Indicator)单一，且这个单一明确的目标可以被电脑量化时，适用
+ - 其次，A/B测试相比起一些别的测试手段，如纸本原型(paper prototyping)，需要的工作量大、时间长，对设计的要求也相对较高。
+ - 另外，A/B测试之所以进行，唯一原因是对结果的追求。但相对应的测试结果通常是短期、即刻的用户行为，比如购买、注册、点击等。
+ - 此外，A/B测试并不能提供用户行为的具体细节。A/B测试的结果也仅限于被测试的两个选项：如果12号字比16号字为你的网站带来多1%的用户浏览时间，那10号字呢？8号呢？A/B测试并不能帮助你作更多的、长远的决定。
+ - A/B测试还有别的缺点：需要的用户人数大，可能的影响因素多，可以测试的选项数有很大限制等等。
+- [吆喝科技-ab-test最佳实践](http://www.appadhoc.com/blog/category/appadhoc/)
+- 第二种：interleaving
 ## 编程语言
 - [命令式编程和声明式编程的区别](http://www.vaikan.com/imperative-vs-declarative/)
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
