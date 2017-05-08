@@ -143,7 +143,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [从item-base到svd再到rbm，多种Collaborative Filtering(协同过滤算法)从原理到实现](http://blog.csdn.net/dark_scope/article/details/17228643)
 - 案例分享：[世纪佳缘推荐系统经验分享](http://www.csdn.net/article/2015-02-15/2823976)
 - 《推荐系统实践》[阅读笔记：LFM模型、图模型、slop one和SVD算法](http://www.aiuxian.com/article/p-952427.html)
-- 其他
+- 实时推荐系统
+ - [实时推荐系统的三种方式](http://www.jianshu.com/p/356656ce2901)
 ### 机器学习
 #### 特征工程
 - 江湖名言：<font color=#0099ff size=5 face="黑体">数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已</font>
