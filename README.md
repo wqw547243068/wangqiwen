@@ -41,6 +41,7 @@ cond(no)->sub->io
 |chrome浏览器中右键失灵|双指触碰链接时，并未弹出右键菜单，而是“图片另存为”|解决办法：这是由于chrome浏览器上开启了鼠标手势，造成干扰，关闭或删除插件即可|
 |image not recognized|dmg文件无法安装，原因：文件损坏，dmg权限不允许任意来源的包；换浏览器|如何开启任意来源包？sudo spctl --master-disable|
 |redis安装|brew install redis|使用方法：启动服务，redis-server，连接服务：redis-cli|
+|mac mail客户端设置|连接163时，需要先去163邮箱开启pop3/imap选项，通过手机验证码设置连接密码；mail终端配置时填入的密码是连接密码（非登录密码！）|wqw3721|
 
 >
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
