@@ -43,7 +43,7 @@ cond(no)->sub->io
 |redis安装|brew install redis|使用方法：启动服务，redis-server，连接服务：redis-cli|
 |mac mail客户端设置|连接163时，需要先去163邮箱开启pop3/imap选项，通过手机验证码设置连接密码；mail终端配置时填入的密码是连接密码（非登录密码！）|wqw3721|
 |安装虚拟机|vmware安装，下载地址|vmware fusion 8激活码：FY75A-06W1M-H85PZ-0XP7T-MZ8E8，ZY7TK-A3D4N-08EUZ-TQN5E-XG2TF，FG1MA-25Y1J-H857P-6MZZE-YZAZ6|
-
+|java|官方下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html||
 
 >
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
