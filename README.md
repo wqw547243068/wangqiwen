@@ -232,6 +232,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ## 工具
 - 视频下载工具：[硕鼠](http://tv.cntv.cn/video/C10435/9d677bac906247de9782b1104a70110e)(可以下载流视频),[维棠](http://www.vidown.cn/)
 - [lantern下载](https://github.com/getlantern/forum/issues/833)
+- [在线代码着色器](http://tool.oschina.net/highlight)
 ### 实验评估
 - 第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
  - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
