@@ -45,6 +45,7 @@ cond(no)->sub->io
 |安装虚拟机|vmware安装，下载地址|vmware fusion 8激活码：FY75A-06W1M-H85PZ-0XP7T-MZ8E8，ZY7TK-A3D4N-08EUZ-TQN5E-XG2TF，FG1MA-25Y1J-H857P-6MZZE-YZAZ6|
 |java|官方下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html||
 |Web服务|[Mac OS 启用web服务](http://www.jianshu.com/p/d006a34a343f)||
+|linux 服务器mail|mail command not found|解决方法：sudo yum install mailx;echo "test" (竖线) mail -s "content" wangqiwen@p1.com|
 
 >
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
