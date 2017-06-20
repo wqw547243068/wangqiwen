@@ -149,6 +149,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ### 计算机基础
 - 排序算法总结：[视觉感受常见排序算法](http://blog.jobbole.com/11745/)
 ![对比](http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif)
+- [海量数据处理算法总结【超详解】](http://www.cnblogs.com/ECJTUACM-873284962/p/6910842.html)
 ### 分布式计算
 - [flume+kafka+hdfs+storm组合](http://www.aboutyun.com/thread-6855-1-1.html)
 ### 推荐系统
