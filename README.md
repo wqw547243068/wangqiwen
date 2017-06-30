@@ -253,6 +253,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  - A/B测试还有别的缺点：需要的用户人数大，可能的影响因素多，可以测试的选项数有很大限制等等。
 - [吆喝科技-ab-test最佳实践](http://www.appadhoc.com/blog/category/appadhoc/)
 - 第二种：<font color=#0099ff size=5 face="黑体">interleaving</font>
+- [灰度发布和A/B Test](http://www.jianshu.com/p/88f206f48278)
 ## 编程语言
 - [命令式编程和声明式编程的区别](http://www.vaikan.com/imperative-vs-declarative/)
 - [go语言开发者必读的陷阱、技巧、错误](http://www.cnblogs.com/Eilen/p/6944345.html)
