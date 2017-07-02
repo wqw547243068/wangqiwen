@@ -239,7 +239,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [程序员跳槽全攻略-读书笔记](http://www.cnblogs.com/coderland/p/5903051.html)
 ![图](http://images2015.cnblogs.com/blog/1025005/201609/1025005-20160924130454027-1184504966.png)
 ## 工具
-- 视频下载工具：
+- 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
  - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
  - [维棠](http://www.vidown.cn/)
  - YouTube视频下载：(更多方法参考知乎帖子：[如何下载youtube视频](https://www.zhihu.com/question/51714507?sort=created))
