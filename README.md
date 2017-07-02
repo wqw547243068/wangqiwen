@@ -238,7 +238,13 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [程序员跳槽全攻略-读书笔记](http://www.cnblogs.com/coderland/p/5903051.html)
 ![图](http://images2015.cnblogs.com/blog/1025005/201609/1025005-20160924130454027-1184504966.png)
 ## 工具
-- 视频下载工具：[硕鼠](http://tv.cntv.cn/video/C10435/9d677bac906247de9782b1104a70110e)(可以下载流视频),[维棠](http://www.vidown.cn/)
+- 视频下载工具：
+ - [硕鼠](http://tv.cntv.cn/video/C10435/9d677bac906247de9782b1104a70110e)(可以下载流视频)
+ - [维棠](http://www.vidown.cn/)
+ - YouTube视频下载：(更多方法参考知乎帖子：[如何下载youtube视频](https://www.zhihu.com/question/51714507?sort=created))
+  - （1）每个视频域名稍作修改即可（youtube.com->kissyoutube.com）,[SaveMedia](https://savemedia.com/)提供，在线下载+系列视频自动推荐
+  - (2) python代码下载,pip3 install you-get,you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw', 支持的视频网站范围广
+  - (3) [clipconverter](http://www.clipconverter.cc/)
 - [lantern下载](https://github.com/getlantern/forum/issues/833)
 - [在线代码着色器](http://tool.oschina.net/highlight),[实时英文拼写检测](https://app.grammarly.com/)
 - [如何使用VIM搭建IDE？](http://harttle.com/2015/11/04/vim-ide.html),![VIM键盘图](http://harttle.com/assets/img/blog/vim-key.png)
