@@ -240,6 +240,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - 股权信息：[股权周刊](https://zhuanlan.zhihu.com/guquanzhoukan)(各种股权纠纷案例,作者[邓永权](https://www.zhihu.com/people/guquanzhoukan/answers))。[【干货】创业公司融资时如何分配股权？融资后一般怎么稀释？](http://bbs.pinggu.org/thread-4526409-1-1.html)
 - [程序员跳槽全攻略-读书笔记](http://www.cnblogs.com/coderland/p/5903051.html)
 ![图](http://images2015.cnblogs.com/blog/1025005/201609/1025005-20160924130454027-1184504966.png)
+- Gartner：技术成熟度曲线.[Gartner2016 年度新兴技术成熟度曲线解读：3 大趋势、16 个新技术](http://www.cniteyes.com/archives/26460)
+![图](http://www.cniteyes.com/data/uploads/2016/08/2-4.jpg)
 ## 工具
 - 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
  - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
