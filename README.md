@@ -218,6 +218,20 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ![网络结构变化历史](http://www.36dsj.com/wp-content/uploads/2016/01/40-880x584.jpg)
 当然，光有强大的内在能力，并不一定能成功。一个成功的技术与方法，不仅需要内因的作用，还需要时势与环境的配合。神经网络的发展背后的外在原因可以被总结为：更强的计算性能，更多的数据，以及更好的训练方法。只有满足这些条件时，神经网络的函数拟合能力才能得已体现
 ![发展外因](http://www.36dsj.com/wp-content/uploads/2016/01/418.jpg)
+- 深度学习大牛：
+ - Geoffrey Hinton ：深度学习鼻祖
+ - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
+ - Yoshua Bengio ：也是深度学习
+ - Andrew Ng ：Hinton的合作伙伴
+- 深度学习四大天王及其关系
+- ![四大天王](http://img3.imgtn.bdimg.com/it/u=1323144230,909901567&fm=214&gp=0.jpg)
+- ![关系](http://images0.cnblogs.com/blog2015/678029/201508/221936578479366.png)
+- ![关系](http://images2015.cnblogs.com/blog/899685/201612/899685-20161211130512538-166288396.jpg)
+ - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
+  - ![LeNet-5结构](http://img.blog.csdn.net/20160107230058907)
+  - [LeNet-5手写数字识别示意图](http://yann.lecun.com/exdb/lenet/)
+  - ![LeNet-5 gif](http://yann.lecun.com/exdb/lenet/gifs/asamples.gif)
+  - 资料：[Deep Learning(ppt)](http://www.cs.nyu.edu/~yann/talks/lecun-20090720-vlpr-01.pdf),[Manifold](http://www.cs.nyu.edu/~yann/talks/lecun-20080905-mlss-manifold.pdf)
 - 深度学习书籍：[Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[Andrej Karpathy博客](http://karpathy.github.io/neuralnets/),[Colah's Blog](http://colah.github.io/),[Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/),[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/),[印度人总结的cnn笔记](https://deepnotes.io/implementing-cnn)
 - [一文读懂深度学习](http://www.36dsj.com/archives/20382)，[深度学习：像人脑一样深层次思考](http://blog.csdn.net/yinlili2010/article/details/47760389)
 - Deep Learning（深度学习）学习笔记整理[第一部分](http://blog.csdn.net/zouxy09/article/details/8775360/)|[第二部分](http://blog.csdn.net/zouxy09/article/details/8775488)|[第三部分](http://blog.csdn.net/zouxy09/article/details/8775518)|[第四部分](http://blog.csdn.net/zouxy09/article/details/8775524)|[第五部分](http://blog.csdn.net/zouxy09/article/details/8777094)|[第六部分](http://blog.csdn.net/zouxy09/article/details/8781396)|[第七部分](http://blog.csdn.net/zouxy09/article/details/8781543)|[第八部分](http://blog.csdn.net/zouxy09/article/details/8782018)
