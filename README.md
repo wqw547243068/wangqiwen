@@ -196,7 +196,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/), ![各种优化算法对比](http://cs231n.github.io/assets/nn3/opt2.gif)
-- [优化算法对比](http://cs231n.github.io/assets/nn3/opt1.gif)
+- ![优化算法对比](http://cs231n.github.io/assets/nn3/opt1.gif)
 #### 异常检测
 - IsolationForest。欺诈等是一系列的异常孤立点，而IsolationForest则是检测这类孤立点的一个有效算法。无需样本标记、线性时间复杂度。一般情况下要比OneClasSVM等表现要好。尤其是对非高斯分布的样本空间。
 #### 机器学习经验总结
