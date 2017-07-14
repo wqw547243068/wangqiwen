@@ -48,14 +48,16 @@ cond(no)->sub->io
 |java|官方下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html||
 |Web服务|[Mac OS 启用web服务](http://www.jianshu.com/p/d006a34a343f),[简网教程](http://www.jianshu.com/p/d006a34a343f)||
 |linux 服务器mail|mail command not found|解决方法：sudo yum install mailx;echo "test" (竖线) mail -s "content" wangqiwen@p1.com|
+|linux下安装http服务|安装httpd|1.yum install httpd -y 2.随系统启动:chkconfig httpd on 3.开启Apache:service httpd start|
 
->
+```shell
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
 Cloning into 'backend'...
 Username for 'https://github.com': wqw547243068
 Password for 'https://wqw547243068@github.com': 
 remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/p1cn/backend.git/'
+```
 原因：Github没有fork项目代码，或没加所在机器的sshkey（settings->deplot keys）
 
 ## python使用mysql方法
