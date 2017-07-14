@@ -261,6 +261,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ![图](http://images2015.cnblogs.com/blog/1025005/201609/1025005-20160924130454027-1184504966.png)
 - Gartner：技术成熟度曲线.[Gartner2016 年度新兴技术成熟度曲线解读：3 大趋势、16 个新技术](http://www.cniteyes.com/archives/26460)
 ![图](http://www.cniteyes.com/data/uploads/2016/08/2-4.jpg)
+- [互联网大佬的出生地图鉴](http://www.toutiao.com/a6442203091621314818/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article_lite&utm_source=mobile_qq&iid=12181093832&utm_medium=toutiao_android)
 ## 工具
 - 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
  - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
