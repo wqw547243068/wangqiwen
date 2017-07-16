@@ -255,6 +255,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [谁说菜鸟不会数据分析【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/5997018.html?from=timeline)
 - [SQL必知必会【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/6024479.html)
 - 经验总结：[以什么姿势进入DataMining会少走弯路？](http://weibo.com/ttarticle/p/show?id=2309403973170330790744)
+- [大嘴巴漫谈数据挖掘](http://download.csdn.net/detail/laoge/9386026)（易向军），图解各种基础知识和算法概念——五星推荐
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
 - [互联网黑名单](https://github.com/shengxinjing/programmer-job-blacklist)
