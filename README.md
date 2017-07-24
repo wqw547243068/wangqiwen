@@ -278,7 +278,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
   - (2) python代码下载,pip3 install you-get,you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw', 支持的视频网站范围广
   - (3) [clipconverter](http://www.clipconverter.cc/)
 - [lantern下载](https://github.com/getlantern/forum/issues/833)
-- [在线代码着色器](http://tool.oschina.net/highlight),[实时英文拼写检测](https://app.grammarly.com/)
+- 在线代码着色（高亮）：[国外：含语言类型自动识别（优）](http://markup.su/highlighter/),[国内：在线代码着色器（需要自己勾选）](http://tool.oschina.net/highlight),[实时英文拼写检测](https://app.grammarly.com/)
 - [如何使用VIM搭建IDE？](http://harttle.com/2015/11/04/vim-ide.html),![VIM键盘图](http://harttle.com/assets/img/blog/vim-key.png)
 ### 实验评估
 - 第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
