@@ -129,7 +129,9 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 
 ![学习金字塔](https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=dae5bdf00ef79052ef4a4f383cc3fbf2/78310a55b319ebc44d04b87a8526cffc1f1716d1.jpg)
 ### 数学基础
-- [可微可导可积连续之间的关系](http://blog.csdn.net/huxiaokang1234/article/details/52550999)，[如何通俗讲解放射变换？](https://www.zhihu.com/question/20666664)
+- [可微可导可积连续之间的关系](http://blog.csdn.net/huxiaokang1234/article/details/52550999)
+- ![关系图](http://img0.imgtn.bdimg.com/it/u=4072625409,2144649604&fm=214&gp=0.jpg)
+- [如何通俗讲解放射变换？](https://www.zhihu.com/question/20666664)
 _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同学高等数学](http://www.matongxue.com/madocs/244.html)）
 - [3Blue1Brown](www.patreon.com/3blue1brown)出品（接受捐助）：[线性代数的本质-Essence of Linear Algebra-视频教程](http://www.3blue1brown.com/)，[Bilibili上《线性代数本质》双语视频教程](http://www.bilibili.com/video/av6731067/).类似视频还有微积分本质
 - [行列式的本质（马同学高等数学）](http://www.matongxue.com/madocs/247.html).《数学拾遗》[英文版百度云地址](https://pan.baidu.com/share/link?shareid=1204761446&uk=2416092239&fid=2111748288). 
