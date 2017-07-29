@@ -222,6 +222,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 其他方法参考[流形学习](http://blog.csdn.net/zhulingchen/article/details/2123129),[MNIST数据集降维可视化效果展示(经典)](http://colah.github.io/posts/2014-10-Visualizing-MNIST/)
 ### 深度学习
 神经网络发展历史
+![brief history of neural network](https://raw.githubusercontent.com/qingkaikong/blog/master/38_ANN_part1/figures/figure1_ANN_history.jpg)
+[图片源自ANN简介](http://qingkaikong.blogspot.com/2016/11/machine-learning-3-artificial-neural.html)
 ![神经网络发展历史](http://www.36dsj.com/wp-content/uploads/2016/01/391-880x478.jpg)
 神经网络网络结构变化
 ![网络结构变化历史](http://www.36dsj.com/wp-content/uploads/2016/01/40-880x584.jpg)
