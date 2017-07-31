@@ -199,11 +199,14 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
 - 算法对比
 《统计学习方法》总结：
-
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
-- [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/), ![各种优化算法对比](http://cs231n.github.io/assets/nn3/opt2.gif)
+- [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/), 
+- 最优化：
+- ![各种优化算法对比](http://cs231n.github.io/assets/nn3/opt2.gif)
 - ![优化算法对比](http://cs231n.github.io/assets/nn3/opt1.gif)
+- 【2017-7-31】[10686 一次 CTC-RNN 调参经历](https://zhuanlan.zhihu.com/p/28133530)
+- ![网格搜索](https://pic3.zhimg.com/v2-88f640c13e27402154eb8e93e50468a2_b.png)
 #### 异常检测
 - IsolationForest。欺诈等是一系列的异常孤立点，而IsolationForest则是检测这类孤立点的一个有效算法。无需样本标记、线性时间复杂度。一般情况下要比OneClasSVM等表现要好。尤其是对非高斯分布的样本空间。
 - 【2017-7-31】[反欺诈(Fraud Detection)中所用到的机器学习模型有哪些？](https://www.zhihu.com/question/30508773/answer/205831957)：
