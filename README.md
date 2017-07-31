@@ -200,11 +200,13 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 算法对比
 《统计学习方法》总结：
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
+
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/), 
 - 最优化：
 - ![各种优化算法对比](http://cs231n.github.io/assets/nn3/opt2.gif)
 - ![优化算法对比](http://cs231n.github.io/assets/nn3/opt1.gif)
+- [为什么更偏爱随机梯度下降](https://zhuanlan.zhihu.com/p/28060786)
 - 【2017-7-31】[10686 一次 CTC-RNN 调参经历](https://zhuanlan.zhihu.com/p/28133530)
 - ![网格搜索](https://pic3.zhimg.com/v2-88f640c13e27402154eb8e93e50468a2_b.png)
 #### 异常检测
