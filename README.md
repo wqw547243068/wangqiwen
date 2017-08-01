@@ -121,13 +121,15 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
 ## 学习资料
 ### 学习技巧
-- @爱可可-爱生活：
+- [@爱可可-爱生活(新浪微博)](http://weibo.com/fly51fly?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2#_rnd1501558283451)：
+>
  - 互联时代怎么阅读？
  - 读书重在结构生长，形成扎实的支撑；
  - 碎片阅读重在视野的纳新和扩展，开枝散叶；
  - 思考重在提炼和关联，勾画错综的经脉。
  - 学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。
  - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
+
 - 学习金字塔
 
 ![学习金字塔](https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=dae5bdf00ef79052ef4a4f383cc3fbf2/78310a55b319ebc44d04b87a8526cffc1f1716d1.jpg)
