@@ -115,7 +115,10 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ### 地图数据可视化
 - [地图汇](http://www.dituhui.com/)
 - [5min上手写echarts第一个图标](http://echarts.baidu.com/echarts2/doc/start.html),[echarts如何从json文件读数据？](http://bbs.csdn.net/topics/392042291)
-
+- 【2017-7-30】Google开发的数据可视化web工具[Facet Dive](https://pair-code.github.io/facets/)
+- [北大可视化](http://vis.pku.edu.cn/wiki/start)
+- 词云生成[图悦](http://www.picdata.cn/)
+- [北大可视化](http://vis.pku.edu.cn/wiki/start)
 ## 学习资料
 ### 学习技巧
 - @爱可可-爱生活：
@@ -159,6 +162,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ### 计算机基础
 - 排序算法总结：[视觉感受常见排序算法](http://blog.jobbole.com/11745/)
 ![对比](http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif)
+- 【2017-8-1】排序算法可视化对比[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms/),[日本程序猿做的排序动画](http://jsrun.it/norahiko/oxIy)，[舞动的排序算法【舞蹈视频】](http://v.youku.com/v_show/id_XNTA3NDUwODA4.html?spm=a2h0j.8191423.module_basic_relation.5~5!2~5~5!3~5~5~A)
 - [海量数据处理算法总结【超详解】](http://www.cnblogs.com/ECJTUACM-873284962/p/6910842.html)
 ### 分布式计算
 - [flume+kafka+hdfs+storm组合](http://www.aboutyun.com/thread-6855-1-1.html)
@@ -217,7 +221,11 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 #### 机器学习经验总结
 - [Google机器学习经验总结](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [pluskid总结的SVM系列文章](http://blog.pluskid.org/?page_id=683)（浙大计算机，MIT博士，跟陈天奇和李沐一块做过Mxnet）
-
+### NLP自然语言处理
+- 【2017-8-1】[NLP十分钟入门](http://www.cnblogs.com/baiboy/p/learnnlp.html)
+- [斯坦福CoreNLP在线Demo演示](http://nlp.stanford.edu:8080/corenlp/process)（含分词WS、POS词性标注、NER命名实体识别、语法树等等），[斯坦福NLP相关软件](https://nlp.stanford.edu/software/), 斯坦福深度学习与自然语言处理课程[CS224d: Deep Learning for Natural Language Processing学习笔记（我爱自然语言处理）](http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80)
+![示例](https://stanfordnlp.github.io/CoreNLP/images/Xi-Jinping.png)
+- [国内外自然语言处理(NLP)研究组大全](http://blog.csdn.net/wangxinginnlp/article/details/44890553)
 #### 流形学习
 - 什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考[流形学习的简单介绍](https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/)
 - 流形学习：本质上，流形学习就是给数据降维的过程。这里假设数据是一个随机样本，采样自一个高维欧氏空间中的流形（manifold），流形学习的任务就是把这个高维流形映射到一个低维（例如2维）的空间里。流形学习可以分为线性算法和非线性算法，前者包括主成分分析（PCA）和线性判别分析（LDA），后者包括等距映射（Isomap），拉普拉斯特征映射（LE）等。流形学习可以用于特征的降维和提取，为后续的基于特征的分析，如聚类和分类，做铺垫，也可以直接应用于数据可视化等。注：摘自[集智百科流形学习（优质，包含代码及案例）](http://wiki.swarma.net/index.php/%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0)。
@@ -262,8 +270,11 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 作者斯坦福学生[Chin Huyen](https://huyenchip.com/), [Yann LeCun连发三弹：人人都懂的深度学习基本原理（附视频）](https://www.leiphone.com/news/201612/Sjkmer9Kto5ILxFk.html?viewType=weixin)
 - [上海复旦大学吴立德教授的《深度学习课程》](http://list.youku.com/albumlist/show?id=21508721&ascending=1&page=1),[张俊林：深度学习在搜索推荐领域的应用](http://blog.csdn.net/malefactor/article/details/52040228#0-tsina-1-63822-397232819ff9a47a7b7e80a40613cfe1)
 - [深度学习](http://my.tv.sohu.com/pl/9161916/84849655.shtml)，[从神经元到深度学习](http://www.36dsj.com/archives/39775),神经网络与深度学习：[英文网址](http://neuralnetworksanddeeplearning.com/)，[中文版下载地址](http://download.csdn.net/detail/pb09210/9556832)
+- 【2017-8-1】[反向传播神经网络极简入门](反向传播神经网络极简入门)（含python代码实现）
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
 - 案例及Demo：[ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
+- [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
+- 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - 对抗生成学习：VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
 - [2017-7-28]AI专家的忏悔[Confession of a so-called AI expert](https://huyenchip.com/2017/07/28/confession.html?from=timeline)
@@ -283,7 +294,6 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 经验总结：[以什么姿势进入DataMining会少走弯路？](http://weibo.com/ttarticle/p/show?id=2309403973170330790744)
 - [大嘴巴漫谈数据挖掘](http://download.csdn.net/detail/laoge/9386026)（易向军），图解各种基础知识和算法概念——五星推荐
 - [分分钟带你杀入Kaggle Top 1%](https://zhuanlan.zhihu.com/p/27424282),[Kaggle求生：亚马逊热带雨林篇](https://zhuanlan.zhihu.com/p/28084438)
-- 【2017-7-30】Google开发的数据可视化web工具[Facet Dive](https://pair-code.github.io/facets/)
 
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
