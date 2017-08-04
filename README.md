@@ -266,7 +266,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 资料：[Deep Learning(ppt)](http://www.cs.nyu.edu/~yann/talks/lecun-20090720-vlpr-01.pdf),[Manifold](http://www.cs.nyu.edu/~yann/talks/lecun-20080905-mlss-manifold.pdf)
 #### 深度学习书籍
 几本有名的书籍：
->【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**，这本书通俗易懂，由浅入深，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[中文版](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元
+>【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**，Michael Nielsen，这本书通俗易懂，由浅入深，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[中文版CSDN下载地址](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元，[GitBook中文翻译地址](https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details)
 
 > [Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[官方slides地址](http://www.deeplearningbook.org/lecture_slides.html)
 
