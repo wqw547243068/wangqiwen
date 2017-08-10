@@ -166,7 +166,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![对比](http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif)
 - 【2017-8-1】排序算法可视化对比[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms/),[日本程序猿做的排序动画](http://jsrun.it/norahiko/oxIy)，[舞动的排序算法【舞蹈视频】](http://v.youku.com/v_show/id_XNTA3NDUwODA4.html?spm=a2h0j.8191423.module_basic_relation.5~5!2~5~5!3~5~5~A)
 - [海量数据处理算法总结【超详解】](http://www.cnblogs.com/ECJTUACM-873284962/p/6910842.html)
-- 水库抽样![水库抽样](http://photo.blog.sina.com.cn/showpic.html#blogid=12f93b9720102vl6a&url=http://album.sina.com.cn/pic/005yGsbEty6QDWko4gq0a)
+- 水库抽样
+![水库抽样](http://photo.blog.sina.com.cn/showpic.html#blogid=12f93b9720102vl6a&url=http://album.sina.com.cn/pic/005yGsbEty6QDWko4gq0a)
 ### 分布式计算
 - [flume+kafka+hdfs+storm组合](http://www.aboutyun.com/thread-6855-1-1.html)
 ### 推荐系统
