@@ -287,7 +287,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 作者斯坦福学生[Chin Huyen](https://huyenchip.com/), [Yann LeCun连发三弹：人人都懂的深度学习基本原理（附视频）](https://www.leiphone.com/news/201612/Sjkmer9Kto5ILxFk.html?viewType=weixin)
 - [上海复旦大学吴立德教授的《深度学习课程》](http://list.youku.com/albumlist/show?id=21508721&ascending=1&page=1),[张俊林：深度学习在搜索推荐领域的应用](http://blog.csdn.net/malefactor/article/details/52040228#0-tsina-1-63822-397232819ff9a47a7b7e80a40613cfe1)
 - [深度学习](http://my.tv.sohu.com/pl/9161916/84849655.shtml)，[从神经元到深度学习](http://www.36dsj.com/archives/39775),神经网络与深度学习：[英文网址](http://neuralnetworksanddeeplearning.com/)，[中文版下载地址](http://download.csdn.net/detail/pb09210/9556832)
-- 【2017-8-1】[反向传播神经网络极简入门](反向传播神经网络极简入门)（含python代码实现）
+- 【2017-8-1】[反向传播神经网络极简入门](http://www.hankcs.com/ml/back-propagation-neural-network.html)（含python代码实现）
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
