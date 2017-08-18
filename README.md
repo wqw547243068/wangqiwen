@@ -292,6 +292,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
+- [Deeplearn.js](https://pair-code.github.io/deeplearnjs/#getting-started)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 ---
