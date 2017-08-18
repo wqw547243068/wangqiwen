@@ -258,7 +258,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - Geoffrey Hinton ：深度学习鼻祖
  - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
  - Yoshua Bengio ：也是深度学习
- - Andrew Ng ：Hinton的合作伙伴。coursera公开课,[Andrew Ng: Deep Learning, Self-Taught Learning and Unsupervised Feature Learning](https://www.youtube.com/watch?v=n1ViNeWhC24)
+ - Andrew Ng ：Hinton的合作伙伴。coursera公开课,[Andrew Ng: Deep Learning, Self-Taught Learning and Unsupervised Feature Learning](https://www.youtube.com/watch?v=n1ViNeWhC24),[《MACHINE LEARNING YEARNING》翻译](http://blog.csdn.net/nnnnnnnnnnnny/article/details/53524858)
 - 深度学习四大天王及其关系
 - ![四大天王](http://img3.imgtn.bdimg.com/it/u=1323144230,909901567&fm=214&gp=0.jpg)
 - ![关系](http://images0.cnblogs.com/blog2015/678029/201508/221936578479366.png)
