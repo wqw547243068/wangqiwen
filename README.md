@@ -290,7 +290,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [深度学习](http://my.tv.sohu.com/pl/9161916/84849655.shtml)，[从神经元到深度学习](http://www.36dsj.com/archives/39775),神经网络与深度学习：[英文网址](http://neuralnetworksanddeeplearning.com/)，[中文版下载地址](http://download.csdn.net/detail/pb09210/9556832)
 - 【2017-8-1】[反向传播神经网络极简入门](http://www.hankcs.com/ml/back-propagation-neural-network.html)（含python代码实现）。Colah的[Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/).
 - 1974年有个Harvard博士生Paul Werbos首次提出了backprop，不过没人理他。1986年，Rumelhart和Hinton一起重新发现了backprop，并且有效训练了一些浅层网络，一下子开始有了名气。那个时候的backprop从现在看来并不是个很清晰的概念，把梯度和更新一块打包了。（[知乎達聞西](https://www.zhihu.com/question/27239198/answer/43560763)）。论文：Rumelhart D E, Hinton G E, Williams R J. Learning representations by back-propagating errors[M]. MIT Press, Cambridge, MA, USA, 1988.
-- BP算法解释（多图）：[Principles of training multi-layer neural network using backpropagation](http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html)。[BP算法推导](http://blog.csdn.net/sheng_ai/article/details/19931347)
+- BP算法解释（多图）：[Principles of training multi-layer neural network using backpropagation](http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html)。[BP算法推导](http://blog.csdn.net/sheng_ai/article/details/19931347),[A Gentle Introduction to Artificial Neural Networks](https://theclevermachine.wordpress.com/tag/backpropagation/),[一文弄懂神经网络中的反向传播法——BackPropagation](http://www.cnblogs.com/charlotte77/p/5629865.html),[如何直观地解释 back propagation 算法？](https://www.zhihu.com/question/27239198?rf=24827633)
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
