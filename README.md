@@ -288,7 +288,9 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 作者斯坦福学生[Chin Huyen](https://huyenchip.com/), [Yann LeCun连发三弹：人人都懂的深度学习基本原理（附视频）](https://www.leiphone.com/news/201612/Sjkmer9Kto5ILxFk.html?viewType=weixin)
 - [上海复旦大学吴立德教授的《深度学习课程》](http://list.youku.com/albumlist/show?id=21508721&ascending=1&page=1),[张俊林：深度学习在搜索推荐领域的应用](http://blog.csdn.net/malefactor/article/details/52040228#0-tsina-1-63822-397232819ff9a47a7b7e80a40613cfe1)
 - [深度学习](http://my.tv.sohu.com/pl/9161916/84849655.shtml)，[从神经元到深度学习](http://www.36dsj.com/archives/39775),神经网络与深度学习：[英文网址](http://neuralnetworksanddeeplearning.com/)，[中文版下载地址](http://download.csdn.net/detail/pb09210/9556832)
-- 【2017-8-1】[反向传播神经网络极简入门](http://www.hankcs.com/ml/back-propagation-neural-network.html)（含python代码实现）。Colah的[Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/)
+- 【2017-8-1】[反向传播神经网络极简入门](http://www.hankcs.com/ml/back-propagation-neural-network.html)（含python代码实现）。Colah的[Calculus on Computational Graphs: Backpropagation](http://colah.github.io/posts/2015-08-Backprop/).
+- 1974年有个Harvard博士生Paul Werbos首次提出了backprop，不过没人理他。1986年，Rumelhart和Hinton一起重新发现了backprop，并且有效训练了一些浅层网络，一下子开始有了名气。那个时候的backprop从现在看来并不是个很清晰的概念，把梯度和更新一块打包了。（[知乎達聞西](https://www.zhihu.com/question/27239198/answer/43560763)）。论文：Rumelhart D E, Hinton G E, Williams R J. Learning representations by back-propagating errors[M]. MIT Press, Cambridge, MA, USA, 1988.
+- BP算法解释（多图）：[Principles of training multi-layer neural network using backpropagation](http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html)。[BP算法推导](http://blog.csdn.net/sheng_ai/article/details/19931347)
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
@@ -310,6 +312,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 强化学习、监督学习和无监督学习对比：![强化学习、监督学习和无监督学习对比](http://upload-images.jianshu.io/upload_images/1667471-96a418676c3fed5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - [一文了解强化学习](http://geek.csdn.net/news/detail/201928)
 - 【2017-7-31】[David Silver 强化学习公开课中文讲解](https://zhuanlan.zhihu.com/reinforce)
+- 【2017-8-21】[Q-learning算法简明教程](http://blog.csdn.net/itplus/article/details/9361915)，[英文原文](http://mnemstudio.org/path-finding-q-learning-tutorial.htm)
 
 ### 知识图谱
 - [精益知识图谱方法论](http://blog.memect.cn/?p=2005)，文因互联鲍捷组件的[北京知识图谱学习班](https://github.com/memect/kg-beijing),[知识管理和语义搜索的哲学思考](http://blog.memect.cn/?p=3022),更多资料参考[将门创业历届活动嘉宾视频及ppt](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=502876225&idx=1&sn=25894a894cc2c58214ddde13e0a8ef93&chksm=03907c9d34e7f58b57b068d0e7e74ac3db935a131cc7955478b58a98b9bc5c2b239c8ee03129&mpshare=1&scene=23&srcid=1201jRGgplUzlGGggjBesJuI#rd), [八一八聊天机器人](https://zhuanlan.zhihu.com/p/25190575)，[聊天机器人终极设计指南](http://www.woshipm.com/pd/441725.html)，[一文看懂聊天机器人的所有猫腻](http://www.eeworld.com.cn/qrs/article_2016081529734.html)
