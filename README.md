@@ -209,8 +209,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 《统计学习方法》总结：
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 
-- [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
-- [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/), 
+- [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/) 
 - 最优化：
 - ![各种优化算法对比](http://cs231n.github.io/assets/nn3/opt2.gif)
 - ![优化算法对比](http://cs231n.github.io/assets/nn3/opt1.gif)
@@ -298,6 +297,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [你们天天嚷嚷神经网络, 可是知道一开始的赫布律么?](http://v.youku.com/v_show/id_XMjg5ODUzMTEyMA==.html)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
+- [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
 ---
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
