@@ -226,6 +226,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [pluskid总结的SVM系列文章](http://blog.pluskid.org/?page_id=683)（浙大计算机，MIT博士，跟陈天奇和李沐一块做过Mxnet）
 - 【2017-8-22】【非常好的web讲解】[可视化机器学习（决策树讲解）](http://www.r2d3.us/%E5%9B%BE%E8%A7%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)
 - 【2017-8-22】剑桥大学的书籍[Introduction to Machine Learning](http://alex.smola.org/drafts/thebook.pdf)
+- 【2017-8-22】Machine Learning is Fun!系列教程。[Part 3:Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721),[中文翻译：第三章:图像识别【鸟or飞机】？深度学习与卷积神经网络](https://zhuanlan.zhihu.com/p/24524583)
 ### NLP自然语言处理
 - 【2017-8-1】[NLP十分钟入门](http://www.cnblogs.com/baiboy/p/learnnlp.html)
 - [斯坦福CoreNLP在线Demo演示](http://nlp.stanford.edu:8080/corenlp/process)（含分词WS、POS词性标注、NER命名实体识别、语法树等等），[斯坦福NLP相关软件](https://nlp.stanford.edu/software/), 斯坦福深度学习与自然语言处理课程[CS224d: Deep Learning for Natural Language Processing学习笔记（我爱自然语言处理）](http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80)
