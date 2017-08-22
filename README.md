@@ -294,6 +294,15 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 1974年有个Harvard博士生Paul Werbos首次提出了backprop，不过没人理他。1986年，Rumelhart和Hinton一起重新发现了backprop，并且有效训练了一些浅层网络，一下子开始有了名气。那个时候的backprop从现在看来并不是个很清晰的概念，把梯度和更新一块打包了。（[知乎達聞西](https://www.zhihu.com/question/27239198/answer/43560763)）。论文：Rumelhart D E, Hinton G E, Williams R J. Learning representations by back-propagating errors[M]. MIT Press, Cambridge, MA, USA, 1988.
 - BP算法解释（多图）：[Principles of training multi-layer neural network using backpropagation](http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html)。[BP算法推导](http://blog.csdn.net/sheng_ai/article/details/19931347),[A Gentle Introduction to Artificial Neural Networks](https://theclevermachine.wordpress.com/tag/backpropagation/),[一文弄懂神经网络中的反向传播法——BackPropagation](http://www.cnblogs.com/charlotte77/p/5629865.html),[如何直观地解释 back propagation 算法？](https://www.zhihu.com/question/27239198?rf=24827633)
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
+- 【2017-8-22】非常好的机器学习/深度学习系列教程：[Machine Learning is Fun](https://medium.com/@ageitgey)，作者[Adam Geitgey](https://twitter.com/ageitgey),[知乎专栏中文翻译(来自混沌巡洋舰)](https://zhuanlan.zhihu.com/c_29122335)，系列：
+ - [第一章：最简入门指南](https://zhuanlan.zhihu.com/p/24450104)
+ - [第二章：用机器学习制作超级马里奥关卡](https://zhuanlan.zhihu.com/p/24344720)
+ - [第三章：图像识别，鸟还是飞机？深度学习与卷积网络](https://zhuanlan.zhihu.com/p/24524583)
+ - [第四章：用深度学习识别人脸](https://zhuanlan.zhihu.com/p/24567586)
+ - [第五章：谷歌翻译背后的黑科技：神经网络和端到端学习](https://zhuanlan.zhihu.com/p/24590838),[Machine Learning is Fun Part 5: Language Translation with Deep Learning and the Magic of Sequences](https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa)
+ - [第六章：如何用深度学习进行语音识别？](https://zhuanlan.zhihu.com/p/24703268)，[Machine Learning is Fun Part 6: How to do Speech Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a)
+ - [第七章：未翻译](),[Machine Learning is Fun Part 7: Abusing Generative Adversarial Networks to Make 8-bit Pixel Art](https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7)
+ - [第八章：未翻译](),[Machine Learning is Fun Part 8: How to Intentionally Trick Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
 - [Deeplearn.js](https://pair-code.github.io/deeplearnjs/#getting-started)
