@@ -51,6 +51,7 @@ cond(no)->sub->io
 |Web服务|[Mac OS 启用web服务](http://www.jianshu.com/p/d006a34a343f),[简网教程](http://www.jianshu.com/p/d006a34a343f)||
 |linux 服务器mail|mail command not found|解决方法：sudo yum install mailx;echo "test" (竖线) mail -s "content" wangqiwen@p1.com|
 |linux下安装http服务|安装httpd|1.yum install httpd -y 2.随系统启动:chkconfig httpd on 3.开启Apache:service httpd start|
+|terminal下如何开启应用？|用open命令开启，可以传参|open /Applications/Sublime\ Text.app README.md|
 ---
 ```shell
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
@@ -408,4 +409,4 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
  - 自律更自由：康德
  - [一张图弄明白：从零维到十维空间](http://www.sohu.com/a/116444282_482877),[11分钟带你进入十次元的世界(video)](http://video.tudou.com/v/XMTc4ODE0ODAwMA==.html),[GuoKr's explornation](http://www.guokr.com/post/433527/)
  - [懂了这些之后 才知道如何去赚钱](https://www.youtube.com/watch?v=MtKHKPCy0cI)(经济学原理)
-- 其他
+- 【2017-8-25】[宇宙揭秘：电子双缝干涉实验，绝对颠覆你的三观甚至让你怀疑人生](http://www.365yg.com/group/6457791347830030861/)
