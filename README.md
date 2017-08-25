@@ -51,7 +51,7 @@ cond(no)->sub->io
 |Web服务|[Mac OS 启用web服务](http://www.jianshu.com/p/d006a34a343f),[简网教程](http://www.jianshu.com/p/d006a34a343f)||
 |linux 服务器mail|mail command not found|解决方法：sudo yum install mailx;echo "test" (竖线) mail -s "content" wangqiwen@p1.com|
 |linux下安装http服务|安装httpd|1.yum install httpd -y 2.随系统启动:chkconfig httpd on 3.开启Apache:service httpd start|
-|terminal下如何开启应用？|用open命令开启（open .用finder打开当前位置目录），可以传参，备注：放到别命中，alias view='open /Applications/Preview.app'或alias edit='open /Applications/Sublime\ Text.app'|open /Applications/Sublime\ Text.app README.md|
+|terminal下如何开启应用？|用open命令开启（open .用finder打开当前位置目录；<font size=4 color='res'>open file自动调用默认程序打开文件;</font>say hello语音说话），可以传参，备注：放到别命中，alias view='open /Applications/Preview.app'或alias edit='open /Applications/Sublime\ Text.app'|open /Applications/Sublime\ Text.app README.md|
 ---
 ```shell
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
