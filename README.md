@@ -319,6 +319,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [2017-8-17][CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
+- [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0)
+![RNN](https://cdn-images-1.medium.com/max/2000/1*my_udGVBPa4U5L6U_9m81Q.png)
 ---
 #### 对抗生成学习
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
