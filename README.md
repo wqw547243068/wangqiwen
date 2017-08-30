@@ -324,6 +324,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![RNN](https://cdn-images-1.medium.com/max/2000/1*my_udGVBPa4U5L6U_9m81Q.png)
 - Word2Vec教程：通俗易懂，Part-1，[Skip-Gram模型](http://blog.csdn.net/layumi1993/article/details/72866235),[原文：word2vec tutorial the skip-gram model]( http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)；Part-2，[Negative Sampling](http://blog.csdn.net/Layumi1993/article/details/72868399)，[原文](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)
 ![skip-gram net](http://mccormickml.com/assets/word2vec/skip_gram_net_arch.png)
+- [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/?blogsub=confirming#subscribe-blog)
 ---
 #### 对抗生成学习
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
