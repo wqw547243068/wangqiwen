@@ -213,9 +213,13 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/) 
-- 最优化：
+- 最优化：各种优化算法对比
+- ![表达式](https://raw.githubusercontent.com/SwordYork/simplified-deeplearning/master/sgd-comparison/figures/relation.png)
+- 最优化：各种优化算法对比
 - ![各种优化算法对比](http://cs231n.github.io/assets/nn3/opt2.gif)
+- 【2017-8-30】[SGD comparision](https://blog.slinuxer.com/2016/09/sgd-comparison)
 - ![优化算法对比](http://cs231n.github.io/assets/nn3/opt1.gif)
+- [SGD，Adagrad，Adadelta，Adam等优化方法总结和比较](http://ycszen.github.io/2016/08/24/SGD%EF%BC%8CAdagrad%EF%BC%8CAdadelta%EF%BC%8CAdam%E7%AD%89%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93%E5%92%8C%E6%AF%94%E8%BE%83/),[An overview of gradient descent optimization algorithms](http://ruder.io/optimizing-gradient-descent/)
 - [为什么更偏爱随机梯度下降](https://zhuanlan.zhihu.com/p/28060786)
 - 【2017-7-31】[10686 一次 CTC-RNN 调参经历](https://zhuanlan.zhihu.com/p/28133530)
 - ![网格搜索](https://pic3.zhimg.com/v2-88f640c13e27402154eb8e93e50468a2_b.png)
