@@ -322,6 +322,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [2017-8-17][CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
 - [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0)
 ![RNN](https://cdn-images-1.medium.com/max/2000/1*my_udGVBPa4U5L6U_9m81Q.png)
+- Word2Vec教程：通俗易懂，Part-1，[Skip-Gram模型](http://blog.csdn.net/layumi1993/article/details/72866235),[原文：word2vec tutorial the skip-gram model]( http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)；Part-2，[Negative Sampling](http://blog.csdn.net/Layumi1993/article/details/72868399)，[原文](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)
 ---
 #### 对抗生成学习
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
