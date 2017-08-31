@@ -335,6 +335,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
 - [2017-7-28]AI专家的忏悔[Confession of a so-called AI expert](https://huyenchip.com/2017/07/28/confession.html?from=timeline)
 - 【2017-7-30】Google的AI产品：[QuickDraw](https://quickdraw.withgoogle.com)，类似你画我猜，只是用机器来猜
+- [Facebook AI实验室最新的实时GAN图片展示](http://soumith.ch/eyescream/)
 ### 强化学习
 - 强化学习、监督学习和无监督学习对比：![强化学习、监督学习和无监督学习对比](http://upload-images.jianshu.io/upload_images/1667471-96a418676c3fed5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - [一文了解强化学习](http://geek.csdn.net/news/detail/201928)
