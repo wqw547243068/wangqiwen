@@ -314,6 +314,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [2017-8-23][Machine Learning Mindmap / Cheatsheet](https://github.com/dformoso/machine-learning-mindmap),[sklearn](https://github.com/dformoso/sklearn-classification),[Data Science, Classification Analysis Jupyter notebook](https://github.com/dformoso/sklearn-classification/blob/master/Data%20Science%20Workbook%20-%20Census%20Income%20Dataset.ipynb)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
+- 【2017-8-31】[Toranto Deep Learning Demos](http://deeplearning.cs.toronto.edu/i2t),涉及图像分类+图像标注，服务性能有限，响应不及时
 - [Deeplearn.js](https://pair-code.github.io/deeplearnjs/#getting-started)
 - [你们天天嚷嚷神经网络, 可是知道一开始的赫布律么?](http://v.youku.com/v_show/id_XMjg5ODUzMTEyMA==.html)
 - 【2017-8-30】[45个问题测出你的深度学习基本功](https://jizhi.im/blog/post/45_questions_deep_learning),[45 Questions to test a data scientist on basics of Deep Learning (along with solution)](https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/)
