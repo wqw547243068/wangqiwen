@@ -362,6 +362,12 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [2017-8-30][Kaggle 首战拿银总结 | 入门指导 (长文、干货）](https://jizhi.im/blog/post/kaggle_silver)
 ### 人脸识别
 - 权威书籍[Handbook of Face Recognition](https://cours.etsmtl.ca/sys828/REFS/Intro/Hanbook%20of%20Face%20Recognition.pdf)
+- [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
+![How a basic pipeline for detecting faces might work](https://cdn-images-1.medium.com/max/1600/1*WxBM1lB5WzDjrDXYfi9gtw.gif)
+- Face Point
+![Face Point](https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png)
+- Face Compare
+![Face Compare](https://cdn-images-1.medium.com/max/1600/1*n1R8VMyDRw3RNO3JULYBpQ.png)
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
 - [互联网黑名单](https://github.com/shengxinjing/programmer-job-blacklist)
