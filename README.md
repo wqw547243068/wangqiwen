@@ -321,6 +321,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [你们天天嚷嚷神经网络, 可是知道一开始的赫布律么?](http://v.youku.com/v_show/id_XMjg5ODUzMTEyMA==.html)
 - 【2017-8-30】[45个问题测出你的深度学习基本功](https://jizhi.im/blog/post/45_questions_deep_learning),[45 Questions to test a data scientist on basics of Deep Learning (along with solution)](https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/)
 - [MIT Scene Recognition Demo](http://places.csail.mit.edu/demo.html)
+- [DeepDream Demo](https://deepdreamgenerator.com/)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
