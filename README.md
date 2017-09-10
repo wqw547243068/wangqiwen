@@ -442,3 +442,4 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
  - [懂了这些之后 才知道如何去赚钱](https://www.youtube.com/watch?v=MtKHKPCy0cI)(经济学原理)
 - 【2017-8-25】[宇宙揭秘：电子双缝干涉实验，绝对颠覆你的三观甚至让你怀疑人生](http://www.365yg.com/group/6457791347830030861/)
 - [几幅图让你真正了解什么是硕士学位、什么是博士学位](http://www.toutiao.com/a6463373238914253326/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article_lite&utm_source=mobile_qq&iid=12181093832&utm_medium=toutiao_android)
+- [一部能让小孩喜欢汉字的动画片](http://music.163.com/#/video?id=912AF355DA533D2392052A27DFD28F26)
