@@ -133,6 +133,10 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  - 学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。
  - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
 ---
+- 费曼技巧：通过向别人清楚地解说一件事，来确认自己真的弄懂了这件事。参考：[号称终极快速学习法的费曼技巧，究竟是什么样的学习方法？](https://www.zhihu.com/question/20576786)
+- 
+![费曼技巧](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505214981844&di=c9a85fee49f3eba5dbad2f575d260e69&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F001UzQQOgy72rDwKKBy40)
+---
 - 学习金字塔
 
 ![学习金字塔](https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=dae5bdf00ef79052ef4a4f383cc3fbf2/78310a55b319ebc44d04b87a8526cffc1f1716d1.jpg)
