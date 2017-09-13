@@ -286,7 +286,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 资料：[Deep Learning(ppt)](http://www.cs.nyu.edu/~yann/talks/lecun-20090720-vlpr-01.pdf),[Manifold](http://www.cs.nyu.edu/~yann/talks/lecun-20080905-mlss-manifold.pdf)
 - [Google AI实验室](https://aiexperiments.withgoogle.com/)，包含多种AI Demo(手写预测，[卷积网络可视化](https://aiexperiments.withgoogle.com/what-neural-nets-see)，[高维数据可视化](http://projector.tensorflow.org/)，autodraw，quickdraw，[摄像头物品识别](https://aiexperiments.withgoogle.com/giorgio-cam/view/)，声音合成，[实物翻译](https://oxism.com/thing-translator/)，手势控制)
 - 【2017-9-8】[Data Science and Robots](http://brohrer.github.io/blog.html),[Brandon Rohrer](http://brohrer.github.io/index.html).[How Deep Neural Networks Work](https://www.youtube.com/watch?v=ILsA4nyG7I0&feature=share),[ppt](https://docs.google.com/presentation/d/1AAEFCgC0Ja7QEl3-wmuvIizbvaE-aQRksc7-W8LR2GY/edit#slide=id.g1cc8f6e4e5_0_303)
-- [2017-9-16]Lighthouse:smart camera,video: [the future of home](https://youtu.be/erZBQ8nv_M0)
+- [2017-9-13]Lighthouse:smart camera,video: [the future of home](https://youtu.be/erZBQ8nv_M0)
 #### 深度学习书籍
 几本有名的书籍：
 >【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**，[Michael Nielsen](http://michaelnielsen.org/)，这本书通俗易懂，由浅入深,细致讲解了神经网络，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[配套Code](https://github.com/mnielsen/neural-networks-and-deep-learning),[中文版CSDN下载地址](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元，[GitBook中文翻译地址](https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details)
