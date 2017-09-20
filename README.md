@@ -329,6 +329,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [MIT Scene Recognition Demo](http://places.csail.mit.edu/demo.html)
 - [DeepDream Demo](https://deepdreamgenerator.com/)
 - [20个令人惊叹的深度学习应用(欢迎补充)：Demo+Paper+Code](https://zhuanlan.zhihu.com/p/26392608)
+
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
@@ -378,7 +379,8 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 ![Face Point](https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png)
 - Face Compare
 ![Face Compare](https://cdn-images-1.medium.com/max/1600/1*n1R8VMyDRw3RNO3JULYBpQ.png)
-
+- [2017-9-20][CMU OpenPose姿势识别](https://github.com/hxl1990/openpose)
+![图](https://github.com/hxl1990/openpose/raw/master/doc/media/pose_face_hands.gif)
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
 - [互联网黑名单](https://github.com/shengxinjing/programmer-job-blacklist)
