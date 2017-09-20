@@ -329,7 +329,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [MIT Scene Recognition Demo](http://places.csail.mit.edu/demo.html)
 - [DeepDream Demo](https://deepdreamgenerator.com/)
 - [20个令人惊叹的深度学习应用(欢迎补充)：Demo+Paper+Code](https://zhuanlan.zhihu.com/p/26392608)
-
+- [2017-9-20][ClarifAI在线Demo（目标检测、人脸识别、色情识别、场景识别等）](https://clarifai.com/demo#)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
