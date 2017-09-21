@@ -380,9 +380,9 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - Face Compare
 ![Face Compare](https://cdn-images-1.medium.com/max/1600/1*n1R8VMyDRw3RNO3JULYBpQ.png)
 - [2017-9-20][CMU OpenPose姿势识别](https://github.com/hxl1990/openpose)
-![图](https://github.com/hxl1990/openpose/raw/master/doc/media/pose_face_hands.gif)
+- ![图](https://github.com/hxl1990/openpose/raw/master/doc/media/pose_face_hands.gif)
 - [2017-9-21]自拍照三维重建[3D Face Reconstruction from a Single Image](http://www.cs.nott.ac.uk/~psxasj/3dme/index.php)
-![demo](https://s.aolcdn.com/hss/storage/midas/4944fa3b0069978c765491034e1c308d/205683208/idris.gif)
+- ![demo](https://cdn.vox-cdn.com/thumbor/fXbE0rbXW6WlcmtB1cKBiTsV1b0=/0x0:482x334/1820x1213/filters:focal(203x129:279x205):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/56734861/3d_mark_take_2.0.gif)
 
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
