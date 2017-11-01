@@ -402,6 +402,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [互联网大佬的出生地图鉴](http://www.toutiao.com/a6442203091621314818/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article_lite&utm_source=mobile_qq&iid=12181093832&utm_medium=toutiao_android)
 - [SixSence](https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense?language=zh-cn#t-492870),[The thrilling potential of SixthSense technology](https://www.youtube.com/watch?v=YrtANPtnhyg),[Pranav Mistry](http://www.pranavmistry.com/projects/sixthsense/#VIDEOS)
 - ![example](http://www.virtualspeechcoach.com/wp-content/uploads/2014/01/ppt-7-500x282.jpg)
+- IT橘子[人工智能全产业链图谱](https://www.itjuzi.com/ai)
 ## 工具
 - 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
  - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
