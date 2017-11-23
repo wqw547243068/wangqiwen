@@ -450,7 +450,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
  - 做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量） 
  - 如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准） 
  - 命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）
-- 【2017-11-23】python编码规范，目前有google和pep8两种，pylint默认pep8，[Google python编码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/)
+- 【2017-11-23】python编码规范，目前有google和pep8两种，pylint默认pep8，[Google python编码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/)，[如何用pylint规范代码风格](https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/)
  - 安装方法：sudo pip install -U pep8/pylint
 - [给深度学习入门者的Python快速教程 - 基础篇](https://zhuanlan.zhihu.com/p/24162430),[numpy和Matplotlib篇](https://zhuanlan.zhihu.com/p/24309547).[Python超简洁教程,含图示,在线调试[(https://jizhi.im/blog/post/pythonbasics)
 - 老外的Matplotlib教程,[英文原文](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)_,[中文译文](https://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)，[Matplotlib官方艺术馆](http://matplotlib.org/gallery.html)
