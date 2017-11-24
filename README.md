@@ -155,6 +155,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 
 ![Essence of Linear Algebra](https://pic4.zhimg.com/v2-f0b763934f02eda66a5eef93cc47eaa3_b.jpg)
 - 行列式：行列式，记作 det(A)，是一个将方阵 A 映射到实数的函数。行列式等于矩阵特 征值的乘积。行列式的绝对值可以用来衡量矩阵参与矩阵乘法后空间扩大或者缩小 了多少。如果行列式是 0，那么空间至少沿着某一维完全收缩了，使其失去了所有的 体积。如果行列式是 1，那么这个转换保持空间体积不变
+- 【2017-11-24】遇见数学：[图解线性代数](https://www.toutiao.com/i6490094296459379213/)
 - [六大概率分布](http://www.csuldw.com/2016/08/19/2016-08-19-probability-distributions/)
 - [最优化算法-避开鞍点](http://www.csuldw.com/2016/07/10/2016-07-10-saddlepoints/)
 - [频率学派与贝叶斯学派之争](http://www.cnblogs.com/549294286/archive/2013/04/08/3009073.html)：[知乎网友解释](https://www.zhihu.com/question/20587681/answer/21294468),频率学派最先出现，疯狂打压新生的贝叶斯学派，贝叶斯很凄惨，就跟艺术圈的梵高一样，死后的论文才被自己的学生发表，经过拉普拉斯之手发扬光大，目前二派就像华山派的剑宗和气宗。频率学派挺煞笔的，非得做大量实验才能给出结论，比如你今年高考考上北大的概率是多少啊？频率学派就让你考100次，然后用考上的次数除以100。而贝叶斯学派会找几个高考特级教师对你进行一下考前测验和评估，然后让这几个教师给出一个主观的可能性，比如说：你有9成的把握考上北大。
@@ -171,6 +172,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 不受内存限制（最小粒度）
  ![图](http://images.cnitblog.com/blog/310680/201309/26134115-f5041d455fbe4ef98e3653a77cb31774.png)
 - Colah的[Visual Information Theory](http://colah.github.io/posts/2015-09-Visual-Information/)，[中文翻译](http://blog.csdn.net/xtydtc/article/details/52265952)
+- 【2017-11-24】遇见数学，[图解普林斯顿微积分系列](https://www.toutiao.com/i6489560900662460942/)
+![图](http://p9.pstatp.com/large/3b110004d8b47a0abc46)
 ### 计算机基础
 - 排序算法总结：[视觉感受常见排序算法](http://blog.jobbole.com/11745/)
 ![对比](http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif)
