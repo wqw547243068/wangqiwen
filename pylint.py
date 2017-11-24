@@ -46,6 +46,7 @@ def main():
         %s,%s ...'%(value, new, v_result.say(), v_result.public_name)
 
 if __name__ == '__main__':
+    # 不加__main__时，import当前文件时会默认执行顶层代码
     A = 3 # 此处为全局变量,一律大写
     main()
 
