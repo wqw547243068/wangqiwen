@@ -6,6 +6,7 @@
     2017-11-24
     wangqiwen@didichuxing.com
 """
+#import的包一定要使用;import包分成3部分，依次排序：①系统包②第三方包③自定义包。每部分按照字母顺序排序，一次不能导入多个包
 import sys
 
 class MyClass(object):
@@ -44,9 +45,11 @@ def main():
     #超过80字符时，可以用\换行，注：(),[]时可省略\
     print >> sys.stdout, 'hello,related values are listed as : %s , %s,I am \
         %s,%s ...'%(value, new, v_result.say(), v_result.public_name)
+    print >> sys.stdout, 'hello,related values are listed as : %s , %s,I am %s,%s ...'%(value, new, v_result.say(), v_result.public_name) # pylint: disable=line-too-long
+    #参考:How do I disable a Pylint warning?
+    #https://stackoverflow.com/questions/4341746/how-do-i-disable-a-pylint-warning
 
 if __name__ == '__main__':
-    # 不加__main__时，import当前文件时会默认执行顶层代码
     A = 3 # 此处为全局变量,一律大写
     main()
 
