@@ -1,0 +1,1748 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>body {
+  max-width: 980px;
+  border: 1px solid #ddd;
+  outline: 1300px solid #fff;
+  margin: 16px auto;
+}
+
+body .markdown-body
+{
+  padding: 45px;
+}
+
+@font-face {
+  font-family: fontawesome-mini;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+.markdown-body {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.markdown-body sup {
+  top: -0.5em;
+}
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body .codehilitetable {
+  border: 0;
+  border-spacing: 0;
+}
+
+.markdown-body .codehilitetable tr {
+  border: 0;
+}
+
+.markdown-body .codehilitetable pre,
+.markdown-body .codehilitetable div.codehilite {
+  margin: 0;
+}
+
+.markdown-body .linenos,
+.markdown-body .code,
+.markdown-body .codehilitetable td {
+  border: 0;
+  padding: 0;
+}
+
+.markdown-body td:not(.linenos) .linenodiv {
+  padding: 0 !important;
+}
+
+.markdown-body .code {
+  width: 100%;
+}
+
+.markdown-body .linenos div pre,
+.markdown-body .linenodiv pre,
+.markdown-body .linenodiv {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.markdown-body .code div pre,
+.markdown-body .code div {
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before,
+.markdown-body hr:after {
+  display: table;
+  content: " ";
+}
+
+.markdown-body hr:after {
+  clear: both;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .headeranchor-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .headeranchor-link:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .headeranchor,
+.markdown-body h2 .headeranchor,
+.markdown-body h3 .headeranchor,
+.markdown-body h4 .headeranchor,
+.markdown-body h5 .headeranchor,
+.markdown-body h6 .headeranchor {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .headeranchor-link,
+.markdown-body h2:hover .headeranchor-link,
+.markdown-body h3:hover .headeranchor-link,
+.markdown-body h4:hover .headeranchor-link,
+.markdown-body h5:hover .headeranchor-link,
+.markdown-body h6:hover .headeranchor-link {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .headeranchor-link .headeranchor,
+.markdown-body h2:hover .headeranchor-link .headeranchor,
+.markdown-body h3:hover .headeranchor-link .headeranchor,
+.markdown-body h4:hover .headeranchor-link .headeranchor,
+.markdown-body h5:hover .headeranchor-link .headeranchor,
+.markdown-body h6:hover .headeranchor-link .headeranchor {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body .admonition {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code,
+.markdown-body samp {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .codehilite {
+  margin-bottom: 16px;
+}
+
+.markdown-body .codehilite pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .codehilite pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+/* Admonition */
+.markdown-body .admonition {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #333;
+  padding: 10px 10px 10px 30px;
+}
+
+.markdown-body .admonition table {
+  color: #333;
+}
+
+.markdown-body .admonition p {
+  padding: 0;
+}
+
+.markdown-body .admonition-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.markdown-body .admonition>.admonition-title {
+  color: #333;
+}
+
+.markdown-body .attention>.admonition-title {
+  color: #a6d796;
+}
+
+.markdown-body .caution>.admonition-title {
+  color: #d7a796;
+}
+
+.markdown-body .hint>.admonition-title {
+  color: #96c6d7;
+}
+
+.markdown-body .danger>.admonition-title {
+  color: #c25f77;
+}
+
+.markdown-body .question>.admonition-title {
+  color: #96a6d7;
+}
+
+.markdown-body .note>.admonition-title {
+  color: #d7c896;
+}
+
+.markdown-body .admonition:before,
+.markdown-body .attention:before,
+.markdown-body .caution:before,
+.markdown-body .hint:before,
+.markdown-body .danger:before,
+.markdown-body .question:before,
+.markdown-body .note:before {
+  font: normal normal 16px fontawesome-mini;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.5;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.markdown-body .admonition:before {
+  content: "\f056\00a0";
+  color: 333;
+}
+
+.markdown-body .attention:before {
+  content: "\f058\00a0";
+  color: #a6d796;
+}
+
+.markdown-body .caution:before {
+  content: "\f06a\00a0";
+  color: #d7a796;
+}
+
+.markdown-body .hint:before {
+  content: "\f05a\00a0";
+  color: #96c6d7;
+}
+
+.markdown-body .danger:before {
+  content: "\f057\00a0";
+  color: #c25f77;
+}
+
+.markdown-body .question:before {
+  content: "\f059\00a0";
+  color: #96a6d7;
+}
+
+.markdown-body .note:before {
+  content: "\f040\00a0";
+  color: #d7c896;
+}
+
+.markdown-body .admonition::after {
+  content: normal;
+}
+
+.markdown-body .attention {
+  border-left: 6px solid #a6d796;
+}
+
+.markdown-body .caution {
+  border-left: 6px solid #d7a796;
+}
+
+.markdown-body .hint {
+  border-left: 6px solid #96c6d7;
+}
+
+.markdown-body .danger {
+  border-left: 6px solid #c25f77;
+}
+
+.markdown-body .question {
+  border-left: 6px solid #96a6d7;
+}
+
+.markdown-body .note {
+  border-left: 6px solid #d7c896;
+}
+
+.markdown-body .admonition>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body .admonition>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* progress bar*/
+.markdown-body .progress {
+  display: block;
+  width: 300px;
+  margin: 10px 0;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #ededed;
+  position: relative;
+  box-shadow: inset -1px 1px 3px rgba(0, 0, 0, .1);
+}
+
+.markdown-body .progress-label {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  width: 100%; margin: 0;
+  line-height: 24px;
+  color: #333;
+  text-shadow: 1px 1px 0 #fefefe, -1px -1px 0 #fefefe, -1px 1px 0 #fefefe, 1px -1px 0 #fefefe, 0 1px 0 #fefefe, 0 -1px 0 #fefefe, 1px 0 0 #fefefe, -1px 0 0 #fefefe, 1px 1px 2px #000;
+  -webkit-font-smoothing: antialiased !important;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.markdown-body .progress-bar {
+  height: 24px;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #96c6d7;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -1px 0 rgba(0, 0, 0, .1);
+  background-size: 30px 30px;
+  background-image: -webkit-linear-gradient(
+    135deg, rgba(255, 255, 255, .4) 27%,
+    transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%,
+    transparent 77%, transparent
+  );
+  background-image: -moz-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -ms-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: -o-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, .4) 27%, transparent 27%,
+    transparent 52%, rgba(255, 255, 255, .4) 52%,
+    rgba(255, 255, 255, .4) 77%, transparent 77%,
+    transparent
+  );
+}
+
+.markdown-body .progress-100plus .progress-bar {
+  background-color: #a6d796;
+}
+
+.markdown-body .progress-80plus .progress-bar {
+  background-color: #c6d796;
+}
+
+.markdown-body .progress-60plus .progress-bar {
+  background-color: #d7c896;
+}
+
+.markdown-body .progress-40plus .progress-bar {
+  background-color: #d7a796;
+}
+
+.markdown-body .progress-20plus .progress-bar {
+  background-color: #d796a6;
+}
+
+.markdown-body .progress-0plus .progress-bar {
+  background-color: #c25f77;
+}
+
+.markdown-body .candystripe-animate .progress-bar{
+  -webkit-animation: animate-stripes 3s linear infinite;
+  -moz-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 60px 0;
+  }
+}
+
+.markdown-body .gloss .progress-bar {
+  box-shadow:
+    inset 0 4px 12px rgba(255, 255, 255, .7),
+    inset 0 -12px 0 rgba(0, 0, 0, .05);
+}
+
+/* Multimarkdown Critic Blocks */
+.markdown-body .critic_mark {
+  background: #ff0;
+}
+
+.markdown-body .critic_delete {
+  color: #c82829;
+  text-decoration: line-through;
+}
+
+.markdown-body .critic_insert {
+  color: #718c00 ;
+  text-decoration: underline;
+}
+
+.markdown-body .critic_comment {
+  color: #8e908c;
+  font-style: italic;
+}
+
+.markdown-body .headeranchor {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.headeranchor:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 4px 0.25em -20px;
+  vertical-align: middle;
+}
+
+/* Media */
+@media only screen and (min-width: 480px) {
+  .markdown-body {
+    font-size:14px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body {
+    font-size:16px;
+  }
+}
+
+@media print {
+  .markdown-body * {
+    background: transparent !important;
+    color: black !important;
+    filter:none !important;
+    -ms-filter: none !important;
+  }
+
+  .markdown-body {
+    font-size:12pt;
+    max-width:100%;
+    outline:none;
+    border: 0;
+  }
+
+  .markdown-body a,
+  .markdown-body a:visited {
+    text-decoration: underline;
+  }
+
+  .markdown-body .headeranchor-link {
+    display: none;
+  }
+
+  .markdown-body a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .markdown-body abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .markdown-body .ir a:after,
+  .markdown-body a[href^="javascript:"]:after,
+  .markdown-body a[href^="#"]:after {
+    content: "";
+  }
+
+  .markdown-body pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  .markdown-body pre,
+  .markdown-body blockquote {
+    border: 1px solid #999;
+    padding-right: 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body .progress,
+  .markdown-body .progress-bar {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .markdown-body .progress {
+    border: 1px solid #ddd;
+  }
+
+  .markdown-body .progress-bar {
+    height: 22px;
+    border-right: 1px solid #ddd;
+  }
+
+  .markdown-body tr,
+  .markdown-body img {
+    page-break-inside: avoid;
+  }
+
+  .markdown-body img {
+    max-width: 100% !important;
+  }
+
+  .markdown-body p,
+  .markdown-body h2,
+  .markdown-body h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  .markdown-body h2,
+  .markdown-body h3 {
+    page-break-after: avoid;
+  }
+}
+</style><title>README</title></head><body><article class="markdown-body"><h1 id="_1"><a name="user-content-_1" href="#_1" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>资料汇总</h1>
+<div class="toc">
+<ul>
+<li><a href="#_1">资料汇总</a><ul>
+<li><a href="#macbook">macbook配置</a></li>
+<li><a href="#pythonmysql">python使用mysql方法</a><ul>
+<li><a href="#_2">安装方法</a></li>
+<li><a href="#mysql">连接mysql</a></li>
+</ul>
+</li>
+<li><a href="#_3">爬虫</a><ul>
+<li><a href="#python">python抓取链接二手房数据</a></li>
+</ul>
+</li>
+<li><a href="#json">json使用</a><ul>
+<li><a href="#shelljson">shell中使用json</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#2016-12-31-shelljson">[2016-12-31] shell中使用json</a><ul>
+<li><a href="#_4">可视化</a><ul>
+<li><a href="#_5">地图数据可视化</a></li>
+</ul>
+</li>
+<li><a href="#_6">学习资料</a><ul>
+<li><a href="#_7">学习技巧</a></li>
+</ul>
+</li>
+<li><a href="#-">- 费曼技巧：通过向别人清楚地解说一件事，来确认自己真的弄懂了这件事。参考：号称终极快速学习法的费曼技巧，究竟是什么样的学习方法？</a></li>
+<li><a href="#_8"></a><ul>
+<li><a href="#_9">数学基础</a></li>
+<li><a href="#_10">计算机基础</a></li>
+<li><a href="#_11">分布式计算</a></li>
+<li><a href="#_12">推荐系统</a></li>
+<li><a href="#_13">机器学习</a><ul>
+<li><a href="#_14">特征工程</a></li>
+<li><a href="#_15">算法总结</a></li>
+<li><a href="#_16">异常检测</a></li>
+<li><a href="#_17">机器学习经验总结</a></li>
+</ul>
+</li>
+<li><a href="#nlp">NLP自然语言处理</a><ul>
+<li><a href="#_18">流形学习</a></li>
+<li><a href="#_19">降维</a></li>
+</ul>
+</li>
+<li><a href="#_20">深度学习</a><ul>
+<li><a href="#_21">神经网络发展历史</a></li>
+<li><a href="#_22">神经网络网络结构变化</a></li>
+<li><a href="#_23">深度学习大牛</a></li>
+<li><a href="#_24">深度学习书籍</a></li>
+<li><a href="#_25">大神博客</a></li>
+<li><a href="#demo">案例及Demo</a></li>
+<li><a href="#cnn">CNN</a></li>
+<li><a href="#rnn">RNN</a></li>
+<li><a href="#_26">对抗生成学习</a></li>
+</ul>
+</li>
+<li><a href="#_27">强化学习</a></li>
+<li><a href="#_28">迁移学习</a></li>
+<li><a href="#_29">知识图谱</a></li>
+<li><a href="#_30">数据挖掘</a></li>
+<li><a href="#_31">人脸识别</a></li>
+</ul>
+</li>
+<li><a href="#it">IT资讯</a></li>
+<li><a href="#_32">工具</a><ul>
+<li><a href="#_33">实验评估</a></li>
+</ul>
+</li>
+<li><a href="#_34">编程语言</a></li>
+<li><a href="#_35">视频资源</a><ul>
+<li><a href="#_36">公开课</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<p>积累平时的代码<br />
+<strong>名词解释</strong><br />
+    解释<br />
+        select * from table where a=3 limit 10;</p>
+<blockquote>
+<p>备注信息：<br />
+<em> <a href="http://www.bootcss.com/p/git-guide/">Git简易指南</a>,<a href="http://marklodato.github.io/visual-git-guide/index-en.html">图说Git</a><br />
+</em> <a href="https://guides.github.com/features/mastering-markdown/" title="英文版">github官方markdown指南</a><br />
+<em> <a href="http://blog.csdn.net/guodongxiaren/article/details/23690801?utm_source=tuicool&amp;utm_medium=referral" title="跟一般markdown语法不同">github readme语法简介</a><br />
+</em> <a href="http://blog.csdn.net/witnessai1/article/details/52551362">MarkDown语法笔记（完整版）</a><br />
+<em> <a href="https://maxiang.io/" title="可以在线测试MD语言！">马克飞象markdown语法在线测试</a><br />
+</em> <a href="https://latexbase.com/">Latex在线调试</a></p>
+</blockquote>
+<hr />
+<p><strong><em>流程图</em></strong>：<br />
+flow<br />
+st=&gt;start: Start:&gt;<a href="https://www.zybuluo.com">https://www.zybuluo.com</a><br />
+io=&gt;inputoutput: verification<br />
+op=&gt;operation: Your Operation<br />
+cond=&gt;condition: Yes or No?<br />
+sub=&gt;subroutine: Your Subroutine<br />
+e=&gt;end<br />
+st-&gt;io-&gt;op-&gt;cond<br />
+cond(yes)-&gt;e<br />
+cond(no)-&gt;sub-&gt;io<br />
+***</p>
+<h2 id="macbook"><a name="user-content-macbook" href="#macbook" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>macbook配置</h2>
+<ul>
+<li>汇总</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>功能</strong></th>
+<th align="center"><strong>方法</strong></th>
+<th align="left"><strong>备注</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>终端用户名自定义</td>
+<td align="center">系统偏好设置-&gt;共享-&gt;编辑电脑名称</td>
+<td align="left">-</td>
+</tr>
+<tr>
+<td>画图工具OmniGraffle+Pro</td>
+<td align="center"><a href="http://www.onlinedown.net/soft/87746.htm">6下载地址</a>,<a href="http://blog.csdn.net/x_focus/article/details/41349623">注册码</a>;<a href="https://d11.baidupcs.com/file/890a1f15ffddb6f3c3dab4fdadb47912?bkt=p3-000080d1e545b74de7d8e2a7d8017edaf20c&amp;xcode=ff73db6f0d13a10269722ca0706f4f2d57cb92d68ca6af42837047dfb5e85c39&amp;fid=1610614513-250528-218454854633625&amp;time=1494382563&amp;sign=FDTAXGERLBHS-DCb740ccc5511e5e8fedcff06b081203-HpWzZufk4Ih1Y%2FFYHmSq25HYFyM%3D&amp;to=d11&amp;size=93883767&amp;sta_dx=93883767&amp;sta_cs=11417&amp;sta_ft=dmg&amp;sta_ct=5&amp;sta_mt=0&amp;fm2=MH,Yangquan,Netizen-anywhere,,hunan,ct&amp;newver=1&amp;newfm=1&amp;secfm=1&amp;flow_ver=3&amp;pkey=000080d1e545b74de7d8e2a7d8017edaf20c&amp;sl=83034191&amp;expires=8h&amp;rt=pr&amp;r=580566339&amp;mlogid=3001796489994348567&amp;vuk=1610614513&amp;vbdid=502618811&amp;fin=OmniGraffle+7.2+for+Mac.dmg&amp;fn=OmniGraffle+7.2+for+Mac.dmg&amp;rtype=1&amp;iv=0&amp;dp-logid=3001796489994348567&amp;dp-callid=0.1.1&amp;hps=1&amp;csl=300&amp;csign=SlvW2m2iS5Dhs4IYR0kvCbxY%2BwQ%3D&amp;by=themis">7下载地址（含许可证）</a></td>
+<td align="left">兼容viso，功能强大</td>
+</tr>
+<tr>
+<td>Mac Office 2016破解</td>
+<td align="center">操作简单，安装完mac office正式版后，下载破解文件，双击锁，就可以</td>
+<td align="left"><a href="http://www.jianshu.com/p/2172835cfb17">参考地址</a></td>
+</tr>
+<tr>
+<td>Mac下安装Windows</td>
+<td align="center"><a href="http://jingyan.baidu.com/article/54b6b9c0f8830f2d583b47ce.html">Mac电脑上用VMware Fusion安装Windows7</a></td>
+<td align="left">提前下载vmware+Windows安装包，添加Windows虚拟机后默认无法启动，需要单独指定iso镜像位置，再重启即可</td>
+</tr>
+<tr>
+<td>画图工具OmniGraffle+Pro</td>
+<td align="center"><a href="http://www.onlinedown.net/soft/87746.htm">6下载地址</a>,<a href="http://blog.csdn.net/x_focus/article/details/41349623">注册码</a>;<a href="http://bbs.feng.com/forum.php?mod=viewthread&amp;tid=10739827">7下载地址（含许可证）</a></td>
+<td align="left">兼容viso，功能强大</td>
+</tr>
+<tr>
+<td>安装pip</td>
+<td align="center">sudo easy_install pip</td>
+<td align="left">pip直接安装其他工具</td>
+</tr>
+<tr>
+<td>软件包管理器</td>
+<td align="center">homebrew安装（<a href="http://www.itbulu.com/macbook-wget-install.html">参考地址</a>）；安装wget：brew install wget</td>
+<td align="left">brew安装命令：ruby -e &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/master/install">https://raw.githubusercontent.com/Homebrew/install/master/install</a>)&rdquo;</td>
+</tr>
+<tr>
+<td>翻墙</td>
+<td align="center">1.有代理ip的直接设置：网络-&gt;高级-&gt;代理-&gt;勾选网页代理+安全网页代理，输入服务器域名及端口，无需填入账号。2.用<a href="https://github.com/getlantern/forum/issues/833">lantern下载</a></td>
+<td align="left">备选方案很多</td>
+</tr>
+<tr>
+<td>vim颜色显示</td>
+<td align="center">1.vim ~/.vimrc,2.添加colorscheme desert;syntax on</td>
+<td align="left">vim <a href="http://www.cnblogs.com/fsjohnhuang/p/3911611.html">sublime颜色主题</a></td>
+</tr>
+<tr>
+<td>vim开发环境</td>
+<td align="center"><a href="https://github.com/wklken/k-vim">vim IDE部署</a></td>
+<td align="left">其他主题包，[vim-go开发环境[(<a href="http://blog.csdn.net/chosen0ne/article/details/40782991">http://blog.csdn.net/chosen0ne/article/details/40782991</a>)</td>
+</tr>
+<tr>
+<td>shell目录颜色显示</td>
+<td align="center">开启方法：编辑~/.bash_profile,增加：export CLICOLOR=1;export LSCOLORS=exfxaxdxcxegedabagacad</td>
+<td align="left">注：<a href="http://7938217.blog.51cto.com/7928217/1651807/">如何在shell字符串中显示彩色字符？</a>,显示白色：echo -e &ldquo;\033[37m white \033[0m&rdquo;</td>
+</tr>
+<tr>
+<td>mac免密码远程登录</td>
+<td align="center">使用ssh创建rsa公钥密码。基本步骤：*   1.ssh-keygen生成密钥(ssh-keygen -t rsa)  *   2.复制密钥文件到远程机器(scp ~/.ssh/id_rsa.pub <a href="mailto:wangqiwen@ip.com">wangqiwen@ip.com</a>:/home/wangqiwen/.ssh) *   3.登录远程机器，修改文件权限(cd ~/.ssh &amp;&amp; cat id_rsa.pub &gt;&gt; authorized_keys; chmod 644 authorized_keys;chmod 700 ~/.ssh/)</td>
+<td align="left">参考地址：<a href="http://blog.csdn.net/cdut100/article/details/70277091">mac无密码登录</a></td>
+</tr>
+<tr>
+<td>chrome浏览器中右键失灵</td>
+<td align="center">双指触碰链接时，并未弹出右键菜单，而是“图片另存为”</td>
+<td align="left">解决办法：这是由于chrome浏览器上开启了鼠标手势，造成干扰，关闭或删除插件即可</td>
+</tr>
+<tr>
+<td>image not recognized</td>
+<td align="center">dmg文件无法安装，原因：文件损坏，dmg权限不允许任意来源的包；换浏览器</td>
+<td align="left">如何开启任意来源包？sudo spctl &ndash;master-disable</td>
+</tr>
+<tr>
+<td>redis安装</td>
+<td align="center">brew install redis</td>
+<td align="left">使用方法：启动服务，redis-server，连接服务：redis-cli</td>
+</tr>
+<tr>
+<td>mac mail客户端设置</td>
+<td align="center">连接163时，需要先去163邮箱开启pop3/imap选项，通过手机验证码设置连接密码；mail终端配置时填入的密码是连接密码（非登录密码！）</td>
+<td align="left">wqw3721</td>
+</tr>
+<tr>
+<td>安装虚拟机</td>
+<td align="center">vmware安装，下载地址</td>
+<td align="left">vmware fusion 8激活码：FY75A-06W1M-H85PZ-0XP7T-MZ8E8，ZY7TK-A3D4N-08EUZ-TQN5E-XG2TF，FG1MA-25Y1J-H857P-6MZZE-YZAZ6</td>
+</tr>
+<tr>
+<td>Mac下运行Windows软件</td>
+<td align="center">（1）boot camp安装Windows虚拟机（win 10文件过大）；（2）安装wine</td>
+<td align="left">步骤：（1）brew cask install xquartz（2）brew install wine</td>
+</tr>
+<tr>
+<td>java</td>
+<td align="center">官方下载地址：<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html</a></td>
+<td align="left">优先使用绿色版（tar.gz，非二进制的rpm）。环境变量配置方法：修改/etc/profile文件，在文件的最下边加入下边的文本：export JAVA_HOME=/opt/jdk1.7; export CLASSPATH=.:$JAVA_HOME/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar; export PATH=$JAVA_HOME/bin:$PATH</td>
+</tr>
+<tr>
+<td>Web服务</td>
+<td align="center"><a href="http://www.jianshu.com/p/d006a34a343f">Mac OS 启用web服务</a>,<a href="http://www.jianshu.com/p/d006a34a343f">简网教程</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td>linux 服务器mail</td>
+<td align="center">mail command not found</td>
+<td align="left">解决方法：sudo yum install mailx;echo &ldquo;test&rdquo; (竖线) mail -s &ldquo;content&rdquo; <a href="mailto:wangqiwen@p1.com">wangqiwen@p1.com</a></td>
+</tr>
+<tr>
+<td>linux下安装http服务</td>
+<td align="center">安装httpd</td>
+<td align="left">1.yum install httpd -y 2.随系统启动:chkconfig httpd on 3.开启Apache:service httpd start</td>
+</tr>
+<tr>
+<td>terminal下如何开启应用？</td>
+<td align="center">用open命令开启（open .用finder打开当前位置目录；<font size=4 color='res'>open file自动调用默认程序打开文件;</font>say hello语音说话），可以传参，备注：放到别命中，alias view=&rsquo;open /Applications/Preview.app&rsquo;或alias edit=&rsquo;open /Applications/Sublime\ Text.app&rsquo;</td>
+<td align="left">open /Applications/Sublime\ Text.app README.md</td>
+</tr>
+<tr>
+<td>shell美化</td>
+<td align="center"><a href="http://ohmyz.sh/">Oh My ZSH!</a></td>
+<td align="left">安装：sh -c &ldquo;$(curl -fsSL <a href="https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh">https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh</a>)&rdquo;</td>
+</tr>
+<tr>
+<td>刻盘</td>
+<td align="center"><a href="https://etcher.io/">Etcher</a>全平台工具</td>
+<td align="left">操作过程极其简单</td>
+</tr>
+<tr>
+<td>移动硬盘无法写入</td>
+<td align="center">原因：mac不支持ntfs格式，需要安装特殊软件：<a href="http://www.ntfsformac.cn/xiazai.html">ntfs for mac</a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td>&mdash;</td>
+<td align="center"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td><pre><code class="shell">wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
+Cloning into 'backend'...
+Username for 'https://github.com': wqw547243068
+Password for 'https://wqw547243068@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/p1cn/backend.git/'
+</code></pre></td>
+<td align="center"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td>原因：Github没有fork项目代码，或没加所在机器的sshkey（settings-&gt;deplot keys）</td>
+<td align="center"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="pythonmysql"><a name="user-content-pythonmysql" href="#pythonmysql" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>python使用mysql方法</h2>
+<h3 id="_2"><a name="user-content-_2" href="#_2" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>安装方法</h3>
+<p>mac下安装MySQL-python</p>
+<p>要想使python可以操作mysql，就需要MySQL-python驱动，它是python 操作mysql必不可少的模块。<br />
+- <a href="https://pypi.python.org/pypi/MySQL-python/">下载地址</a><br />
+- 下载MySQL-python-1.2.5.zip 文件之后直接解压。<br />
+- 进入MySQL-python-1.2.5目录:<br />
+<pre><code class="shell">python setup.py install
+</code></pre></p>
+<h3 id="mysql"><a name="user-content-mysql" href="#mysql" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>连接mysql</h3>
+<p>shell 代码，shell脚本中调用sql脚本<br />
+<pre><code class="shell">#mysql初始化-shell
+mysql=/usr/local/mysql/bin/mysql
+$mysql -uroot -pwqw  &lt; init.sql
+</code></pre><br />
+或者shell脚本中直接执行sql<br />
+<pre><code class="shell">mysql=/usr/local/mysql/bin/mysql
+$mysql -uroot -p123456 &lt;&lt;EOF  
+source /root/temp.sql;  
+select current_date();  
+delete from tempdb.tb_tmp where id=3;  
+select * from tempdb.tb_tmp where id=2;  
+EOF
+</code></pre><br />
+- <a href="http://www.cnblogs.com/stephen-liu74/archive/2012/06/08/2315679.html">PostgreSQL学习笔记</a></p>
+<h2 id="_3"><a name="user-content-_3" href="#_3" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>爬虫</h2>
+<h3 id="python"><a name="user-content-python" href="#python" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>python抓取链接二手房数据</h3>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/25132058">链家二手房数据分析</a></li>
+<li><a href="https://github.com/happyte/buyhouse">scrapy爬链家成都房价并可视化</a></li>
+<li><a href="http://www.csuldw.com/2016/11/05/2016-11-05-simulate-zhihu-login/">抓知乎爬虫</a></li>
+</ul>
+<h2 id="json"><a name="user-content-json" href="#json" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>json使用</h2>
+<h3 id="shelljson"><a name="user-content-shelljson" href="#shelljson" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>shell中使用json</h3>
+<ul>
+<li>
+<h1 id="2016-12-31-shelljson"><a name="user-content-2016-12-31-shelljson" href="#2016-12-31-shelljson" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>[2016-12-31] shell中使用json</h1>
+</li>
+<li>
+<p>安装：</p>
+<blockquote>
+<p>pip install git+<a href="https://github.com/dominictarr/JSON.sh#egg=JSON.sh">https://github.com/dominictarr/JSON.sh#egg=JSON.sh</a></p>
+</blockquote>
+</li>
+<li>
+<p>使用：<br />
+<pre><code class="shell">echo '{&quot;a&quot;:2,&quot;b&quot;:[3,6,8]}' |JSON.sh
+</code></pre><br />
+详情参考：<a href="https://github.com/dominictarr/JSON.sh">https://github.com/dominictarr/JSON.sh</a></p>
+</li>
+</ul>
+<h2 id="_4"><a name="user-content-_4" href="#_4" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>可视化</h2>
+<h3 id="_5"><a name="user-content-_5" href="#_5" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>地图数据可视化</h3>
+<ul>
+<li><a href="http://www.dituhui.com/">地图汇</a></li>
+<li><a href="http://echarts.baidu.com/echarts2/doc/start.html">5min上手写echarts第一个图标</a>,<a href="http://bbs.csdn.net/topics/392042291">echarts如何从json文件读数据？</a></li>
+<li>【2017-7-30】Google开发的数据可视化web工具<a href="https://pair-code.github.io/facets/">Facet Dive</a></li>
+<li><a href="http://vis.pku.edu.cn/wiki/start">北大可视化</a></li>
+<li>词云生成<a href="http://www.picdata.cn/">图悦</a></li>
+<li><a href="http://vis.pku.edu.cn/wiki/start">北大可视化</a></li>
+</ul>
+<h2 id="_6"><a name="user-content-_6" href="#_6" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>学习资料</h2>
+<h3 id="_7"><a name="user-content-_7" href="#_7" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>学习技巧</h3>
+<ul>
+<li><a href="http://weibo.com/fly51fly?is_search=0&amp;visible=0&amp;is_all=1&amp;is_tag=0&amp;profile_ftype=1&amp;page=2#_rnd1501558283451">@爱可可-爱生活(新浪微博)</a>：<blockquote></blockquote>
+</li>
+<li>互联时代怎么阅读？</li>
+<li>读书重在结构生长，形成扎实的支撑；</li>
+<li>碎片阅读重在视野的纳新和扩展，开枝散叶；</li>
+<li>思考重在提炼和关联，勾画错综的经脉。</li>
+<li>学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。</li>
+<li>网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。</li>
+</ul>
+<hr />
+<h2 id="-"><a name="user-content--" href="#-" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>- 费曼技巧：通过向别人清楚地解说一件事，来确认自己真的弄懂了这件事。参考：<a href="https://www.zhihu.com/question/20576786">号称终极快速学习法的费曼技巧，究竟是什么样的学习方法？</a></h2>
+<h2 id="_8"><img alt="费曼技巧" src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1505214981844&amp;di=c9a85fee49f3eba5dbad2f575d260e69&amp;imgtype=0&amp;src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F001UzQQOgy72rDwKKBy40" /></h2>
+<ul>
+<li>学习金字塔</li>
+</ul>
+<p><img alt="学习金字塔" src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/wh%3D600%2C800/sign=dae5bdf00ef79052ef4a4f383cc3fbf2/78310a55b319ebc44d04b87a8526cffc1f1716d1.jpg" /></p>
+<h3 id="_9"><a name="user-content-_9" href="#_9" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>数学基础</h3>
+<ul>
+<li><a href="http://blog.csdn.net/huxiaokang1234/article/details/52550999">可微可导可积连续之间的关系</a></li>
+<li><img alt="关系图" src="http://img0.imgtn.bdimg.com/it/u=4072625409,2144649604&amp;fm=214&amp;gp=0.jpg" /></li>
+<li><a href="https://www.zhihu.com/question/20666664">如何通俗讲解放射变换？</a><br />
+_ <a href="https://www.geogebra.org/apps/">在线几何作图GeoGebra</a>（源自 <a href="http://www.matongxue.com/madocs/244.html">马同学高等数学</a>）</li>
+<li><a href="www.patreon.com/3blue1brown">3Blue1Brown</a>出品（接受捐助）：<a href="http://www.3blue1brown.com/">线性代数的本质-Essence of Linear Algebra-视频教程</a>，<a href="http://www.bilibili.com/video/av6731067/">Bilibili上《线性代数本质》双语视频教程</a>.类似视频还有微积分本质.<a href="https://github.com/3b1b/manim">制作教学视频的代码</a></li>
+<li><a href="http://www.matongxue.com/madocs/247.html">行列式的本质（马同学高等数学）</a>.《数学拾遗》<a href="https://pan.baidu.com/share/link?shareid=1204761446&amp;uk=2416092239&amp;fid=2111748288">英文版百度云地址</a>. </li>
+<li><a href="https://mp.weixin.qq.com/s?src=3&amp;timestamp=1498919864&amp;ver=1&amp;signature=lwM3ouw-FlaVYwhol06JImHUQz-gJ00kBAYkssdiD3pSLwOS48Mv9ntL97readD8AZrXS2q0D28PegS*LE6Cxp88Hy8RPP9VLGdWA29zARcLVFuwHbJJl8SPtB*dq7njgt7suMGouSV-FP5b9BlFeWtQ8XNSO9aJyrh8mBJNYS8=">矩阵分解(加法偏)</a>,<a href="https://mp.weixin.qq.com/s?src=3&amp;timestamp=1498919864&amp;ver=1&amp;signature=lwM3ouw-FlaVYwhol06JImHUQz-gJ00kBAYkssdiD3q4iNXi-7lf9GzKeq2CvP0yAofBNF7OoCG21M1YDLrrhHHA15K4rrKyP1FFPjQtmNGv0yv5IFeA7LmvuBiea1Xrsa79Gf8c6IT1JiTdra-mU8JNHdj0zp-lYaJUUfp0CHw=">矩阵分解(乘法篇)，很不错</a></li>
+<li><a href="http://www.matongxue.com/madocs/244.html">如何通俗的解释放射变换</a>,<a href="http://blog.csdn.net/a396901990/article/details/44905791">生动讲解矩阵的空间变换</a>：平移、缩放、旋转、对称（xy或原点）、错切、组合。<a href="https://www.zhihu.com/question/36966326/answer/70687817">行列式的本质是什么？&mdash;万门大学童哲的解释</a>:行列式就是线性变换的放大率！理解了行列式的物理意义，很多性质你根本就瞬间理解到忘不了！</li>
+</ul>
+<p><img alt="Essence of Linear Algebra" src="https://pic4.zhimg.com/v2-f0b763934f02eda66a5eef93cc47eaa3_b.jpg" /><br />
+- 行列式：行列式，记作 det(A)，是一个将方阵 A 映射到实数的函数。行列式等于矩阵特 征值的乘积。行列式的绝对值可以用来衡量矩阵参与矩阵乘法后空间扩大或者缩小 了多少。如果行列式是 0，那么空间至少沿着某一维完全收缩了，使其失去了所有的 体积。如果行列式是 1，那么这个转换保持空间体积不变<br />
+- 【2017-11-24】遇见数学：<a href="https://www.toutiao.com/i6490094296459379213/">图解线性代数</a><br />
+- <a href="http://www.csuldw.com/2016/08/19/2016-08-19-probability-distributions/">六大概率分布</a><br />
+- <a href="http://www.csuldw.com/2016/07/10/2016-07-10-saddlepoints/">最优化算法-避开鞍点</a><br />
+- <a href="http://www.cnblogs.com/549294286/archive/2013/04/08/3009073.html">频率学派与贝叶斯学派之争</a>：<a href="https://www.zhihu.com/question/20587681/answer/21294468">知乎网友解释</a>,频率学派最先出现，疯狂打压新生的贝叶斯学派，贝叶斯很凄惨，就跟艺术圈的梵高一样，死后的论文才被自己的学生发表，经过拉普拉斯之手发扬光大，目前二派就像华山派的剑宗和气宗。频率学派挺煞笔的，非得做大量实验才能给出结论，比如你今年高考考上北大的概率是多少啊？频率学派就让你考100次，然后用考上的次数除以100。而贝叶斯学派会找几个高考特级教师对你进行一下考前测验和评估，然后让这几个教师给出一个主观的可能性，比如说：你有9成的把握考上北大。<br />
+   - 这个区别说大也大，说小也小。（1）往大里说，世界观就不同，频率派认为参数是客观存在，不会改变，虽然未知，但却是固定值；贝叶斯派则认为参数是随机值，因为没有观察到，那么和是一个随机数也没有什么区别，因此参数也可以有分布，个人认为这个和量子力学某些观点不谋而合。（2） 往小处说，频率派最常关心的是似然函数，而贝叶斯派最常关心的是后验分布。我们会发现，后验分布其实就是似然函数乘以先验分布再normalize一下使其积分到1。因此两者的很多方法都是相通的。贝叶斯派因为所有的参数都是随机变量，都有分布，因此可以使用一些基于采样的方法（如MCMC）使得我们更容易构建复杂模型。频率派的优点则是没有假设一个先验分布，因此更加客观，也更加无偏，在一些保守的领域（比如制药业、法律）比贝叶斯方法更受到信任。<br />
+   - 频率 vs 贝叶斯 =   P(X;w)  vs  P(X|w) 或 P(X,w) <br />
+   - 频率学派认为参数固定，通过无数字实验可以估计出参数值——客观；<br />
+   - 贝叶斯学派认为参数和数据都是随机的，参数也服从一定的分布，需要借助经验——主观<br />
+- <a href="http://www.cnblogs.com/xiaofeng1234/p/5987845.html">统计学基础知识【脑图笔记】</a><br />
+- 大矩阵相乘：<a href="http://weibo.com/ttarticle/p/show?id=2309404091643656571557">分布式版本</a>,<a href="http://blog.csdn.net/jiangsanfeng1111/article/details/51025744">MapReduce实现矩阵相乘</a>，<a href="http://www.cnblogs.com/eczhou/p/3340731.html">Hadoop实现大矩阵相乘之我见</a><br />
+ - A大B小(内存受限)<br />
+<img alt="图" src="http://images.cnitblog.com/blog/310680/201309/26133812-99b31a08aa934015a11a19cc178713db.png" /><br />
+ - AB都大(内存受限)<br />
+<img alt="图" src="http://images.cnitblog.com/blog/310680/201309/26133859-83d01098a7ac4192a7ff02fbaacb2369.png" /><br />
+ - 不受内存限制（最小粒度）<br />
+<img alt="图" src="http://images.cnitblog.com/blog/310680/201309/26134115-f5041d455fbe4ef98e3653a77cb31774.png" /><br />
+- Colah的<a href="http://colah.github.io/posts/2015-09-Visual-Information/">Visual Information Theory</a>，<a href="http://blog.csdn.net/xtydtc/article/details/52265952">中文翻译</a><br />
+- 【2017-11-24】遇见数学，<a href="https://www.toutiao.com/i6489560900662460942/">图解普林斯顿微积分系列</a><br />
+<img alt="图" src="http://p9.pstatp.com/large/3b110004d8b47a0abc46" /></p>
+<h3 id="_10"><a name="user-content-_10" href="#_10" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>计算机基础</h3>
+<ul>
+<li>排序算法总结：<a href="http://blog.jobbole.com/11745/">视觉感受常见排序算法</a><br />
+<img alt="对比" src="http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif" /></li>
+<li>【2017-8-1】排序算法可视化对比<a href="https://www.toptal.com/developers/sorting-algorithms/">Sorting Algorithms Animations</a>,<a href="http://jsrun.it/norahiko/oxIy">日本程序猿做的排序动画</a>，<a href="http://v.youku.com/v_show/id_XNTA3NDUwODA4.html?spm=a2h0j.8191423.module_basic_relation.5~5!2~5~5!3~5~5~A">舞动的排序算法【舞蹈视频】</a></li>
+<li><a href="http://www.cnblogs.com/ECJTUACM-873284962/p/6910842.html">海量数据处理算法总结【超详解】</a></li>
+<li><a href="http://blog.csdn.net/u012397189/article/details/52181005">水库抽样算法精简</a>,空间亚线性算法<br />
+<img alt="水库抽样" src="http://s11.sinaimg.cn/mw690/005yGsbEty6QDWko4gq0a&amp;690" /></li>
+<li>[2017-9-19]视频集合：<a href="http://www.365yg.com/group/6467022800149283342/">内存原理解析</a>,<a href="http://www.365yg.com/group/6467021466209616397/">CPU缓存原理解析</a>,<a href="http://www.365yg.com/group/6467022804800766477/">TCP,UDP协议原理对比</a>,<a href="http://www.365yg.com/group/6467021492105249293/">IPv4,IPv6原理解析</a>，<a href="http://www.365yg.com/group/6467022795812373005/">代理服务器原理解析</a>，<a href="http://www.365yg.com/group/6467021483385291277/">集线器-交换机-路由器区别</a>，<a href="http://www.365yg.com/group/6467021479107101197/">DNS域名解析</a>，<a href="http://www.365yg.com/group/6467021487722201614/">超线程原理解析</a>,<a href="http://www.365yg.com/group/6467021470504583693/">磁盘碎片原理解析</a></li>
+</ul>
+<h3 id="_11"><a name="user-content-_11" href="#_11" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>分布式计算</h3>
+<ul>
+<li><a href="http://www.aboutyun.com/thread-6855-1-1.html">flume+kafka+hdfs+storm组合</a></li>
+</ul>
+<h3 id="_12"><a name="user-content-_12" href="#_12" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>推荐系统</h3>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/21377575">项量：关于LDA，pLSA，SVD和Word2vector的一些看法</a>：</li>
+<li>SVD算法是指在SVD的基础上引入隐式反馈，使用用户的历史浏览数据、用户历史评分数据、电影的历史浏览数据、电影的历史评分数据等作为新的参数</li>
+<li>LSA最初是用在语义检索上，为了解决一词多义和一义多词的问题,将词语（term）中的concept提取出来，建立一个词语和概念的关联关系（t-c relationship），这样一个文档就能表示成为概念的向量。这样输入一段检索词之后，就可以先将检索词转换为概念，再通过概念去匹配文档。在实际实现这个思想时，LSA使用了SVD分解的数学手段.x=T<em>S</em>D</li>
+<li>PLSA和LSA基础思想是相同的，都是希望能从term中抽象出概念，但是具体实现的方法不相同。PLSA使用了概率模型，并且使用EM算法来估计P（t|c）和P（c|d）矩阵.LDA是pLSA的generalization：一方面LDA的hyperparameter设为特定值的时候，就specialize成pLSA了</li>
+<li>NMF：一种矩阵分解，要求输入矩阵元素非负，目标和 SVD 一样。</li>
+<li>pLSA：SVD 的一种概率解释方法——要求矩阵元素是非负整数。LDA：pLSA 加上 topics 的 Dirichlet 先验分布后得到的 Bayesian model，数学上更漂亮。为什么是 Dirichlet 先验分布，主要是利用了 Dirichlet 和 multinomial 分布的共轭性，方便计算。</li>
+<li><a href="http://blog.csdn.net/dark_scope/article/details/17228643">从item-base到svd再到rbm，多种Collaborative Filtering(协同过滤算法)从原理到实现</a></li>
+<li>案例分享：<a href="http://www.csdn.net/article/2015-02-15/2823976">世纪佳缘推荐系统经验分享</a></li>
+<li>《推荐系统实践》<a href="http://www.aiuxian.com/article/p-952427.html">阅读笔记：LFM模型、图模型、slop one和SVD算法</a></li>
+<li>实时推荐系统</li>
+<li><a href="http://www.jianshu.com/p/356656ce2901">实时推荐系统的三种方式</a></li>
+</ul>
+<h3 id="_13"><a name="user-content-_13" href="#_13" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>机器学习</h3>
+<h4 id="_14"><a name="user-content-_14" href="#_14" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>特征工程</h4>
+<ul>
+<li>江湖名言：<font color=#0099ff size=5 face="黑体">数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已</font></li>
+<li><a href="https://www.zhihu.com/question/29316149">知乎：特征工程到底是什么</a></li>
+<li><a href="http://www.cnblogs.com/jasonfreak/p/5448385.html">使用sklearn做特征工程</a></li>
+<li><a href="http://www.cnblogs.com/jasonfreak/p/5441512.html">使用python进行描述性统计</a></li>
+<li><a href="http://www.cnblogs.com/jasonfreak/p/5448462.html">使用sklearn优雅的进行数据挖掘</a></li>
+<li>使用sklearn进行集成学习:<a href="http://www.cnblogs.com/jasonfreak/p/5657196.html">理论</a>,<a href="http://www.cnblogs.com/jasonfreak/p/5720137.html">实践</a><br />
+<img alt="fe" src="http://images2015.cnblogs.com/blog/927391/201606/927391-20160628112051062-1290708859.jpg" /><br />
+ 特征工程常用方法：<br />
+<img alt="常用方法" src="https://pic3.zhimg.com/20e4522e6104ad71fc543cc21f402b36_r.png" /></li>
+<li>不平衡数据集如何处理？研究表明，在某些应用下，1∶35的比例就会使某些分类方法无效，甚至1∶10的比例也会使某些分类方法无效。</li>
+<li><a href="https://www.52ml.net/16294.html">分类问题中不平衡数据集的解决方案</a>，正负样本玄虚</li>
+<li>1.过抽样：简单赋值负样本——最常用，容易过拟合，SVM模型里用途不大</li>
+<li>2.欠抽样：随机减少正样本——造成信息丢失</li>
+<li>3.算法层面：（1）重构训练集，按错分代价对训练集重构（2）代价敏感函数，大样本高代价，小样本低代价</li>
+<li>4.特征选择：选取有区分度的特征</li>
+<li><a href="https://www.52ml.net/17957.html?utm_source=tuicool&amp;utm_medium=referral">解决真实世界的问题：如何在不平衡数据集上使用机器学习</a><br />
+<img alt="图解" src="https://www.52ml.net/wp-content/uploads/2016/08/4ffce04d92a4d6cb21c1494cdfcd6dc1-7.jpg" /></li>
+</ul>
+<h4 id="_15"><a name="user-content-_15" href="#_15" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>算法总结</h4>
+<ul>
+<li>微软-ML算法指南：<a href="https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet">pdf版下载地址</a><br />
+<img alt="微软算法" src="///C://Users/wqw/Documents/GitHub/wangqiwen/%E5%BE%AE%E8%BD%AF-ML%E7%AE%97%E6%B3%95%E6%8C%87%E5%8D%97.png" /></li>
+<li><a href="How to choose algorithms for Microsoft Azure Machine Learning">详细讲解</a></li>
+<li><a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html#">scikit-learn官方总结</a>，Scikit-learn Cookbook:<a href="https://www.packtpub.com/big-data-and-business-intelligence/scikit-learn-cookbook">英文本</a>,<a href="https://www.gitbook.com/book/wizardforcel/sklearn-cookbook/details">中文译本</a>，<a href="http://git.oschina.net/wizardforcel/sklearn-cb/blob/master/SUMMARY.md">MarkDown格式</a><br />
+<img alt="算法对比" src="http://scikit-learn.org/stable/_static/ml_map.png" /></li>
+<li>
+<p>算法对比<br />
+《统计学习方法》总结：<br />
+<img alt="算法总结" src="https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg" /></p>
+</li>
+<li>
+<p><a href="https://cos.name/2015/03/xgboost/">xgboost: 速度快效果好的boosting模型</a> </p>
+</li>
+<li>最优化：各种优化算法对比</li>
+<li><img alt="表达式" src="https://raw.githubusercontent.com/SwordYork/simplified-deeplearning/master/sgd-comparison/figures/relation.png" /></li>
+<li>最优化：各种优化算法对比</li>
+<li><img alt="各种优化算法对比" src="http://cs231n.github.io/assets/nn3/opt2.gif" /></li>
+<li>【2017-8-30】<a href="https://blog.slinuxer.com/2016/09/sgd-comparison">SGD comparision</a></li>
+<li><img alt="优化算法对比" src="http://cs231n.github.io/assets/nn3/opt1.gif" /></li>
+<li><a href="http://ycszen.github.io/2016/08/24/SGD%EF%BC%8CAdagrad%EF%BC%8CAdadelta%EF%BC%8CAdam%E7%AD%89%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93%E5%92%8C%E6%AF%94%E8%BE%83/">SGD，Adagrad，Adadelta，Adam等优化方法总结和比较</a>,<a href="http://ruder.io/optimizing-gradient-descent/">An overview of gradient descent optimization algorithms</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/28060786">为什么更偏爱随机梯度下降</a></li>
+<li>【2017-7-31】<a href="https://zhuanlan.zhihu.com/p/28133530">10686 一次 CTC-RNN 调参经历</a></li>
+<li><img alt="网格搜索" src="https://pic3.zhimg.com/v2-88f640c13e27402154eb8e93e50468a2_b.png" /></li>
+</ul>
+<h4 id="_16"><a name="user-content-_16" href="#_16" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>异常检测</h4>
+<ul>
+<li>IsolationForest。欺诈等是一系列的异常孤立点，而IsolationForest则是检测这类孤立点的一个有效算法。无需样本标记、线性时间复杂度。一般情况下要比OneClasSVM等表现要好。尤其是对非高斯分布的样本空间。</li>
+<li>【2017-7-31】<a href="https://www.zhihu.com/question/30508773/answer/205831957">反欺诈(Fraud Detection)中所用到的机器学习模型有哪些？</a>：</li>
+<li>（1）可视化：相关矩阵+多维尺度变换</li>
+<li>（2）算法模型：时序相关（时间序列分析）、时序无关（无监督学习Isolation Forest、监督学习one-class SVM、统计学密度估计）</li>
+</ul>
+<h4 id="_17"><a name="user-content-_17" href="#_17" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>机器学习经验总结</h4>
+<ul>
+<li><a href="http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf">Google机器学习经验总结</a></li>
+<li><a href="http://blog.pluskid.org/?page_id=683">pluskid总结的SVM系列文章</a>（浙大计算机，MIT博士，跟陈天奇和李沐一块做过Mxnet）</li>
+<li>【2017-8-22】【非常好的web讲解】<a href="http://www.r2d3.us/%E5%9B%BE%E8%A7%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">可视化机器学习（决策树讲解）</a></li>
+<li>【2017-8-22】剑桥大学的书籍<a href="http://alex.smola.org/drafts/thebook.pdf">Introduction to Machine Learning</a></li>
+<li>【2017-8-22】Machine Learning is Fun!系列教程。<a href="https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721">Part 3:Deep Learning and Convolutional Neural Networks</a>,<a href="https://zhuanlan.zhihu.com/p/24524583">中文翻译：第三章:图像识别【鸟or飞机】？深度学习与卷积神经网络</a></li>
+<li>【2017-9-2】维数灾难：精华，<a href="http://www.mamicode.com/info-detail-645884.html">维数诅咒</a>,原文<a href="http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/">The Curse of Dimensionality in classification</a></li>
+</ul>
+<h3 id="nlp"><a name="user-content-nlp" href="#nlp" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>NLP自然语言处理</h3>
+<ul>
+<li>【2017-8-1】<a href="http://www.cnblogs.com/baiboy/p/learnnlp.html">NLP十分钟入门</a></li>
+<li><a href="http://nlp.stanford.edu:8080/corenlp/process">斯坦福CoreNLP在线Demo演示</a>（含分词WS、POS词性标注、NER命名实体识别、语法树等等），<a href="https://nlp.stanford.edu/software/">斯坦福NLP相关软件</a>, 斯坦福深度学习与自然语言处理课程<a href="http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80">CS224d: Deep Learning for Natural Language Processing学习笔记（我爱自然语言处理）</a><br />
+<img alt="示例" src="https://stanfordnlp.github.io/CoreNLP/images/Xi-Jinping.png" /></li>
+<li><a href="http://blog.csdn.net/wangxinginnlp/article/details/44890553">国内外自然语言处理(NLP)研究组大全</a></li>
+</ul>
+<h4 id="_18"><a name="user-content-_18" href="#_18" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>流形学习</h4>
+<ul>
+<li>什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考<a href="https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/">流形学习的简单介绍</a></li>
+<li>流形学习：本质上，流形学习就是给数据降维的过程。这里假设数据是一个随机样本，采样自一个高维欧氏空间中的流形（manifold），流形学习的任务就是把这个高维流形映射到一个低维（例如2维）的空间里。流形学习可以分为线性算法和非线性算法，前者包括主成分分析（PCA）和线性判别分析（LDA），后者包括等距映射（Isomap），拉普拉斯特征映射（LE）等。流形学习可以用于特征的降维和提取，为后续的基于特征的分析，如聚类和分类，做铺垫，也可以直接应用于数据可视化等。注：摘自<a href="http://wiki.swarma.net/index.php/%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0">集智百科流形学习（优质，包含代码及案例）</a>。</li>
+<li>拟合线性的流形学习模型：LLE, LTSA, Hessian LLE, 和Modified LLE</li>
+<li>拟合非线性的流形学习模型：Isomap，MDS和Spectral Embedding</li>
+<li>效果示意如下：<img alt="降维效果" src="http://wiki.swarma.net/images/thumb/a/ad/Manifoldlearning_figure_1.png/800px-Manifoldlearning_figure_1.png" /></li>
+<li><a href="http://www.cad.zju.edu.cn/reports/%C1%F7%D0%CE%D1%A7%CF%B0.pdf">浙大何晓飞的流形学习ppt</a>,讲的很清楚，全面，最佳资料</li>
+</ul>
+<h4 id="_19"><a name="user-content-_19" href="#_19" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>降维</h4>
+<p>常见的pca属于无监督，lda有监督,常用降维方法如下图。<img alt="常用降维方法脑图" src="http://img.blog.csdn.net/20150522194801297" /><br />
+ - t-SNE是深度学习大牛Hinton和lvdmaaten（他的弟子？）在2008年提出的，lvdmaaten对t-SNE有个主页介绍：<a href="http://lvdmaaten.github.io/tsne/">tsne</a>,包括论文以及各种编程语言的实现,t-SNE是非线性方法，非常适用于高维数据降维到2维或者3维，进行可视化,具体参考:<a href="http://www.datakit.cn/blog/2017/02/05/t_sne_full.html">t-SNE完整笔记（优质,含Python代码实现）</a>，<a href="http://blog.csdn.net/jyl1999xxxx/article/details/53138975">t-SNE原理及python实现</a>.t-SNE交互体验：<a href="https://distill.pub/2016/misread-tsne/">How to Use t-SNE Effectively</a>；<a href="http://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html">t-SNE CSV web demo</a>，可以直接输入csv数据<br />
+ - 其他方法参考<a href="http://blog.csdn.net/zhulingchen/article/details/2123129">流形学习</a>,<a href="http://colah.github.io/posts/2014-10-Visualizing-MNIST/">MNIST数据集降维可视化效果展示(经典)</a></p>
+<h3 id="_20"><a name="user-content-_20" href="#_20" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>深度学习</h3>
+<h4 id="_21"><a name="user-content-_21" href="#_21" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>神经网络发展历史</h4>
+<ul>
+<li><a href="http://www.cnblogs.com/subconscious/p/5058741.html">重磅！神经网络浅讲：从神经元到深度学习</a><br />
+<img alt="brief history of neural network" src="https://raw.githubusercontent.com/qingkaikong/blog/master/38_ANN_part1/figures/figure1_ANN_history.jpg" /><br />
+<a href="http://qingkaikong.blogspot.com/2016/11/machine-learning-3-artificial-neural.html">图片源自ANN简介</a><br />
+<img alt="神经网络发展历史" src="http://www.36dsj.com/wp-content/uploads/2016/01/391-880x478.jpg" /></li>
+</ul>
+<h4 id="_22"><a name="user-content-_22" href="#_22" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>神经网络网络结构变化</h4>
+<p><img alt="网络结构变化历史" src="http://www.36dsj.com/wp-content/uploads/2016/01/40-880x584.jpg" /><br />
+当然，光有强大的内在能力，并不一定能成功。一个成功的技术与方法，不仅需要内因的作用，还需要时势与环境的配合。神经网络的发展背后的外在原因可以被总结为：更强的计算性能，更多的数据，以及更好的训练方法。只有满足这些条件时，神经网络的函数拟合能力才能得已体现<br />
+-【2017-8-7】<a href="https://medium.com/towards-data-science/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464">The mostly complete chart of Neural Networks, explained</a>,神经网络结构大全<br />
+<img alt="all type of nerual network" src="https://cdn-images-1.medium.com/max/2000/1*cuTSPlTq0a_327iTPJyD-Q.png" /></p>
+<p><img alt="发展外因" src="http://www.36dsj.com/wp-content/uploads/2016/01/418.jpg" /></p>
+<h4 id="_23"><a name="user-content-_23" href="#_23" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>深度学习大牛</h4>
+<ul>
+<li>Geoffrey Hinton ：深度学习鼻祖</li>
+<li><a href="http://yann.lecun.com/">Yann Lecun(杨立昆)</a>,CNN发明人，Goeffery Hinton的学生，首创LeNet</li>
+<li>Yoshua Bengio ：也是深度学习</li>
+<li>Andrew Ng ：Hinton的合作伙伴。coursera公开课,<a href="https://www.youtube.com/watch?v=n1ViNeWhC24">Andrew Ng: Deep Learning, Self-Taught Learning and Unsupervised Feature Learning</a>,<a href="http://blog.csdn.net/nnnnnnnnnnnny/article/details/53524858">《MACHINE LEARNING YEARNING》翻译</a></li>
+<li>深度学习四大天王及其关系</li>
+<li><img alt="四大天王" src="http://img3.imgtn.bdimg.com/it/u=1323144230,909901567&amp;fm=214&amp;gp=0.jpg" /></li>
+<li><img alt="关系" src="http://images0.cnblogs.com/blog2015/678029/201508/221936578479366.png" /></li>
+<li><img alt="关系" src="http://images2015.cnblogs.com/blog/899685/201612/899685-20161211130512538-166288396.jpg" /></li>
+<li><a href="http://yann.lecun.com/">Yann Lecun(杨立昆)</a>,CNN发明人，Goeffery Hinton的学生，首创LeNet<br />
+  - <img alt="LeNet-5结构" src="http://img.blog.csdn.net/20160107230058907" /></li>
+<li><a href="http://yann.lecun.com/exdb/lenet/">LeNet-5手写数字识别示意图</a>,<a href="http://scs.ryerson.ca/~aharley/vis/conv/">CNN手写数字识别实时3D交互，能看到详细的参数（非常直观）</a>,【2017-8-8】更令人震惊的3D模拟效果（视频）<a href="https://www.youtube.com/watch?v=3JQ3hYko51Y">Neural Network 3D Simulation</a>，<a href="https://www.cybercontrols.org/neuralnetworks">制作方官网提供的解释</a>,实时视频中的CNN各层效果<a href="https://www.youtube.com/watch?v=Gu0MkmynWkw">What convolutional neural networks see</a>,<a href="https://www.youtube.com/watch?v=AgkfIQ4IGaM">Deep Visualization Toolbox</a></li>
+<li><img alt="LeNet-5 gif" src="http://yann.lecun.com/exdb/lenet/gifs/asamples.gif" /></li>
+</ul>
+<p>- 可视化资料:<a href="http://playground.tensorflow.org/#activation=tanh&amp;batchSize=10&amp;dataset=circle&amp;regDataset=reg-plane&amp;learningRate=0.03&amp;regularizationRate=0&amp;noise=0&amp;networkShape=4,2&amp;seed=0.45786&amp;showTestData=false&amp;discretize=false&amp;percTrainData=50&amp;x=true&amp;y=true&amp;xTimesY=false&amp;xSquared=false&amp;ySquared=false&amp;cosX=false&amp;sinX=false&amp;cosY=false&amp;sinY=false&amp;collectStats=false&amp;problem=classification&amp;initZero=false&amp;hideText=false">Google PlayGround神经网络训练在线演示</a>,<a href="http://cs.stanford.edu/people/karpathy/convnetjs//demo/classify2d.html">ConvNetJS两层神经网络实时训练和可视化（可定制网络结构，看隐层空间,作者是Andrej Karpathy）</a>，<a href="http://cs.stanford.edu/people/karpathy/convnetjs/">Andrej Karpathy的其他Demo主页</a><br />
+- 资料：<a href="http://www.cs.nyu.edu/~yann/talks/lecun-20090720-vlpr-01.pdf">Deep Learning(ppt)</a>,<a href="http://www.cs.nyu.edu/~yann/talks/lecun-20080905-mlss-manifold.pdf">Manifold</a><br />
+- <a href="https://aiexperiments.withgoogle.com/">Google AI实验室</a>，包含多种AI Demo(手写预测，<a href="https://aiexperiments.withgoogle.com/what-neural-nets-see">卷积网络可视化</a>，<a href="http://projector.tensorflow.org/">高维数据可视化</a>，autodraw，quickdraw，<a href="https://aiexperiments.withgoogle.com/giorgio-cam/view/">摄像头物品识别</a>，声音合成，<a href="https://oxism.com/thing-translator/">实物翻译</a>，手势控制)。<br />
+-【2017-11-24】<a href="https://graphics.stanford.edu/courses/cs178/applets/convolution.html">卷积核效果在线实验</a></p>
+<ul>
+<li>【2017-9-8】<a href="http://brohrer.github.io/blog.html">Data Science and Robots</a>,<a href="http://brohrer.github.io/index.html">Brandon Rohrer</a>.<a href="https://www.youtube.com/watch?v=ILsA4nyG7I0&amp;feature=share">How Deep Neural Networks Work</a>,<a href="https://docs.google.com/presentation/d/1AAEFCgC0Ja7QEl3-wmuvIizbvaE-aQRksc7-W8LR2GY/edit#slide=id.g1cc8f6e4e5_0_303">ppt</a></li>
+<li>[2017-9-13]Lighthouse:smart camera,video: <a href="https://youtu.be/erZBQ8nv_M0">the future of home</a></li>
+<li>【2017-10-11】<a href="https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&amp;mid=2653163378&amp;idx=1&amp;sn=1d7728cdad982c0cc595036bcbe8fbd7&amp;chksm=8b49321cbc3ebb0ac0ba0daf9f65f44fc86a26a019c7bf4ce9627cbd42d98b90c24787caaa40&amp;mpshare=1&amp;scene=23&amp;srcid=1009kT4PvNGcTlOHrcm9cgm9#rd">吴恩达眼中的深度学习七雄</a></li>
+</ul>
+<h4 id="_24"><a name="user-content-_24" href="#_24" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>深度学习书籍</h4>
+<p>几本有名的书籍：</p>
+<blockquote>
+<p>【2017-8-5】<strong>Neural Network and Deep Learning(神经网络与深度学习)</strong>，<a href="http://michaelnielsen.org/">Michael Nielsen</a>，这本书通俗易懂，由浅入深,细致讲解了神经网络，<a href="http://neuralnetworksanddeeplearning.com/index.html">英文版(官网)</a>,<a href="https://github.com/mnielsen/neural-networks-and-deep-learning">配套Code</a>,<a href="http://download.csdn.net/download/pb09210/9556832">中文版CSDN下载地址</a>，书籍开源，作者求捐助5美元，<a href="https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details">GitBook中文翻译地址</a></p>
+<p><a href="https://exacity.github.io/deeplearningbook-chinese/">Deep Learning中文版</a>,<a href="http://www.deeplearningbook.org/front_matter.pdf">英文版</a>,<a href="http://www.deeplearningbook.org/lecture_slides.html">官方slides地址</a>,<a href="https://github.com/exacity/simplified-deeplearning">github中文读书笔记</a></p>
+</blockquote>
+<h4 id="_25"><a name="user-content-_25" href="#_25" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>大神博客</h4>
+<ul>
+<li><a href="http://karpathy.github.io/neuralnets/">Andrej Karpathy博客</a>,<a href="http://colah.github.io/">Colah&rsquo;s Blog</a>,<a href="http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/">Neural Networks, Manifolds, and Topology</a>,<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a>,<a href="https://deepnotes.io/implementing-cnn">印度人总结的cnn笔记</a></li>
+<li><a href="https://www.zhihu.com/question/22553761">如何简单有趣的讲解神经网络(优质)</a>,<a href="https://mp.weixin.qq.com/s?__biz=MzIyNDA1NjA1NQ==&amp;mid=2651003012&amp;idx=1&amp;sn=323f7ebd22520d8cb08f35fa35d4e89a&amp;chksm=f3e37f1cc494f60aabe5fd38235e6779769a6031d8128adfb912fc5f4c34c33e23c369d7a827&amp;mpshare=1&amp;scene=23&amp;srcid=0630lUih5zoLdXoKDEZtXLBT#rd">什么是人工神经网络（数学模拟过程清晰）</a></li>
+<li><a href="http://www.36dsj.com/archives/20382">一文读懂深度学习</a>，<a href="http://blog.csdn.net/yinlili2010/article/details/47760389">深度学习：像人脑一样深层次思考</a></li>
+<li>Deep Learning（深度学习）学习笔记整理<a href="http://blog.csdn.net/zouxy09/article/details/8775360/">第一部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8775488">第二部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8775518">第三部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8775524">第四部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8777094">第五部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8781396">第六部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8781543">第七部分</a>|<a href="http://blog.csdn.net/zouxy09/article/details/8782018">第八部分</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/22888385">深度学习为何要深?</a>,<a href="https://www.gitbook.com/book/yjango/superorganism/details">超智能体gitbook</a>,<a href="http://v.youku.com/v_show/id_XMTY5NDUzNjIxNg==.html?from=s1.8-1-1.2&amp;spm=0.0.0.0.LZsB12%EF%BC%8C%E4%B8%80%E5%A4%A9%E6%90%9E%E6%87%82%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92--%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97">台大李宏毅：一天搞懂深度学习</a>，<a href="http://scs.ryerson.ca/~aharley/vis/conv/">CNN原理3D交互演示</a>，<br />
+-【2017-8-6】Andrew NG, 优质ppt <a href="https://forum.stanford.edu/events/2011/2011slides/plenary/2011plenaryNg.pdf">Machine Learning and AI via brain simulations</a></li>
+<li>【TensorFlow】：<a href="https://www.youtube.com/watch?v=dYhrCUFN0eM&amp;feature=youtu.be">Gentlest Introduction to Tensorflow-日本人Khor SoonHin</a>，中文翻译版：小白也能懂的TensorFlow介绍<a href="https://baijiahao.baidu.com/po/feed/share?wfr=spider&amp;for=pc&amp;context=%7B%22sourceFrom%22%3A%22bjh%22%2C%22nid%22%3A%22news_3418700520043930080%22%7D">上</a>,<a href="https://www.jiqizhixin.com/articles/67507027-b7e2-4597-b510-2e060d64e1a3">下</a>；<a href="https://web.stanford.edu/class/cs20si/syllabus.html">CS 20SI: Tensorflow for Deep Learning Research</a>，<a href="http://www.jianshu.com/p/076a3e794312">TensorBoard使用方法</a>，<a href="https://ep2017.europython.eu/media/conference/slides/introduction-to-tensorflow.pdf">introduction-to-tensorflow(PPT)</a></li>
+<li>作者斯坦福学生<a href="https://huyenchip.com/">Chin Huyen</a>, <a href="https://www.leiphone.com/news/201612/Sjkmer9Kto5ILxFk.html?viewType=weixin">Yann LeCun连发三弹：人人都懂的深度学习基本原理（附视频）</a></li>
+<li><a href="http://list.youku.com/albumlist/show?id=21508721&amp;ascending=1&amp;page=1">上海复旦大学吴立德教授的《深度学习课程》</a>,<a href="http://blog.csdn.net/malefactor/article/details/52040228#0-tsina-1-63822-397232819ff9a47a7b7e80a40613cfe1">张俊林：深度学习在搜索推荐领域的应用</a></li>
+<li><a href="http://my.tv.sohu.com/pl/9161916/84849655.shtml">深度学习</a>，<a href="http://www.36dsj.com/archives/39775">从神经元到深度学习</a>,神经网络与深度学习：<a href="http://neuralnetworksanddeeplearning.com/">英文网址</a>，<a href="http://download.csdn.net/detail/pb09210/9556832">中文版下载地址</a></li>
+<li>【2017-8-1】<a href="http://www.hankcs.com/ml/back-propagation-neural-network.html">反向传播神经网络极简入门</a>（含python代码实现）。Colah的<a href="http://colah.github.io/posts/2015-08-Backprop/">Calculus on Computational Graphs: Backpropagation</a>.</li>
+<li>1974年有个Harvard博士生Paul Werbos首次提出了backprop，不过没人理他。1986年，Rumelhart和Hinton一起重新发现了backprop，并且有效训练了一些浅层网络，一下子开始有了名气。那个时候的backprop从现在看来并不是个很清晰的概念，把梯度和更新一块打包了。（<a href="https://www.zhihu.com/question/27239198/answer/43560763">知乎達聞西</a>）。论文：Rumelhart D E, Hinton G E, Williams R J. Learning representations by back-propagating errors[M]. MIT Press, Cambridge, MA, USA, 1988.</li>
+<li>BP算法解释（多图）：<a href="http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html">Principles of training multi-layer neural network using backpropagation</a>。<a href="http://blog.csdn.net/sheng_ai/article/details/19931347">BP算法推导</a>,<a href="https://theclevermachine.wordpress.com/tag/backpropagation/">A Gentle Introduction to Artificial Neural Networks</a>,<a href="http://www.cnblogs.com/charlotte77/p/5629865.html">一文弄懂神经网络中的反向传播法——BackPropagation</a>,<a href="https://www.zhihu.com/question/27239198?rf=24827633">如何直观地解释 back propagation 算法？</a></li>
+<li><a href="http://my.tv.sohu.com/pl/9161916/84849655.shtml">寒小阳：深度学习视频</a></li>
+<li>【2017-8-22】非常好的机器学习/深度学习系列教程：<a href="https://medium.com/@ageitgey">Machine Learning is Fun</a>，作者<a href="https://twitter.com/ageitgey">Adam Geitgey</a>,<a href="https://zhuanlan.zhihu.com/c_29122335">知乎专栏中文翻译(来自混沌巡洋舰)</a>，系列：</li>
+<li><a href="https://zhuanlan.zhihu.com/p/24450104">第一章：最简入门指南</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/24344720">第二章：用机器学习制作超级马里奥关卡</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/24524583">第三章：图像识别，鸟还是飞机？深度学习与卷积网络</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/24567586">第四章：用深度学习识别人脸</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/24590838">第五章：谷歌翻译背后的黑科技：神经网络和端到端学习</a>,<a href="https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa">Machine Learning is Fun Part 5: Language Translation with Deep Learning and the Magic of Sequences</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/24703268">第六章：如何用深度学习进行语音识别？</a>，<a href="https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a">Machine Learning is Fun Part 6: How to do Speech Recognition with Deep Learning</a></li>
+<li><a href="">第七章：未翻译</a>,<a href="https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7">Machine Learning is Fun Part 7: Abusing Generative Adversarial Networks to Make 8-bit Pixel Art</a></li>
+<li><a href="">第八章：未翻译</a>,<a href="https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196">Machine Learning is Fun Part 8: How to Intentionally Trick Neural Networks</a></li>
+<li>[2017-8-23]MRSA KaiMing He<a href="https://www.youtube.com/watch?v=jHv37mKAhV4">Tutorial: Deep Learning for Objects and Scenes</a></li>
+<li>[2017-8-23]<a href="https://github.com/dformoso/machine-learning-mindmap">Machine Learning Mindmap / Cheatsheet</a>,<a href="https://github.com/dformoso/sklearn-classification">sklearn</a>,<a href="https://github.com/dformoso/sklearn-classification/blob/master/Data%20Science%20Workbook%20-%20Census%20Income%20Dataset.ipynb">Data Science, Classification Analysis Jupyter notebook</a></li>
+<li>【2017-10-10】<a href="https://www.jiqizhixin.com/articles/2017-10-10-3">26种神经网络激活函数可视化</a>,<a href="https://dashee87.github.io/data%20science/deep%20learning/visualising-activation-functions-in-neural-networks/">Visualising Activation Functions in Neural Networks</a>(可交互)</li>
+</ul>
+<h4 id="demo"><a name="user-content-demo" href="#demo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>案例及Demo</h4>
+<ul>
+<li><a href="https://www.clarifai.com/demo">ClarifAI图像视频物体识别</a></li>
+<li>【2017-8-31】<a href="http://deeplearning.cs.toronto.edu/i2t">Toranto Deep Learning Demos</a>,涉及图像分类+图像标注，服务性能有限，响应不及时</li>
+<li><a href="https://pair-code.github.io/deeplearnjs/#getting-started">Deeplearn.js</a></li>
+<li><a href="http://v.youku.com/v_show/id_XMjg5ODUzMTEyMA==.html">你们天天嚷嚷神经网络, 可是知道一开始的赫布律么?</a></li>
+<li>【2017-8-30】<a href="https://jizhi.im/blog/post/45_questions_deep_learning">45个问题测出你的深度学习基本功</a>,<a href="https://www.analyticsvidhya.com/blog/2017/01/must-know-questions-deep-learning/">45 Questions to test a data scientist on basics of Deep Learning (along with solution)</a></li>
+<li><a href="http://places.csail.mit.edu/demo.html">MIT Scene Recognition Demo</a></li>
+<li><a href="https://deepdreamgenerator.com/">DeepDream Demo</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/26392608">20个令人惊叹的深度学习应用(欢迎补充)：Demo+Paper+Code</a></li>
+<li>[2017-9-20]<a href="https://clarifai.com/demo#">ClarifAI在线Demo（目标检测、人脸识别、色情识别、场景识别等）</a></li>
+</ul>
+<h4 id="cnn"><a name="user-content-cnn" href="#cnn" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>CNN</h4>
+<ul>
+<li><a href="http://www.ifanr.com/648667">ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？</a>, <a href="https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455">TED视频</a>,<a href="http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html">网易公开课</a></li>
+<li><a href="http://cs231n.github.io/neural-networks-3/">CS231n Convolutional Neural Networks for Visual Recognition</a>,<a href="https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC">Youtube视频地址</a>，<a href="https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw">Andrej Karpathy Youtube主页</a>，<a href="https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&amp;utm_source=wechat_session&amp;from=groupmessage">CS231n官方笔记授权翻译总集篇发布</a></li>
+</ul>
+<hr />
+<h4 id="rnn"><a name="user-content-rnn" href="#rnn" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>RNN</h4>
+<ul>
+<li>循环神经网络RNN:<a href="https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm">BiLSTM iMDB影评分类可视化Demo</a></li>
+<li><a href="http://www.ifanr.com/648667">ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？</a>, <a href="https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455">TED视频</a>,<a href="http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html">网易公开课</a></li>
+<li>[2017-8-17]<a href="http://web.stanford.edu/class/cs224n/">CS224n: Natural Language Processing with Deep Learning</a></li>
+<li><a href="https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0">Neural Nets for Generating Music</a><br />
+<img alt="RNN" src="https://cdn-images-1.medium.com/max/2000/1*my_udGVBPa4U5L6U_9m81Q.png" /></li>
+<li>Word2Vec教程：通俗易懂，Part-1，<a href="http://blog.csdn.net/layumi1993/article/details/72866235">Skip-Gram模型</a>,<a href="http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/">原文：word2vec tutorial the skip-gram model</a>；Part-2，<a href="http://blog.csdn.net/Layumi1993/article/details/72868399">Negative Sampling</a>，<a href="http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/">原文</a><br />
+<img alt="skip-gram net" src="http://mccormickml.com/assets/word2vec/skip_gram_net_arch.png" /></li>
+<li><a href="https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/?blogsub=confirming#subscribe-blog">The amazing power of word vectors</a></li>
+</ul>
+<hr />
+<h4 id="_26"><a name="user-content-_26" href="#_26" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>对抗生成学习</h4>
+<p>VAE和GAN，<a href="https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png">VAE和GAN</a><br />
+- [2017-7-28]AI专家的忏悔<a href="https://huyenchip.com/2017/07/28/confession.html?from=timeline">Confession of a so-called AI expert</a><br />
+- 【2017-7-30】Google的AI产品：<a href="https://quickdraw.withgoogle.com">QuickDraw</a>，类似你画我猜，只是用机器来猜<br />
+- <a href="http://soumith.ch/eyescream/">Facebook AI实验室最新的实时GAN图片展示</a><br />
+- 集智俱乐部李嫣然：<a href="https://zhuanlan.zhihu.com/p/27663439">《深入浅出GAN-原理与应用》学习笔记</a>，<a href="https://zhuanlan.zhihu.com/p/27663139">厉害了，我的GAN</a></p>
+<h3 id="_27"><a name="user-content-_27" href="#_27" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>强化学习</h3>
+<ul>
+<li>强化学习、监督学习和无监督学习对比：<img alt="强化学习、监督学习和无监督学习对比" src="http://upload-images.jianshu.io/upload_images/1667471-96a418676c3fed5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" /></li>
+<li><a href="http://geek.csdn.net/news/detail/201928">一文了解强化学习</a></li>
+<li>【2017-7-31】<a href="https://zhuanlan.zhihu.com/reinforce">David Silver 强化学习公开课中文讲解</a></li>
+<li>【2017-8-21】<a href="http://blog.csdn.net/itplus/article/details/9361915">Q-learning算法简明教程</a>，<a href="http://mnemstudio.org/path-finding-q-learning-tutorial.htm">英文原文</a></li>
+<li>【2017-8-29】AK的博客<a href="http://karpathy.github.io/2016/05/31/rl/">Deep Reinforcement Learning: Pong from Pixels</a></li>
+</ul>
+<h3 id="_28"><a name="user-content-_28" href="#_28" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>迁移学习</h3>
+<ul>
+<li>【2017-9-3】中科院计算所<a href="http://jd92.wang/assets/files/l08_tl_zh.pdf">迁移学习pdf</a></li>
+<li>【2017-9-3】集智俱乐部，迁移学习资料汇总<a href="https://zhuanlan.zhihu.com/p/28792291">github</a><a href="https://github.com/wantingallin/transferlearning">知乎</a></li>
+</ul>
+<h3 id="_29"><a name="user-content-_29" href="#_29" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>知识图谱</h3>
+<ul>
+<li><a href="http://blog.memect.cn/?p=2005">精益知识图谱方法论</a>，文因互联鲍捷组件的<a href="https://github.com/memect/kg-beijing">北京知识图谱学习班</a>,<a href="http://blog.memect.cn/?p=3022">知识管理和语义搜索的哲学思考</a>,更多资料参考<a href="https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&amp;mid=502876225&amp;idx=1&amp;sn=25894a894cc2c58214ddde13e0a8ef93&amp;chksm=03907c9d34e7f58b57b068d0e7e74ac3db935a131cc7955478b58a98b9bc5c2b239c8ee03129&amp;mpshare=1&amp;scene=23&amp;srcid=1201jRGgplUzlGGggjBesJuI#rd">将门创业历届活动嘉宾视频及ppt</a>, <a href="https://zhuanlan.zhihu.com/p/25190575">八一八聊天机器人</a>，<a href="http://www.woshipm.com/pd/441725.html">聊天机器人终极设计指南</a>，<a href="http://www.eeworld.com.cn/qrs/article_2016081529734.html">一文看懂聊天机器人的所有猫腻</a></li>
+</ul>
+<h3 id="_30"><a name="user-content-_30" href="#_30" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>数据挖掘</h3>
+<ul>
+<li><a href="http://www.cnblogs.com/xiaofeng1234/p/5997018.html?from=timeline">谁说菜鸟不会数据分析【脑图笔记】</a></li>
+<li><a href="http://www.cnblogs.com/xiaofeng1234/p/6024479.html">SQL必知必会【脑图笔记】</a></li>
+<li>SQL各种join区别: <br />
+<img alt="join区别" src="http://images2015.cnblogs.com/blog/594609/201601/594609-20160120105945578-386143616.png" /></li>
+<li>经验总结：<a href="http://weibo.com/ttarticle/p/show?id=2309403973170330790744">以什么姿势进入DataMining会少走弯路？</a></li>
+<li><a href="http://download.csdn.net/detail/laoge/9386026">大嘴巴漫谈数据挖掘</a>（易向军），图解各种基础知识和算法概念——五星推荐</li>
+<li><a href="https://zhuanlan.zhihu.com/p/27424282">分分钟带你杀入Kaggle Top 1%</a>,<a href="https://zhuanlan.zhihu.com/p/28084438">Kaggle求生：亚马逊热带雨林篇</a></li>
+<li>[2017-8-30]<a href="https://jizhi.im/blog/post/kaggle_silver">Kaggle 首战拿银总结 | 入门指导 (长文、干货）</a></li>
+</ul>
+<h3 id="_31"><a name="user-content-_31" href="#_31" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>人脸识别</h3>
+<ul>
+<li>权威书籍<a href="https://cours.etsmtl.ca/sys828/REFS/Intro/Hanbook%20of%20Face%20Recognition.pdf">Handbook of Face Recognition</a></li>
+<li><a href="https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78">Modern Face Recognition with Deep Learning</a><br />
+<img alt="How a basic pipeline for detecting faces might work" src="https://cdn-images-1.medium.com/max/1600/1*WxBM1lB5WzDjrDXYfi9gtw.gif" /></li>
+<li>Face Point<br />
+<img alt="Face Point" src="https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png" /></li>
+<li>Face Compare<br />
+<img alt="Face Compare" src="https://cdn-images-1.medium.com/max/1600/1*n1R8VMyDRw3RNO3JULYBpQ.png" /></li>
+<li>[2017-9-20]<a href="https://github.com/hxl1990/openpose">CMU OpenPose姿势识别</a></li>
+<li><img alt="图" src="https://github.com/hxl1990/openpose/raw/master/doc/media/pose_face_hands.gif" /></li>
+<li>[2017-9-21]自拍照三维重建<a href="http://www.cs.nott.ac.uk/~psxasj/3dme/index.php">3D Face Reconstruction from a Single Image</a></li>
+<li><img alt="demo" src="https://cdn.vox-cdn.com/thumbor/fXbE0rbXW6WlcmtB1cKBiTsV1b0=/0x0:482x334/1820x1213/filters:focal(203x129:279x205" />:no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/56734861/3d_mark_take_2.0.gif)</li>
+</ul>
+<h2 id="it"><a name="user-content-it" href="#it" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>IT资讯</h2>
+<ul>
+<li>查公司信息：<a href="http://www.tianyancha.com/">天眼查</a>,<a href="https://www.itjuzi.com/">IT桔子</a></li>
+<li><a href="https://github.com/shengxinjing/programmer-job-blacklist">互联网黑名单</a></li>
+<li>股权信息：<a href="https://zhuanlan.zhihu.com/guquanzhoukan">股权周刊</a>(各种股权纠纷案例,作者<a href="https://www.zhihu.com/people/guquanzhoukan/answers">邓永权</a>)。<a href="http://bbs.pinggu.org/thread-4526409-1-1.html">【干货】创业公司融资时如何分配股权？融资后一般怎么稀释？</a></li>
+<li><a href="http://www.cnblogs.com/coderland/p/5903051.html">程序员跳槽全攻略-读书笔记</a><br />
+<img alt="图" src="http://images2015.cnblogs.com/blog/1025005/201609/1025005-20160924130454027-1184504966.png" /></li>
+<li>Gartner：技术成熟度曲线.<a href="http://www.cniteyes.com/archives/26460">Gartner2016 年度新兴技术成熟度曲线解读：3 大趋势、16 个新技术</a><br />
+<img alt="图" src="http://www.cniteyes.com/data/uploads/2016/08/2-4.jpg" /></li>
+<li><a href="http://www.toutiao.com/a6442203091621314818/?tt_from=mobile_qq&amp;utm_campaign=client_share&amp;app=news_article_lite&amp;utm_source=mobile_qq&amp;iid=12181093832&amp;utm_medium=toutiao_android">互联网大佬的出生地图鉴</a></li>
+<li><a href="https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense?language=zh-cn#t-492870">SixSence</a>,<a href="https://www.youtube.com/watch?v=YrtANPtnhyg">The thrilling potential of SixthSense technology</a>,<a href="http://www.pranavmistry.com/projects/sixthsense/#VIDEOS">Pranav Mistry</a></li>
+<li><img alt="example" src="http://www.virtualspeechcoach.com/wp-content/uploads/2014/01/ppt-7-500x282.jpg" /></li>
+<li>IT橘子<a href="https://www.itjuzi.com/ai">人工智能全产业链图谱</a></li>
+</ul>
+<h2 id="_32"><a name="user-content-_32" href="#_32" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>工具</h2>
+<ul>
+<li>视频下载工具：<a href="http://www.jianshu.com/p/e7d2c3a624f6">流媒体下载的10种方法</a></li>
+<li><a href="http://www.flvcd.com/">硕鼠</a>(可以下载流视频，可按专辑下载)，<a href="http://www.pc6.com/mac/118056.html">硕鼠Mac版下载地址</a>（官网地址有问题）</li>
+<li><a href="http://www.vidown.cn/">维棠</a></li>
+<li>YouTube视频下载：(更多方法参考知乎帖子：<a href="https://www.zhihu.com/question/51714507?sort=created">如何下载youtube视频</a>)<br />
+  - （1）每个视频域名稍作修改即可（youtube.com-&gt;kissyoutube.com）,<a href="https://savemedia.com/">SaveMedia</a>提供，在线下载+系列视频自动推荐<br />
+  - (2) python代码下载,pip3 install you-get,you-get &lsquo;<a href="https://www.youtube.com/watch?v=jNQXAC9IVRw">https://www.youtube.com/watch?v=jNQXAC9IVRw</a>&rsquo;, 支持的视频网站范围广</li>
+<li>(3) <a href="http://www.clipconverter.cc/">clipconverter</a></li>
+<li><a href="https://github.com/getlantern/forum/issues/833">lantern下载</a></li>
+<li>在线代码着色（高亮）：<a href="http://markup.su/highlighter/">国外：含语言类型自动识别（优）</a>,<a href="http://tool.oschina.net/highlight">国内：在线代码着色器（需要自己勾选）</a>,<a href="https://app.grammarly.com/">实时英文拼写检测</a></li>
+<li><a href="http://harttle.com/2015/11/04/vim-ide.html">如何使用VIM搭建IDE？</a>,<img alt="VIM键盘图" src="http://harttle.com/assets/img/blog/vim-key.png" /></li>
+<li><a href="http://peihao.space/2016/01/30/QR/">python下的二维码生成与解析</a></li>
+</ul>
+<h3 id="_33"><a name="user-content-_33" href="#_33" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>实验评估</h3>
+<ul>
+<li>第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. <a href="https://www.zhihu.com/question/20045543/answer/59025552">什么是ab-test？</a></li>
+<li>A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。</li>
+<li><a href="http://blog.csdn.net/weiguang_123/article/details/49203239">工程实施：叫你如何对产品进行AB Test？</a>，包含服务端、客户端如何实施ab-test，及各自的优缺点</li>
+<li><a href="https://www.zhihu.com/question/19631253">ab-test有什么局限性？</a></li>
+<li>首先，A/B测试只有在关键效绩指标(KPI, or Key Performance Indicator)单一，且这个单一明确的目标可以被电脑量化时，适用</li>
+<li>其次，A/B测试相比起一些别的测试手段，如纸本原型(paper prototyping)，需要的工作量大、时间长，对设计的要求也相对较高。</li>
+<li>另外，A/B测试之所以进行，唯一原因是对结果的追求。但相对应的测试结果通常是短期、即刻的用户行为，比如购买、注册、点击等。</li>
+<li>此外，A/B测试并不能提供用户行为的具体细节。A/B测试的结果也仅限于被测试的两个选项：如果12号字比16号字为你的网站带来多1%的用户浏览时间，那10号字呢？8号呢？A/B测试并不能帮助你作更多的、长远的决定。</li>
+<li>A/B测试还有别的缺点：需要的用户人数大，可能的影响因素多，可以测试的选项数有很大限制等等。</li>
+<li><a href="http://www.appadhoc.com/blog/category/appadhoc/">吆喝科技-ab-test最佳实践</a></li>
+<li>第二种：<font color=#0099ff size=5 face="黑体">interleaving</font></li>
+<li><a href="http://www.jianshu.com/p/88f206f48278">灰度发布和A/B Test</a></li>
+</ul>
+<h2 id="_34"><a name="user-content-_34" href="#_34" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>编程语言</h2>
+<ul>
+<li><a href="http://www.vaikan.com/imperative-vs-declarative/">命令式编程和声明式编程的区别</a></li>
+<li><a href="http://www.cnblogs.com/Eilen/p/6944345.html">go语言开发者必读的陷阱、技巧、错误</a></li>
+<li>python：<a href="http://www.cnblogs.com/xiaofeng1234/p/6052051.html">python小白笔记</a>，<a href="http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html">python正则表达式</a></li>
+<li><a href="http://blog.csdn.net/liang19890820/article/details/51734118">The Zen of Python(Python之禅)</a></li>
+<li><img alt="python" src="http://img.blog.csdn.net/20160908133049363" /></li>
+<li><font color='red' size=5>Python 之禅</font>， by Tim Peters</li>
+<li>优美胜于丑陋（Python 以编写优美的代码为目标） </li>
+<li>明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似） </li>
+<li>简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现） </li>
+<li>复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁） </li>
+<li>扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套） </li>
+<li>间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题） </li>
+<li>可读性很重要（优美的代码是可读的） </li>
+<li>即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上） </li>
+<li>不要包容所有错误，除非你确定需要这样做（精准地捕获异常，不写except:pass风格的代码） </li>
+<li>当存在多种可能，不要尝试去猜测 </li>
+<li>而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法） </li>
+<li>虽然这并不容易，因为你不是 Python 之父（这里的 Dutch 是指 Guido） </li>
+<li>做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量） </li>
+<li>如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准） </li>
+<li>命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）</li>
+<li>【2017-11-23】python编码规范，目前有google和pep8两种，pylint默认pep8，<a href="https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/">Google python编码规范</a>，<a href="https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/">如何用pylint规范代码风格</a></li>
+<li>安装方法：sudo pip install -U pep8/pylint</li>
+<li><a href="https://zhuanlan.zhihu.com/p/24162430">给深度学习入门者的Python快速教程 - 基础篇</a>,<a href="https://zhuanlan.zhihu.com/p/24309547">numpy和Matplotlib篇</a>.[Python超简洁教程,含图示,在线调试[(<a href="https://jizhi.im/blog/post/pythonbasics">https://jizhi.im/blog/post/pythonbasics</a>)</li>
+<li>老外的Matplotlib教程,<a href="http://www.labri.fr/perso/nrougier/teaching/matplotlib/">英文原文</a>_,<a href="https://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/">中文译文</a>，<a href="http://matplotlib.org/gallery.html">Matplotlib官方艺术馆</a></li>
+<li><a href="http://blog.csdn.net/u012675539/article/details/47113147">Pandas学习笔记</a>，<a href="http://www.cnblogs.com/chaosimple/p/4153083.html">十分钟搞定pandas</a></li>
+<li>pandas读取excel数据示例<br />
+ 2016-7-30】</li>
+<li>【2017-11-23】<a href="http://blog.csdn.net/lovelion/article/details/17517213">史上最全设计模式导学目录</a></li>
+</ul>
+<h2 id="_35"><a name="user-content-_35" href="#_35" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>视频资源</h2>
+<h3 id="_36"><a name="user-content-_36" href="#_36" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>公开课</h3>
+<ul>
+<li>哈佛大学《公正》系列公开课：<a href="http://justiceharvard.org/justicecourse/">哈佛英文主页</a>,<a href="http://v.163.com/special/sandel/episode06.html">网易中文翻译</a></li>
+<li>自律更自由：康德</li>
+<li><a href="http://www.sohu.com/a/116444282_482877">一张图弄明白：从零维到十维空间</a>,<a href="http://video.tudou.com/v/XMTc4ODE0ODAwMA==.html">11分钟带你进入十次元的世界(video)</a>,<a href="http://www.guokr.com/post/433527/">GuoKr&rsquo;s explornation</a></li>
+<li><a href="https://www.youtube.com/watch?v=MtKHKPCy0cI">懂了这些之后 才知道如何去赚钱</a>(经济学原理)</li>
+<li>【2017-8-25】<a href="http://www.365yg.com/group/6457791347830030861/">宇宙揭秘：电子双缝干涉实验，绝对颠覆你的三观甚至让你怀疑人生</a></li>
+<li><a href="http://www.toutiao.com/a6463373238914253326/?tt_from=mobile_qq&amp;utm_campaign=client_share&amp;app=news_article_lite&amp;utm_source=mobile_qq&amp;iid=12181093832&amp;utm_medium=toutiao_android">几幅图让你真正了解什么是硕士学位、什么是博士学位</a></li>
+<li><a href="http://music.163.com/#/video?id=912AF355DA533D2392052A27DFD28F26">一部能让小孩喜欢汉字的动画片</a></li>
+</ul></article></body></html>
