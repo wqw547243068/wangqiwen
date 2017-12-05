@@ -59,6 +59,8 @@ cond(no)->sub->io
 |shell美化|[Oh My ZSH!](http://ohmyz.sh/)|安装：sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"|
 |刻盘|[Etcher](https://etcher.io/)全平台工具|操作过程极其简单|
 |移动硬盘无法写入|原因：mac不支持ntfs格式，需要安装特殊软件：[ntfs for mac](http://www.ntfsformac.cn/xiazai.html)||
+|mac显示当前路径|命令：defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES|顶栏出现路径，还可以点击定位到子目录|
+|mac当前位置打开终端|命令：https://jingyan.baidu.com/article/ce436649281a293773afd3d8.html||
 ---
 ```shell
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
