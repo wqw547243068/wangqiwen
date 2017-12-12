@@ -364,6 +364,11 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![skip-gram net](http://mccormickml.com/assets/word2vec/skip_gram_net_arch.png)
 - [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/?blogsub=confirming#subscribe-blog)
 - 【2017-12-11】CMU,[Neural Network for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
+- 【2017-12-12】NLP牛人
+ - 斯坦福[李纪为](https://web.stanford.edu/~jiweil/)
+  - [李纪为：用于对话生成的深度强化学习](https://baijia.baidu.com/s?old_id=545627)
+  - [让机器像人一样交流：斯坦福李纪为博士毕业论文](https://www.jiqizhixin.com/articles/2017-11-14)
+ - 香港理工[李嫣然](http://yanran.li/about/)
 ---
 #### 对抗生成学习
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
