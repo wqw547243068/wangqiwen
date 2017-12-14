@@ -230,7 +230,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
 - 算法对比
 《统计学习方法》总结：
-![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
+- ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/) 
 - 最优化：各种优化算法对比
