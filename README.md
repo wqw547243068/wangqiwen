@@ -484,6 +484,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - pandas读取excel数据示例
  2016-7-30】
 - 【2017-11-23】[史上最全设计模式导学目录](http://blog.csdn.net/lovelion/article/details/17517213)
+- 【2017-12-14】[字符编码详解——彻底理解掌握编码知识，“乱码”不复存在](http://blog.51cto.com/polaris/377468),[字符字节和编码](http://www.regexlab.com/zh/encoding.htm)
 ## 视频资源
 ### 公开课
 - 哈佛大学《公正》系列公开课：[哈佛英文主页](http://justiceharvard.org/justicecourse/),[网易中文翻译](http://v.163.com/special/sandel/episode06.html)
