@@ -292,7 +292,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - Yoshua Bengio ：也是深度学习
  - Andrew Ng ：Hinton的合作伙伴。coursera公开课,[Andrew Ng: Deep Learning, Self-Taught Learning and Unsupervised Feature Learning](https://www.youtube.com/watch?v=n1ViNeWhC24),[《MACHINE LEARNING YEARNING》翻译](http://blog.csdn.net/nnnnnnnnnnnny/article/details/53524858)
 - 深度学习四大天王及其关系
-- ![四大天王](http://img3.imgtn.bdimg.com/it/u=1323144230,909901567&fm=214&gp=0.jpg)
+- ![四大天王](http://upload.semidata.info/new.eefocus.com/article/image/2017/11/01/59f91af871499-thumb.png)
 - ![关系](http://images0.cnblogs.com/blog2015/678029/201508/221936578479366.png)
 - ![关系](http://images2015.cnblogs.com/blog/899685/201612/899685-20161211130512538-166288396.jpg)
  - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
@@ -401,6 +401,9 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [大嘴巴漫谈数据挖掘](http://download.csdn.net/detail/laoge/9386026)（易向军），图解各种基础知识和算法概念——五星推荐
 - [分分钟带你杀入Kaggle Top 1%](https://zhuanlan.zhihu.com/p/27424282),[Kaggle求生：亚马逊热带雨林篇](https://zhuanlan.zhihu.com/p/28084438)
 - [2017-8-30][Kaggle 首战拿银总结 | 入门指导 (长文、干货）](https://jizhi.im/blog/post/kaggle_silver)
+- 【2017-12-13】知乎[如何快速成为分析师](https://www.zhihu.com/question/29265587),图表建议-思维指南
+- ![excel选图](https://pic1.zhimg.com/50/v2-15e812e7de4c1ddd23144e4e53826cf0_hd.jpg)
+- 【2017-12-14】知乎[数据分析&数据挖掘书籍推荐](https://www.zhihu.com/question/20757000)
 ### 人脸识别
 - 权威书籍[Handbook of Face Recognition](https://cours.etsmtl.ca/sys828/REFS/Intro/Hanbook%20of%20Face%20Recognition.pdf)
 - [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
@@ -486,6 +489,8 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
  2016-7-30】
 - 【2017-11-23】[史上最全设计模式导学目录](http://blog.csdn.net/lovelion/article/details/17517213)
 - 【2017-12-14】[字符编码详解——彻底理解掌握编码知识，“乱码”不复存在](http://blog.51cto.com/polaris/377468),[字符字节和编码](http://www.regexlab.com/zh/encoding.htm)
+- 【2017-12-16】编码总结
+- ![coding](python-coding.png)
 
 - ![编码](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513861868&di=806e504e1bf1cf8e95f64d5f2d006684&imgtype=jpg&er=1&src=http%3A%2F%2Fs1.knowsky.com%2F20170206%2Flabih04zb2137.png)
 ## 视频资源
