@@ -325,7 +325,10 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 | Hinton | 机器学习和神经网络，[网易云课堂](https://study.163.com/course/introduction.htm?courseId=1003842018)||
 | chris manning | [斯坦福2017季CS224n深度学习自然语言处理课程](https://www.bilibili.com/video/av13383754/?from=search&seid=11933326047978202113) ||
 |李宏毅|[李宏毅Machine Learning (2017,秋，台湾大学) ](https://www.bilibili.com/video/av15889450/?from=search&seid=16362427614856778742)||
-
+|牛津|深度学习NLP（牛津大学 2017）（英文字幕）[bilibili地址](https://www.bilibili.com/video/av9817911/)||
+|andrew ng|吴恩达深度学习与神经网络,[bilibili地址](https://www.bilibili.com/video/av15235628/)|deeplearning.ai|
+|Ian good fellow|《深度学习》读书会分享视频集,[bilibili地址](https://www.bilibili.com/video/av15558220/#page=14)||
+||[普林斯顿-算法](https://www.bilibili.com/video/av9995456/)||
 #### 大神博客
 - [Andrej Karpathy博客](http://karpathy.github.io/neuralnets/),[Colah's Blog](http://colah.github.io/),[Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/),[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/),[印度人总结的cnn笔记](https://deepnotes.io/implementing-cnn)
 - [如何简单有趣的讲解神经网络(优质)](https://www.zhihu.com/question/22553761),[什么是人工神经网络（数学模拟过程清晰）](https://mp.weixin.qq.com/s?__biz=MzIyNDA1NjA1NQ==&mid=2651003012&idx=1&sn=323f7ebd22520d8cb08f35fa35d4e89a&chksm=f3e37f1cc494f60aabe5fd38235e6779769a6031d8128adfb912fc5f4c34c33e23c369d7a827&mpshare=1&scene=23&srcid=0630lUih5zoLdXoKDEZtXLBT#rd)
