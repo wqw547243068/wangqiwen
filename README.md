@@ -316,6 +316,12 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 （2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](https://mp.weixin.qq.com/s?__biz=MjM5ODU3OTIyOA==&mid=503183187&idx=1&sn=cf18a77ef1249b589c89e23e0ddcae9e&chksm=3ec1ca2009b64336d14cacc57a4dadd6f732af61cf29b6517df7c1387d5eedcd00837dab88e3&mpshare=1&scene=23&srcid=1212w3t3ItzsSPTgFHmy6qNw#rd)
 （3）[清华读书会分享笔记（pdf）](https://pan.baidu.com/s/1pKCiBO3#list/path=%2F)
 
+| **时间** | **类型** | **名称** | **备注** |
+| --- | --- | --- | --- |
+| Andrew NG|cs229:Andrew NG斯坦福机器学习[网易公开课](http://open.163.com/special/opencourse/machinelearning.html)|中文字幕|
+| 台大林轩田 | 机器学习基石和机器学习技法，[bilibili视频地址](https://www.bilibili.com/video/av4294020/) | |
+| Hinton | 机器学习和神经网络，[网易云课堂](https://study.163.com/course/introduction.htm?courseId=1003842018)||
+
 #### 大神博客
 - [Andrej Karpathy博客](http://karpathy.github.io/neuralnets/),[Colah's Blog](http://colah.github.io/),[Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/),[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/),[印度人总结的cnn笔记](https://deepnotes.io/implementing-cnn)
 - [如何简单有趣的讲解神经网络(优质)](https://www.zhihu.com/question/22553761),[什么是人工神经网络（数学模拟过程清晰）](https://mp.weixin.qq.com/s?__biz=MzIyNDA1NjA1NQ==&mid=2651003012&idx=1&sn=323f7ebd22520d8cb08f35fa35d4e89a&chksm=f3e37f1cc494f60aabe5fd38235e6779769a6031d8128adfb912fc5f4c34c33e23c369d7a827&mpshare=1&scene=23&srcid=0630lUih5zoLdXoKDEZtXLBT#rd)
