@@ -321,6 +321,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 | Andrew NG|cs229:Andrew NG斯坦福机器学习[网易公开课](http://open.163.com/special/opencourse/machinelearning.html)|中文字幕|
 | 台大林轩田 | 机器学习基石和机器学习技法，[bilibili视频地址](https://www.bilibili.com/video/av4294020/) | |
 | Hinton | 机器学习和神经网络，[网易云课堂](https://study.163.com/course/introduction.htm?courseId=1003842018)||
+| chris manning | [斯坦福2017季CS224n深度学习自然语言处理课程](https://www.bilibili.com/video/av13383754/?from=search&seid=11933326047978202113) ||
+|李宏毅|[李宏毅Machine Learning (2017,秋，台湾大学) ](https://www.bilibili.com/video/av15889450/?from=search&seid=16362427614856778742)||
 
 #### 大神博客
 - [Andrej Karpathy博客](http://karpathy.github.io/neuralnets/),[Colah's Blog](http://colah.github.io/),[Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/),[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/),[印度人总结的cnn笔记](https://deepnotes.io/implementing-cnn)
