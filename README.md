@@ -259,12 +259,6 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-9-2】维数灾难：精华，[维数诅咒](http://www.mamicode.com/info-detail-645884.html),原文[The Curse of Dimensionality in classification](http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/)https://software.intel.com/en-us/ai-academy/students/kits/machine-learning-101
 - 【2017-12-9】[Intel AI机器学习课程资料]()
 
-### NLP自然语言处理
-- 【2017-8-1】[NLP十分钟入门](http://www.cnblogs.com/baiboy/p/learnnlp.html)
-- [斯坦福CoreNLP在线Demo演示](http://nlp.stanford.edu:8080/corenlp/process)（含分词WS、POS词性标注、NER命名实体识别、语法树等等），[斯坦福NLP相关软件](https://nlp.stanford.edu/software/), 斯坦福深度学习与自然语言处理课程[CS224d: Deep Learning for Natural Language Processing学习笔记（我爱自然语言处理）](http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80)
-![示例](https://stanfordnlp.github.io/CoreNLP/images/Xi-Jinping.png)
-- [国内外自然语言处理(NLP)研究组大全](http://blog.csdn.net/wangxinginnlp/article/details/44890553)
-- 【2017-12-21】 深度学习为什么在NLP管用？[Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/),[深度学习、自然语言处理和表征方法](http://blog.jobbole.com/77709/). [Deep Learning in NLP （一）词向量和语言模型](http://licstar.net/archives/328#comment-1636).[如何生成好的词向量？](《How to Generate a Good Word Embedding?》导读)
 #### 流形学习
 - 什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考[流形学习的简单介绍](https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/)
 - 流形学习：本质上，流形学习就是给数据降维的过程。这里假设数据是一个随机样本，采样自一个高维欧氏空间中的流形（manifold），流形学习的任务就是把这个高维流形映射到一个低维（例如2维）的空间里。流形学习可以分为线性算法和非线性算法，前者包括主成分分析（PCA）和线性判别分析（LDA），后者包括等距映射（Isomap），拉普拉斯特征映射（LE）等。流形学习可以用于特征的降维和提取，为后续的基于特征的分析，如聚类和分类，做铺垫，也可以直接应用于数据可视化等。注：摘自[集智百科流形学习（优质，包含代码及案例）](http://wiki.swarma.net/index.php/%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0)。
@@ -372,6 +366,12 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
 ---
+### NLP自然语言处理&RNN
+- 【2017-8-1】[NLP十分钟入门](http://www.cnblogs.com/baiboy/p/learnnlp.html)
+- [斯坦福CoreNLP在线Demo演示](http://nlp.stanford.edu:8080/corenlp/process)（含分词WS、POS词性标注、NER命名实体识别、语法树等等），[斯坦福NLP相关软件](https://nlp.stanford.edu/software/), 斯坦福深度学习与自然语言处理课程[CS224d: Deep Learning for Natural Language Processing学习笔记（我爱自然语言处理）](http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80)
+![示例](https://stanfordnlp.github.io/CoreNLP/images/Xi-Jinping.png)
+- [国内外自然语言处理(NLP)研究组大全](http://blog.csdn.net/wangxinginnlp/article/details/44890553)
+- 【2017-12-21】 深度学习为什么在NLP管用？[Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/),[深度学习、自然语言处理和表征方法](http://blog.jobbole.com/77709/). [Deep Learning in NLP （一）词向量和语言模型](http://licstar.net/archives/328#comment-1636).如何生成好的词向量？[《How to Generate a Good Word Embedding?》导读](http://licstar.net/archives/620),[](),,[论文地址](http://arxiv.org/abs/1507.05523),[实验代码地址](https://github.com/licstar/compare)
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
@@ -401,7 +401,8 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2017-8-21】[Q-learning算法简明教程](http://blog.csdn.net/itplus/article/details/9361915)，[英文原文](http://mnemstudio.org/path-finding-q-learning-tutorial.htm)
 - 【2017-8-29】AK的博客[Deep Reinforcement Learning: Pong from Pixels](http://karpathy.github.io/2016/05/31/rl/)
 - 【2017-12-19】强化学习领军人物Richard Sutton的经典教材[《强化学习》第二版](http://incompleteideas.net/book/the-book-2nd.html)。
-
+- 【2017-12-21】[强化学习视频教程分享（从入门到精通）](https://mp.weixin.qq.com/s?__biz=MzIxNDgzNDg3NQ==&mid=2247484036&idx=1&sn=4f7abdaec180d425f84c133bed53335d&chksm=97a0c950a0d740467ee23bc8adb1aa081d8047d1ee8ba8ad60487a04c0f90383d480253448a4&scene=21#wechat_redirect)
+- 【2017-12-21】【视频】[深度强化学习介绍 (John Schulman, OpenAI)](http://www.365yg.com/item/6463040754213192206/)
 ### 迁移学习
 - 【2017-9-3】中科院计算所[迁移学习pdf](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 - 【2017-9-3】集智俱乐部，迁移学习资料汇总[github](https://zhuanlan.zhihu.com/p/28792291)[知乎](https://github.com/wantingallin/transferlearning)
