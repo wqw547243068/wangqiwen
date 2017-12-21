@@ -258,6 +258,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-8-22】Machine Learning is Fun!系列教程。[Part 3:Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721),[中文翻译：第三章:图像识别【鸟or飞机】？深度学习与卷积神经网络](https://zhuanlan.zhihu.com/p/24524583)
 - 【2017-9-2】维数灾难：精华，[维数诅咒](http://www.mamicode.com/info-detail-645884.html),原文[The Curse of Dimensionality in classification](http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/)https://software.intel.com/en-us/ai-academy/students/kits/machine-learning-101
 - 【2017-12-9】[Intel AI机器学习课程资料]()
+- 【2017-12-22】[图解机器学习（含动图）](https://my.oschina.net/taogang/blog/1544709)
 
 #### 流形学习
 - 什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考[流形学习的简单介绍](https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/)
