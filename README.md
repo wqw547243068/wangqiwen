@@ -371,6 +371,9 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [斯坦福CoreNLP在线Demo演示](http://nlp.stanford.edu:8080/corenlp/process)（含分词WS、POS词性标注、NER命名实体识别、语法树等等），[斯坦福NLP相关软件](https://nlp.stanford.edu/software/), 斯坦福深度学习与自然语言处理课程[CS224d: Deep Learning for Natural Language Processing学习笔记（我爱自然语言处理）](http://www.52nlp.cn/%E6%96%AF%E5%9D%A6%E7%A6%8F%E5%A4%A7%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%AC%AC%E4%B8%80%E8%AE%B2%E5%BC%95%E8%A8%80)
 ![示例](https://stanfordnlp.github.io/CoreNLP/images/Xi-Jinping.png)
 - [国内外自然语言处理(NLP)研究组大全](http://blog.csdn.net/wangxinginnlp/article/details/44890553)
+- 【2017-12-22】![词云](http://pic1.zhimg.com/v2-63e581c5fd5b57f9055b05553357c538_b.jpg)。
+- [Boson NLP波森自然语言处理Web演示](http://bosonnlp.com/demo)
+- ![boson_nlp](https://pic3.zhimg.com/50/v2-12a7e37b55fee8ef8b9b88001035ff8e_hd.jpg)
 - 【2017-12-21】 深度学习为什么在NLP管用？[Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/),[深度学习、自然语言处理和表征方法](http://blog.jobbole.com/77709/). [Deep Learning in NLP （一）词向量和语言模型](http://licstar.net/archives/328#comment-1636).如何生成好的词向量？[《How to Generate a Good Word Embedding?》导读](http://licstar.net/archives/620),[](),,[论文地址](http://arxiv.org/abs/1507.05523),[实验代码地址](https://github.com/licstar/compare)
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
@@ -409,6 +412,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 
 ### 知识图谱
 - [精益知识图谱方法论](http://blog.memect.cn/?p=2005)，文因互联鲍捷组件的[北京知识图谱学习班](https://github.com/memect/kg-beijing),[知识管理和语义搜索的哲学思考](http://blog.memect.cn/?p=3022),更多资料参考[将门创业历届活动嘉宾视频及ppt](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=502876225&idx=1&sn=25894a894cc2c58214ddde13e0a8ef93&chksm=03907c9d34e7f58b57b068d0e7e74ac3db935a131cc7955478b58a98b9bc5c2b239c8ee03129&mpshare=1&scene=23&srcid=1201jRGgplUzlGGggjBesJuI#rd), [八一八聊天机器人](https://zhuanlan.zhihu.com/p/25190575)，[聊天机器人终极设计指南](http://www.woshipm.com/pd/441725.html)，[一文看懂聊天机器人的所有猫腻](http://www.eeworld.com.cn/qrs/article_2016081529734.html)
+- 【2017-12-22】李文哲[知识图谱的应用](https://zhuanlan.zhihu.com/liwenzhe/20394260) ![kg](http://pic1.zhimg.com/v2-5635f23d2df3ff971fa12a563510b1c0_b.jpg)
 ### 数据挖掘
 - [谁说菜鸟不会数据分析【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/5997018.html?from=timeline)
 - [SQL必知必会【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/6024479.html)
