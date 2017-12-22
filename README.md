@@ -308,11 +308,12 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-10-11】[吴恩达眼中的深度学习七雄](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653163378&idx=1&sn=1d7728cdad982c0cc595036bcbe8fbd7&chksm=8b49321cbc3ebb0ac0ba0daf9f65f44fc86a26a019c7bf4ce9627cbd42d98b90c24787caaa40&mpshare=1&scene=23&srcid=1009kT4PvNGcTlOHrcm9cgm9#rd)
 #### 深度学习书籍
 几本有名的书籍：
->【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**，[Michael Nielsen](http://michaelnielsen.org/)，这本书通俗易懂，由浅入深,细致讲解了神经网络，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[配套Code](https://github.com/mnielsen/neural-networks-and-deep-learning),[中文版CSDN下载地址](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元，[GitBook中文翻译地址](https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details)
-【2017-12-13】Deep learning（AI圣经）
-> [Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[官方slides地址](http://www.deeplearningbook.org/lecture_slides.html),[github中文读书笔记](https://github.com/exacity/simplified-deeplearning)，[Deep Learning presented by Ian Goodfellow现场版（youtube）](https://www.youtube.com/watch?v=vi7lACKOUao).
-（2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](https://mp.weixin.qq.com/s?__biz=MjM5ODU3OTIyOA==&mid=503183187&idx=1&sn=cf18a77ef1249b589c89e23e0ddcae9e&chksm=3ec1ca2009b64336d14cacc57a4dadd6f732af61cf29b6517df7c1387d5eedcd00837dab88e3&mpshare=1&scene=23&srcid=1212w3t3ItzsSPTgFHmy6qNw#rd)
-（3）[清华读书会分享笔记（pdf）](https://pan.baidu.com/s/1pKCiBO3#list/path=%2F)
+-【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**
+- [Michael Nielsen](http://michaelnielsen.org/)，这本书通俗易懂，由浅入深,细致讲解了神经网络，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[配套Code](https://github.com/mnielsen/neural-networks-and-deep-learning),[中文版CSDN下载地址](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元，[GitBook中文翻译地址](https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details)
+-【2017-12-13】Deep learning（AI圣经）。
+ - （1）[Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[官方slides地址](http://www.deeplearningbook.org/lecture_slides.html),[github中文读书笔记](https://github.com/exacity/simplified-deeplearning)，[Deep Learning presented by Ian Goodfellow现场版（youtube）](https://www.youtube.com/watch?v=vi7lACKOUao).
+ - （2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](http://www.mooc.ai/bbs/blog/423/show)
+ - （3）[清华读书会分享笔记（pdf）](https://pan.baidu.com/s/1pKCiBO3#list/path=%2F)
 
 | **时间** | **类型** | **名称** | **备注** |
 | --- | --- | --- | --- |
