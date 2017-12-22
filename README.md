@@ -259,6 +259,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-9-2】维数灾难：精华，[维数诅咒](http://www.mamicode.com/info-detail-645884.html),原文[The Curse of Dimensionality in classification](http://www.visiondummy.com/2014/04/curse-dimensionality-affect-classification/)https://software.intel.com/en-us/ai-academy/students/kits/machine-learning-101
 - 【2017-12-9】[Intel AI机器学习课程资料]()
 - 【2017-12-22】[图解机器学习（含动图）](https://my.oschina.net/taogang/blog/1544709)
+- 【2017-12-22】[knn原理及代码实现（含kd树）](http://www.hankcs.com/ml/k-nearest-neighbor-method.html)
 
 #### 流形学习
 - 什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考[流形学习的简单介绍](https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/)
@@ -306,6 +307,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-9-8】[Data Science and Robots](http://brohrer.github.io/blog.html),[Brandon Rohrer](http://brohrer.github.io/index.html).[How Deep Neural Networks Work](https://www.youtube.com/watch?v=ILsA4nyG7I0&feature=share),[ppt](https://docs.google.com/presentation/d/1AAEFCgC0Ja7QEl3-wmuvIizbvaE-aQRksc7-W8LR2GY/edit#slide=id.g1cc8f6e4e5_0_303)
 - [2017-9-13]Lighthouse:smart camera,video: [the future of home](https://youtu.be/erZBQ8nv_M0)
 - 【2017-10-11】[吴恩达眼中的深度学习七雄](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653163378&idx=1&sn=1d7728cdad982c0cc595036bcbe8fbd7&chksm=8b49321cbc3ebb0ac0ba0daf9f65f44fc86a26a019c7bf4ce9627cbd42d98b90c24787caaa40&mpshare=1&scene=23&srcid=1009kT4PvNGcTlOHrcm9cgm9#rd)
+- 【2017-12-22】[李沐：博士这五年](https://zhuanlan.zhihu.com/p/25099638)
+
 #### 深度学习书籍
 几本有名的书籍：
 -【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**
