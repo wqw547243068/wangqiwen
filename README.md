@@ -225,6 +225,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 4.特征选择：选取有区分度的特征
  - [解决真实世界的问题：如何在不平衡数据集上使用机器学习](https://www.52ml.net/17957.html?utm_source=tuicool&utm_medium=referral)
  ![图解](https://www.52ml.net/wp-content/uploads/2016/08/4ffce04d92a4d6cb21c1494cdfcd6dc1-7.jpg)
+ - 【2017-12-25】知乎：[机器学习中的测试机和训练集如何划分？](https://www.zhihu.com/question/59683792)，与时间强相关的问题需要按照时间划分，否则（大部分ML问题）应该随机抽样，与时间无关（应用了未来函数）。随机划分保证了训练集和测试集的历史场景是类似的，就类似于这些数据都是同一台机器同一时期产生的两类数据集。这样计算出的准确率能最真实的反映模型对这段数据学习的效果
 #### 算法总结
 - 微软-ML算法指南：[pdf版下载地址](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet)
 ![微软算法](微软-ML算法指南.png)
