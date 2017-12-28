@@ -272,7 +272,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 效果示意如下：![降维效果](http://wiki.swarma.net/images/thumb/a/ad/Manifoldlearning_figure_1.png/800px-Manifoldlearning_figure_1.png)
  - [浙大何晓飞的流形学习ppt](http://www.cad.zju.edu.cn/reports/%C1%F7%D0%CE%D1%A7%CF%B0.pdf),讲的很清楚，全面，最佳资料
 #### 降维
- 常见的pca属于无监督，lda有监督,常用降维方法如下图。![常用降维方法脑图](http://img.blog.csdn.net/20150522194801297)
+ 常见的pca属于无监督{【2017-12-28】【精华】[PCA可视化讲解](http://setosa.io/ev/principal-component-analysis/),马尔科夫链可视化讲解[Markov Chains](http://setosa.io/ev/markov-chains/)}，lda有监督,常用降维方法如下图。
+ ![常用降维方法脑图](http://img.blog.csdn.net/20150522194801297)
  - t-SNE是深度学习大牛Hinton和lvdmaaten（他的弟子？）在2008年提出的，lvdmaaten对t-SNE有个主页介绍：[tsne](http://lvdmaaten.github.io/tsne/),包括论文以及各种编程语言的实现,t-SNE是非线性方法，非常适用于高维数据降维到2维或者3维，进行可视化,具体参考:[t-SNE完整笔记（优质,含Python代码实现）](http://www.datakit.cn/blog/2017/02/05/t_sne_full.html)，[t-SNE原理及python实现](http://blog.csdn.net/jyl1999xxxx/article/details/53138975).t-SNE交互体验：[How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)；[t-SNE CSV web demo](http://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html)，可以直接输入csv数据
  - 其他方法参考[流形学习](http://blog.csdn.net/zhulingchen/article/details/2123129),[MNIST数据集降维可视化效果展示(经典)](http://colah.github.io/posts/2014-10-Visualizing-MNIST/). [Google高维数据交互可视化Web页面](http://projector.tensorflow.org/)，（TensorBoard 的一个内置的可视化工具 Embedding Projector，可以上传数据文件）
  - ![mnist图示](http://upload-images.jianshu.io/upload_images/1667471-54ad06e9664e89e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
