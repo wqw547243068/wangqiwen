@@ -396,6 +396,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - Word2Vec教程：通俗易懂，Part-1，[Skip-Gram模型](http://blog.csdn.net/layumi1993/article/details/72866235),[原文：word2vec tutorial the skip-gram model]( http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/)；Part-2，[Negative Sampling](http://blog.csdn.net/Layumi1993/article/details/72868399)，[原文](http://mccormickml.com/2017/01/11/word2vec-tutorial-part-2-negative-sampling/)
 ![skip-gram net](http://mccormickml.com/assets/word2vec/skip_gram_net_arch.png)
 - [The amazing power of word vectors](https://blog.acolyer.org/2016/04/21/the-amazing-power-of-word-vectors/?blogsub=confirming#subscribe-blog)
+- 【2017-12-29】[Embedding Projector](http://projector.tensorflow.org/). ![](https://2.bp.blogspot.com/-Uql7bl2KEYM/WEfQ4Kl_0YI/AAAAAAAABck/GkktuPM8KoMcMl2Tot6GzH3-NgwPNETMgCLcB/s1600/image03.png)
 - 【2017-12-11】CMU,[Neural Network for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
 - 【2017-12-12】NLP牛人
  - 斯坦福[李纪为](https://web.stanford.edu/~jiweil/)
