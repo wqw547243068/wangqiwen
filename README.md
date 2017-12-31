@@ -541,3 +541,4 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [几幅图让你真正了解什么是硕士学位、什么是博士学位](http://www.toutiao.com/a6463373238914253326/?tt_from=mobile_qq&utm_campaign=client_share&app=news_article_lite&utm_source=mobile_qq&iid=12181093832&utm_medium=toutiao_android)
 - [一部能让小孩喜欢汉字的动画片](http://music.163.com/#/video?id=912AF355DA533D2392052A27DFD28F26)
 - 【2017-12-24】[一个故事告诉你比特币的原理及运作机制](http://blog.codinglabs.org/articles/bitcoin-mechanism-make-easy.html),视频：[一个故事告诉你比特币的原理](一个故事看懂货币发展史与比特币的原理)
+- 【2017-12-31】视频短片：[时间](https://www.yidianzixun.com/article/V_01LMOyvQ?title_sn/0&s=9&appid=xiaomi&ver=4.5.5.0&utk=a8pzx7na)(工薪族一家三口的作息时间差)，[皮克斯2016创意动画《鹬》](https://www.yidianzixun.com/article/V_01DYkrTF?title_sn/0&s=9&appid=xiaomi&ver=4.5.5.0&utk=a8pzx7na)
