@@ -466,6 +466,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [SixSence](https://www.ted.com/talks/pattie_maes_demos_the_sixth_sense?language=zh-cn#t-492870),[The thrilling potential of SixthSense technology](https://www.youtube.com/watch?v=YrtANPtnhyg),[Pranav Mistry](http://www.pranavmistry.com/projects/sixthsense/#VIDEOS)
 - ![example](http://www.virtualspeechcoach.com/wp-content/uploads/2014/01/ppt-7-500x282.jpg)
 - IT橘子[人工智能全产业链图谱](https://www.itjuzi.com/ai)
+- 【2018-1-8】36Kr，[互联网中的少数派-女性开发者(视频)](https://www.ixigua.com/a6481129329202823693/?utm_medium=feed_steam&utm_source=toutiao#mid=3757989448)，全世界1850w程序员，中国占10%，主人翁司晓静、刘旸（iOS开发，天气旋律闹钟weather tunes）、创业公司castbox CEO王小雨（北大心理学系自学转Android开发，fruit boom杰作，Google）。
 ## 工具
 - 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
  - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
