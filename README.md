@@ -64,7 +64,8 @@ cond(no)->sub->io
 |mac显示当前路径|命令：defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES|顶栏出现路径，还可以点击定位到子目录|
 |mac当前位置打开终端|命令：https://jingyan.baidu.com/article/ce436649281a293773afd3d8.html||
 |mac下excel打开csv中文乱码|原因是mac底下中文一律utf8编码，而excel文档默认中文是gbk编码，需要单独设置下才行。http://blog.csdn.net/wqdwin/article/details/76058154|亲测有效|
-||||
+|【2018-1-11】|[网易mumu模拟器](http://mumu.163.com/)||
+|【2018-1-11】|[mac下安装adb，调试Android](https://www.jianshu.com/p/1b3fb1f27b67)|brew cask install android-platform-tools|
 ---
 ```shell
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
