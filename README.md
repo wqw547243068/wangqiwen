@@ -405,6 +405,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 斯坦福[李纪为](https://web.stanford.edu/~jiweil/)
   - [李纪为：用于对话生成的深度强化学习](https://baijia.baidu.com/s?old_id=545627)
   - [让机器像人一样交流：斯坦福李纪为博士毕业论文](https://www.jiqizhixin.com/articles/2017-11-14)
+  - 【2018-1-15】[李纪为创立的香侬科技获红杉千万投资](http://www.sohu.com/a/216713639_114778),金融搜索分析工具
  - 香港理工[李嫣然](http://yanran.li/about/)
 ---
 #### 对抗生成学习
