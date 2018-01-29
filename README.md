@@ -277,6 +277,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  ![常用降维方法脑图](http://img.blog.csdn.net/20150522194801297)
  - t-SNE是深度学习大牛Hinton和lvdmaaten（他的弟子？）在2008年提出的，lvdmaaten对t-SNE有个主页介绍：[tsne](http://lvdmaaten.github.io/tsne/),包括论文以及各种编程语言的实现,t-SNE是非线性方法，非常适用于高维数据降维到2维或者3维，进行可视化,具体参考:[t-SNE完整笔记（优质,含Python代码实现）](http://www.datakit.cn/blog/2017/02/05/t_sne_full.html)，[t-SNE原理及python实现](http://blog.csdn.net/jyl1999xxxx/article/details/53138975).t-SNE交互体验：[How to Use t-SNE Effectively](https://distill.pub/2016/misread-tsne/)；[t-SNE CSV web demo](http://cs.stanford.edu/people/karpathy/tsnejs/csvdemo.html)，可以直接输入csv数据
  - ![t-sne](http://ac-cf2bfs1v.clouddn.com/fe6782ce2f1b7875.gif)
+ - [2018-1-29][从SNE到t-SNE再到LargeVis](https://bindog.github.io/blog/2016/06/04/from-sne-to-tsne-to-largevis/),t-SNE原理最佳资料，深刻讲解
  - 其他方法参考[流形学习](http://blog.csdn.net/zhulingchen/article/details/2123129),[MNIST数据集降维可视化效果展示(经典)](http://colah.github.io/posts/2014-10-Visualizing-MNIST/). [Google高维数据交互可视化Web页面](http://projector.tensorflow.org/)，（TensorBoard 的一个内置的可视化工具 Embedding Projector，可以上传数据文件）
  - ![mnist图示](http://upload-images.jianshu.io/upload_images/1667471-54ad06e9664e89e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)，【2018-1-22】[手写汉字识别](https://zhuanlan.zhihu.com/p/33071173?iam=cc759c5d7c383aa95e7633f06bcf6d82?utm_medium=social&utm_source=wechat_session)
  - 参考：[TensorFlow-7-TensorBoard Embedding可视化](http://blog.csdn.net/aliceyangxi1987/article/details/71079387)
