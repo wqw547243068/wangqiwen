@@ -475,6 +475,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 ![舒适区](https://pic2.zhimg.com/80/323317fb1c41a9dc053abc35cdb19a32_hd.jpg)
 如何成为一个很厉害的人？
 ![如何](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516764722&di=14731e340d89fb197b011428a2ba80b0&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.iyiplus.com%2Fwp-content%2Fuploads%2F2017%2F02%2F1.4-1024x687.png)
+- 【2018-2-25】[纪实：中国人工智能之路](http://list.youku.com/show/id_zefbfbd2b2f7befbfbdef.html?spm=a2h0j.8191423.module_basic_title.5~A!2),[人工智能真的来了](http://list.youku.com/show/id_zefbfbd2b2f7befbfbdef.html?spm=a2h0j.8191423.module_basic_title.5~A!2)
 ## 工具
 - 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
  - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
