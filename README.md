@@ -378,6 +378,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [DeepDream Demo](https://deepdreamgenerator.com/)
 - [20个令人惊叹的深度学习应用(欢迎补充)：Demo+Paper+Code](https://zhuanlan.zhihu.com/p/26392608)
 - [2017-9-20][ClarifAI在线Demo（目标检测、人脸识别、色情识别、场景识别等）](https://clarifai.com/demo#)
+- 【2018-2-25】[在线demo：黑白图片着色](http://demos.algorithmia.com/colorize-photos/)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
@@ -554,3 +555,4 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [一部能让小孩喜欢汉字的动画片](http://music.163.com/#/video?id=912AF355DA533D2392052A27DFD28F26)
 - 【2017-12-24】[一个故事告诉你比特币的原理及运作机制](http://blog.codinglabs.org/articles/bitcoin-mechanism-make-easy.html),视频：[一个故事告诉你比特币的原理](一个故事看懂货币发展史与比特币的原理)。【2018-1-23】[如何简单易懂的介绍区块链](https://www.zhihu.com/question/37290469),【2018-2-19】[区块链讲解及Demo](https://anders.com/blockchain/)
 - 【2017-12-31】视频短片：[时间](https://www.yidianzixun.com/article/V_01LMOyvQ?title_sn/0&s=9&appid=xiaomi&ver=4.5.5.0&utk=a8pzx7na)(工薪族一家三口的作息时间差)，[皮克斯2016创意动画《鹬》](https://www.yidianzixun.com/article/V_01DYkrTF?title_sn/0&s=9&appid=xiaomi&ver=4.5.5.0&utk=a8pzx7na)
+- 【2018-2-25】【电影】[暖](http://www.1905.com/vod/play/85391.shtml),白狗秋千架
