@@ -134,7 +134,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
 - 词云生成[图悦](http://www.picdata.cn/)
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
-- [2018-2-28] OLAP可视化分析工具,[saiku](https://community.meteorite.bi/)
+- [2018-2-28] OLAP可视化分析工具,[官网](https://www.meteorite.bi/products/saiku),[saiku社区版](https://community.meteorite.bi/)，[安装方法](http://www.kanhaige.com/post-5.html),[简介]()，[Kylin, Mondrian, Saiku系统的整合](https://tech.youzan.com/kylin-mondrian-saiku/?utm_source=tuicool&utm_medium=referral),[saiku安装教程](http://blog.csdn.net/longshenlmj/article/details/17359645)
 - ![saiku](http://www.joyofdata.de/blog/wp-content/uploads/2014/06/data-insights.png)
 ## 学习资料
 ### 学习技巧
