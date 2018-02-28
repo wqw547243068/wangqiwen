@@ -134,6 +134,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
 - 词云生成[图悦](http://www.picdata.cn/)
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
+- [2018-2-28] OLAP可视化分析工具,[saiku](https://community.meteorite.bi/)
+- ![saiku](http://www.joyofdata.de/blog/wp-content/uploads/2014/06/data-insights.png)
 ## 学习资料
 ### 学习技巧
 - [@爱可可-爱生活(新浪微博)](http://weibo.com/fly51fly?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2#_rnd1501558283451)：
