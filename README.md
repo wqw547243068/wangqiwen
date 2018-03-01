@@ -560,3 +560,4 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2017-12-24】[一个故事告诉你比特币的原理及运作机制](http://blog.codinglabs.org/articles/bitcoin-mechanism-make-easy.html),视频：[一个故事告诉你比特币的原理](一个故事看懂货币发展史与比特币的原理)。【2018-1-23】[如何简单易懂的介绍区块链](https://www.zhihu.com/question/37290469),【2018-2-19】[区块链讲解及Demo](https://anders.com/blockchain/)
 - 【2017-12-31】视频短片：[时间](https://www.yidianzixun.com/article/V_01LMOyvQ?title_sn/0&s=9&appid=xiaomi&ver=4.5.5.0&utk=a8pzx7na)(工薪族一家三口的作息时间差)，[皮克斯2016创意动画《鹬》](https://www.yidianzixun.com/article/V_01DYkrTF?title_sn/0&s=9&appid=xiaomi&ver=4.5.5.0&utk=a8pzx7na)
 - 【2018-2-25】【电影】[暖](http://www.1905.com/vod/play/85391.shtml),白狗秋千架
+- 【2018-3-1】[杭州买房知识大全github](https://github.com/houshanren/hangzhou_house_knowledge)
