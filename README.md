@@ -136,7 +136,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
 - [2018-2-28] OLAP可视化分析工具,[官网](https://www.meteorite.bi/products/saiku),[saiku社区版](https://community.meteorite.bi/)，[安装方法](http://www.kanhaige.com/post-5.html),[简介]()，[Kylin, Mondrian, Saiku系统的整合](https://tech.youzan.com/kylin-mondrian-saiku/?utm_source=tuicool&utm_medium=referral),[saiku安装教程](http://blog.csdn.net/longshenlmj/article/details/17359645)
 - ![saiku](http://www.joyofdata.de/blog/wp-content/uploads/2014/06/data-insights.png)
-- 【2018-3-5】[python+echarts给你的数据做美颜](https://zhuanlan.zhihu.com/p/24952863),[pycharts](https://github.com/pyecharts/pyecharts)安装，[jupyter notebook中使用pycharts](https://zhuanlan.zhihu.com/p/28157126)，效果示例:
+- 【2018-3-5】[python+echarts给你的数据做美颜](https://zhuanlan.zhihu.com/p/24952863),[pycharts](https://github.com/pyecharts/pyecharts)安装，[官方文档](http://pyecharts.org/#/zh-cn/prepare)，[jupyter notebook中使用pycharts](https://zhuanlan.zhihu.com/p/28157126)，效果示例:
 ![echarts](https://pic4.zhimg.com/v2-5cc223125d7b0a0e051cbc91e0a19e07_b.gif)
 ## 学习资料
 ### 学习技巧
