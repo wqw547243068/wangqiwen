@@ -136,6 +136,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
 - [2018-2-28] OLAP可视化分析工具,[官网](https://www.meteorite.bi/products/saiku),[saiku社区版](https://community.meteorite.bi/)，[安装方法](http://www.kanhaige.com/post-5.html),[简介]()，[Kylin, Mondrian, Saiku系统的整合](https://tech.youzan.com/kylin-mondrian-saiku/?utm_source=tuicool&utm_medium=referral),[saiku安装教程](http://blog.csdn.net/longshenlmj/article/details/17359645)
 - ![saiku](http://www.joyofdata.de/blog/wp-content/uploads/2014/06/data-insights.png)
+- 【2018-3-5】[python+echarts给你的数据做美颜](https://zhuanlan.zhihu.com/p/24952863)
 ## 学习资料
 ### 学习技巧
 - [@爱可可-爱生活(新浪微博)](http://weibo.com/fly51fly?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2#_rnd1501558283451)：
@@ -251,6 +252,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [为什么更偏爱随机梯度下降](https://zhuanlan.zhihu.com/p/28060786)
 - 【2017-7-31】[10686 一次 CTC-RNN 调参经历](https://zhuanlan.zhihu.com/p/28133530)
 - ![网格搜索](https://pic3.zhimg.com/v2-88f640c13e27402154eb8e93e50468a2_b.png)
+- 【2018-3-5】[google 出品的机器学习速成课程](https://developers.google.cn/machine-learning/crash-course/)，基于tensorflow
 #### 异常检测
 - IsolationForest。欺诈等是一系列的异常孤立点，而IsolationForest则是检测这类孤立点的一个有效算法。无需样本标记、线性时间复杂度。一般情况下要比OneClasSVM等表现要好。尤其是对非高斯分布的样本空间。
 - 【2017-7-31】[反欺诈(Fraud Detection)中所用到的机器学习模型有哪些？](https://www.zhihu.com/question/30508773/answer/205831957)：
