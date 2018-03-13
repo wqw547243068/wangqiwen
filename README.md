@@ -130,7 +130,8 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ### 地图数据可视化
 - [地图汇](http://www.dituhui.com/)
 - [5min上手写echarts第一个图标](http://echarts.baidu.com/echarts2/doc/start.html),[echarts如何从json文件读数据？](http://bbs.csdn.net/topics/392042291)
-- 【2017-7-30】Google开发的数据可视化web工具[Facet Dive](https://pair-code.github.io/facets/)
+- 【2017-7-30】Google开发的数据可视化web工具[Facet Dive](https://pair-code.github.io/facets/)，【2018-3-13】可以嵌入jupyter notebook做特征工程可视化分析, 安装方法参考[PAIR-CODE](https://github.com/PAIR-code/facets),[Google AI](https://ai.google/pair)
+- ![facets](https://github.com/PAIR-code/facets/blob/master/img/dive-census.png)
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
 - 词云生成[图悦](http://www.picdata.cn/)
 - [北大可视化](http://vis.pku.edu.cn/wiki/start)
