@@ -197,6 +197,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [水库抽样算法精简](http://blog.csdn.net/u012397189/article/details/52181005),空间亚线性算法
 ![水库抽样](http://s11.sinaimg.cn/mw690/005yGsbEty6QDWko4gq0a&690)
 - [2017-9-19]视频集合：[内存原理解析](http://www.365yg.com/group/6467022800149283342/),[CPU缓存原理解析](http://www.365yg.com/group/6467021466209616397/),[TCP,UDP协议原理对比](http://www.365yg.com/group/6467022804800766477/),[IPv4,IPv6原理解析](http://www.365yg.com/group/6467021492105249293/)，[代理服务器原理解析](http://www.365yg.com/group/6467022795812373005/)，[集线器-交换机-路由器区别](http://www.365yg.com/group/6467021483385291277/)，[DNS域名解析](http://www.365yg.com/group/6467021479107101197/)，[超线程原理解析](http://www.365yg.com/group/6467021487722201614/),[磁盘碎片原理解析](http://www.365yg.com/group/6467021470504583693/)
+- 【2018-3-13】松果云科普：动画解释，[详解硬盘工作原理](https://www.365yg.com/a6524897664687931911)，[详解显卡工作原理：GPU和CPU的区别](https://www.365yg.com/i6525769921438155272)
 ### 分布式计算
 - [flume+kafka+hdfs+storm组合](http://www.aboutyun.com/thread-6855-1-1.html)
 ### 推荐系统
