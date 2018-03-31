@@ -10,7 +10,7 @@
         select * from table where a=3 limit 10;
 > 备注信息：
 * [Git简易指南](http://www.bootcss.com/p/git-guide/),[图说Git](http://marklodato.github.io/visual-git-guide/index-en.html),[git文件状态和工作区域](https://www.cnblogs.com/polk6/p/git-fileStatus.html)
-![flow](https://images2017.cnblogs.com/blog/153475/201710/153475-20171013183602293-822234036.png)
+* ![flow](https://images2017.cnblogs.com/blog/153475/201710/153475-20171013183602293-822234036.png)
 * [github官方markdown指南](https://guides.github.com/features/mastering-markdown/ "英文版")
 * [github readme语法简介](http://blog.csdn.net/guodongxiaren/article/details/23690801?utm_source=tuicool&utm_medium=referral "跟一般markdown语法不同")
 * [MarkDown语法笔记（完整版）](http://blog.csdn.net/witnessai1/article/details/52551362)
