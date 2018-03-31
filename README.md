@@ -506,6 +506,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-2-17】[用PYTHON玩微信（非常详细）](http://www.cnblogs.com/jiaoyu121/p/6944398.html),通过微信网页版抓包的开源工具[itchat](https://github.com/littlecodersh/itchat)，可以分析微信数据，可视化（echart+wordcount），聊天机器人,接入图灵机器人,[示例](https://itchat.readthedocs.io/zh/latest/tutorial/tutorial0/),其它：[Python实现微信自动回复机器人](http://blog.csdn.net/weixin_40127725/article/details/78185193)，[python实现微信接口(itchat)](https://segmentfault.com/a/1190000009420701)资料全面
 - 【2017-12-17】[如何用github搭建个人博客](https://cczeng.github.io/2017/05/03/git/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8Github-Pages%E6%90%AD%E5%BB%BA%E8%B5%B7%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E2%80%94%E2%80%94%E7%BB%86%E6%95%B0%E4%B8%80%E8%B7%AF%E7%9A%84%E5%9D%91/)，【2018-2-19】[微信公众号如何接入图灵机器人](http://blog.csdn.net/jueyi1127/article/details/48291025)
 - 【2018-2-16】[1997年世界黑客编程大赛冠军作品](http://blog.sina.com.cn/s/blog_882361720101d730.html)，[视频地址](http://v.youku.com/v_show/id_XMTY5NTI2NzY2OA==.html),汇编语言生成3D动画
+- 【2018-3-31】文件转换，①[pdf转换器](http://www.pdfdo.com/pdf-to-word.aspx),②[迅捷pdf转换器](http://app.xunjiepdf.com/),pdf到各种文件格式的转换,③[国外的pdf converter](https://www.freepdfconvert.com/)
 ### 实验评估
 - 第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
  - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
