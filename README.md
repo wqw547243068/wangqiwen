@@ -382,6 +382,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [2017-8-23][Machine Learning Mindmap / Cheatsheet](https://github.com/dformoso/machine-learning-mindmap),[sklearn](https://github.com/dformoso/sklearn-classification),[Data Science, Classification Analysis Jupyter notebook](https://github.com/dformoso/sklearn-classification/blob/master/Data%20Science%20Workbook%20-%20Census%20Income%20Dataset.ipynb)
 - 【2017-10-10】[26种神经网络激活函数可视化](https://www.jiqizhixin.com/articles/2017-10-10-3),[Visualising Activation Functions in Neural Networks](https://dashee87.github.io/data%20science/deep%20learning/visualising-activation-functions-in-neural-networks/)(可交互)
 - 【2017-12-14】Google deepmind [深度学习实践和发展趋势](https://pan.baidu.com/s/1mhWGSpq)
+- 【2018-4-10】Google AI面试题[https://medium.com/acing-ai/google-ai-interview-questions-acing-the-ai-interview-1791ad7dc3ae](https://medium.com/acing-ai/google-ai-interview-questions-acing-the-ai-interview-1791ad7dc3ae)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
 - 【2017-8-31】[Toranto Deep Learning Demos](http://deeplearning.cs.toronto.edu/i2t),涉及图像分类+图像标注，服务性能有限，响应不及时
