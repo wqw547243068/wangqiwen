@@ -409,6 +409,9 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [Boson NLP波森自然语言处理Web演示](http://bosonnlp.com/demo)
 - ![boson_nlp](https://pic3.zhimg.com/50/v2-12a7e37b55fee8ef8b9b88001035ff8e_hd.jpg)
 - 【2017-12-21】 深度学习为什么在NLP管用？[Deep Learning, NLP, and Representations](https://colah.github.io/posts/2014-07-NLP-RNNs-Representations/),[深度学习、自然语言处理和表征方法](http://blog.jobbole.com/77709/). [Deep Learning in NLP （一）词向量和语言模型](http://licstar.net/archives/328#comment-1636).如何生成好的词向量？[《How to Generate a Good Word Embedding?》导读](http://licstar.net/archives/620),[](),,[论文地址](http://arxiv.org/abs/1507.05523),[实验代码地址](https://github.com/licstar/compare)
+- 【2018-4-15】[机器翻译简史](https://zhuanlan.zhihu.com/p/34612952)
+![机器翻译简史](https://pic2.zhimg.com/80/v2-31559656eda02537d2d2b78e99052305_hd.jpg)
+
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
