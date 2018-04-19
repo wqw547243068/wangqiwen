@@ -415,6 +415,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2018-4-15】[机器翻译简史](https://zhuanlan.zhihu.com/p/34612952)
 ![机器翻译简史](https://pic2.zhimg.com/80/v2-31559656eda02537d2d2b78e99052305_hd.jpg)
 - 【2018-4-16】谷歌发布的自然语言理解（NLU）体验，[Semantic Experiences](https://research.google.com/semanticexperiences/)，Talk to Books + Semantris
+- 【2018-4-19】[11款分词工具大比拼](https://segmentfault.com/a/1190000003971257),[jieba分词15min入门与进阶](https://blog.csdn.net/fontthrone/article/details/72782499)
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
