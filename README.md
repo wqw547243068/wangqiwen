@@ -351,6 +351,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 |李宏毅|[李宏毅Machine Learning (2017,秋，台湾大学) ](https://www.bilibili.com/video/av15889450/?from=search&seid=16362427614856778742)||
 |牛津|深度学习NLP（牛津大学 2017）（英文字幕）[bilibili地址](https://www.bilibili.com/video/av9817911/)||
 |andrew ng|吴恩达深度学习与神经网络,[bilibili地址](https://www.bilibili.com/video/av15235628/)|deeplearning.ai|
+|andrew ng|[《MACHINE LEARNING YEARNING》翻译](https://blog.csdn.net/nnnnnnnnnnnny/article/details/53524858)|2018-4-23|
 |Ian good fellow|《深度学习》读书会分享视频集,[bilibili地址](https://www.bilibili.com/video/av15558220/#page=14)||
 ||[普林斯顿-算法](https://www.bilibili.com/video/av9995456/)||
 |吴恩达|[DeepLearning.ai学习笔记彩绘版](https://pan.baidu.com/s/1DtYg3TyplXQOVZ-YmplJaw),百度云地址|很好的资料,作者TessFerrandez的[信息图地址](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng),相关[github地址](https://github.com/mbadry1/DeepLearning.ai-Summary)|
