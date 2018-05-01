@@ -192,6 +192,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-11-24】遇见数学，[图解普林斯顿微积分系列](https://www.toutiao.com/i6489560900662460942/)
 ![图](http://p9.pstatp.com/large/3b110004d8b47a0abc46)
 ### 计算机基础
+- 【2018-5-1】[数据结构总结篇](http://lib.csdn.net/article/datastructure/11369)_
 - 排序算法总结：[视觉感受常见排序算法](http://blog.jobbole.com/11745/)
 ![对比](http://hi.csdn.net/attachment/201105/24/0_1306225542srVx.gif)
 - 【2017-8-1】排序算法可视化对比[Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms/),[日本程序猿做的排序动画](http://jsrun.it/norahiko/oxIy)，[舞动的排序算法【舞蹈视频】](http://v.youku.com/v_show/id_XNTA3NDUwODA4.html?spm=a2h0j.8191423.module_basic_relation.5~5!2~5~5!3~5~5~A)
