@@ -532,6 +532,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-2-16】[1997年世界黑客编程大赛冠军作品](http://blog.sina.com.cn/s/blog_882361720101d730.html)，[视频地址](http://v.youku.com/v_show/id_XMTY5NTI2NzY2OA==.html),汇编语言生成3D动画
 - 【2018-3-31】文件转换，①[pdf转换器](http://www.pdfdo.com/pdf-to-word.aspx),②[迅捷pdf转换器](http://app.xunjiepdf.com/),pdf到各种文件格式的转换,③[国外的pdf converter](https://www.freepdfconvert.com/)
 - 【2018-4-2】[Heavens Above](http://www.heavens-above.com/), 查看天体运行，如特斯拉实时位置，天宫一号降落过程
+- 【2018-5-1】[《后端架构师技术图谱》](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#innodb)
 ### 实验评估
 - 第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
  - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
