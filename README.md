@@ -437,6 +437,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 香港理工[李嫣然](http://yanran.li/about/)
  - 【2018-4-2】Google Brain开发者，[蔡善清](http://scai.io/#about), [Github主页](https://github.com/caisq), 2005进入清华，2012年MIT博士毕业， tensorflow debugger主要开发者(以后会集成到tensorboard中)，Eager动态计算图开发者
  - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚
+ - 【2018-5-1】机器阅读理解google QANet的[Tensorflow实现](https://github.com/NLPLearn/QANet)
 ---
 #### 对抗生成学习
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
