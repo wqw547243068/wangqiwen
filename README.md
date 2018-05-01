@@ -453,6 +453,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2017-12-19】强化学习领军人物Richard Sutton的经典教材[《强化学习》第二版](http://incompleteideas.net/book/the-book-2nd.html)。
 - 【2017-12-21】[强化学习视频教程分享（从入门到精通）](https://mp.weixin.qq.com/s?__biz=MzIxNDgzNDg3NQ==&mid=2247484036&idx=1&sn=4f7abdaec180d425f84c133bed53335d&chksm=97a0c950a0d740467ee23bc8adb1aa081d8047d1ee8ba8ad60487a04c0f90383d480253448a4&scene=21#wechat_redirect)
 - 【2017-12-21】【视频】[深度强化学习介绍 (John Schulman, OpenAI)](http://www.365yg.com/item/6463040754213192206/)
+- 【2018-5-1】[强化学习用于比特币自动交易](https://github.com/samre12/deep-trading-agent)
 ### 迁移学习
 - 【2017-9-3】中科院计算所[迁移学习pdf](http://jd92.wang/assets/files/l08_tl_zh.pdf)
 - 【2017-9-3】集智俱乐部，迁移学习资料汇总[github](https://zhuanlan.zhihu.com/p/28792291)[知乎](https://github.com/wantingallin/transferlearning)
