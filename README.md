@@ -478,6 +478,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2017-12-13】知乎[如何快速成为分析师](https://www.zhihu.com/question/29265587),图表建议-思维指南
 - ![excel选图](https://pic1.zhimg.com/50/v2-15e812e7de4c1ddd23144e4e53826cf0_hd.jpg)
 - 【2017-12-14】知乎[数据分析&数据挖掘书籍推荐](https://www.zhihu.com/question/20757000)
+- 【2018-5-2】[你费那么大劲做的数据分析，有用吗](https://zhuanlan.zhihu.com/p/21378331),左耳朵耗子-陈皓的[数据的游戏：冰与火](https://coolshell.cn/articles/10192.html)
 ### 人脸识别
 - 权威书籍[Handbook of Face Recognition](https://cours.etsmtl.ca/sys828/REFS/Intro/Hanbook%20of%20Face%20Recognition.pdf)
 - [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
@@ -510,6 +511,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 ![舒适区](https://pic2.zhimg.com/80/323317fb1c41a9dc053abc35cdb19a32_hd.jpg)
 如何成为一个很厉害的人？
 ![如何](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516764722&di=14731e340d89fb197b011428a2ba80b0&imgtype=jpg&er=1&src=http%3A%2F%2Fwww.iyiplus.com%2Fwp-content%2Fuploads%2F2017%2F02%2F1.4-1024x687.png)
+- 【2018-5-2】[技术人员的发展之路](https://coolshell.cn/articles/17583.html)
 - 【2018-2-25】[纪实：中国人工智能之路](http://list.youku.com/show/id_zefbfbd2b2f7befbfbdef.html?spm=a2h0j.8191423.module_basic_title.5~A!2),[人工智能真的来了](http://list.youku.com/show/id_zefbfbd2b2f7befbfbdef.html?spm=a2h0j.8191423.module_basic_title.5~A!2)
 - 【2018-4-25】[阿布量化](https://github.com/bbfamily/abu?from=groupmessage&isappinstalled=0)
 ## 工具
