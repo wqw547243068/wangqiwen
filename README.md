@@ -551,7 +551,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [命令式编程和声明式编程的区别](http://www.vaikan.com/imperative-vs-declarative/)
 - [go语言开发者必读的陷阱、技巧、错误](http://www.cnblogs.com/Eilen/p/6944345.html)
 - 【2018-5-2】Python入门神图，参考：[Python脚本图解](https://blog.csdn.net/GarfieldEr007/article/details/50898988)
-![python入门神图](https://img-blog.csdn.net/20160315185846919?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+![python入门神图](https://img-blog.csdn.net/20150429090744512)
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 - 【2017-12-11】python面向对象:[初级篇](http://python.jobbole.com/82023/),[进阶篇](http://python.jobbole.com/83747/)
 - 【2018-4-28】Dive into Python[中文版](https://woodpecker.org.cn/diveintopython/)
