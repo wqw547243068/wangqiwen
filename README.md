@@ -577,9 +577,10 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
  - 安装方法：sudo pip install -U pep8/pylint
 - [给深度学习入门者的Python快速教程 - 基础篇](https://zhuanlan.zhihu.com/p/24162430),[numpy和Matplotlib篇](https://zhuanlan.zhihu.com/p/24309547).[Python超简洁教程,含图示,在线调试](https://jizhi.im/blog/post/pythonbasics)
 - 老外的Matplotlib教程,[英文原文](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)_,[中文译文](https://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)，[Matplotlib官方艺术馆](http://matplotlib.org/gallery.html)
-- [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html)
+- [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html),pandas cheetsheet, ![pandas](https://upload-images.jianshu.io/upload_images/2422746-c3dcf0bba1d9f616.png)
 - pandas读取excel数据示例
- 2016-7-30】
+ [2016-7-30] 
+ - 【2018-5-2】6张python工具包总结图，见[python数据分析实用小抄](https://www.jianshu.com/p/7f4945b5d29c),[Top 28 Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/),[百度云地址](https://pan.baidu.com/s/1kUQxyUN#list/path=%2F)
 - 【2017-11-23】[史上最全设计模式导学目录](http://blog.csdn.net/lovelion/article/details/17517213)
 - 【2017-12-14】[字符编码详解——彻底理解掌握编码知识，“乱码”不复存在](http://blog.51cto.com/polaris/377468),[字符字节和编码](http://www.regexlab.com/zh/encoding.htm)
 - 【2017-12-16】编码总结
@@ -587,6 +588,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 
 - ![编码](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513861868&di=806e504e1bf1cf8e95f64d5f2d006684&imgtype=jpg&er=1&src=http%3A%2F%2Fs1.knowsky.com%2F20170206%2Flabih04zb2137.png)
 - 【2017-12-23】[[译]27 个Jupyter Notebook的小提示与技巧](http://liuchengxu.org/pelican-blog/jupyter-notebook-tips.html)
+- 【2018-5-2】[scikit-learn]cheet sheet(https://upload-images.jianshu.io/upload_images/2422746-7a1d1aad161f9224.png)
 ## 视频资源
 ### 公开课
 - 哈佛大学《公正》系列公开课：[哈佛英文主页](http://justiceharvard.org/justicecourse/),[网易中文翻译](http://v.163.com/special/sandel/episode06.html)
