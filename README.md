@@ -421,6 +421,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2018-4-19】[11款分词工具大比拼](https://segmentfault.com/a/1190000003971257),[jieba分词15min入门与进阶](https://blog.csdn.net/fontthrone/article/details/72782499)，jieba [Github地址](https://github.com/fxsjy/jieba)
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
+- 【2018-5-2】[可视化LSTM网络：探索「记忆」的形成](https://www.toutiao.com/a6539111834589331976/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1525255789&app=news_article&utm_source=mobile_qq&iid=29957305093&utm_medium=toutiao_android)
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [2017-8-17][CS224n: Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/)
 - [Neural Nets for Generating Music](https://medium.com/artists-and-machine-intelligence/neural-nets-for-generating-music-f46dffac21c0)
