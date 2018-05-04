@@ -239,6 +239,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 【2018-4-8】[【(Google)机器学习全面入门(96页)】《Jason's Machine Learning 101》by Jason Mayes]
 (https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?slide=id.g168a3288f7_0_58), ppt展示google机器学习+深度学习中的应用，含视频
 - 【2018-4-15】Google机器学习43条军规，[中文版](https://blog.csdn.net/np4rHI455vg29y2/article/details/79341774)，[原版pdf](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+-【2018-5-4】SAP的梁劲（Jim Liang）整理的[从基础概念到数学公式，这是一份520页的机器学习笔记（图文并茂）](https://mp.weixin.qq.com/s/Pxww9VJY8PKfoZ2vGECqUw)
 #### 算法总结
 - 微软-ML算法指南：[pdf版下载地址](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet)
 ![微软算法](微软-ML算法指南.png)
