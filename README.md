@@ -559,7 +559,8 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - python：[python小白笔记](http://www.cnblogs.com/xiaofeng1234/p/6052051.html)，[python正则表达式](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)，【2018-5-4】[Python代码执行过程可视化](http://www.pythontutor.com/visualize.html#mode=display)
 - 【2017-12-11】python面向对象:[初级篇](http://python.jobbole.com/82023/),[进阶篇](http://python.jobbole.com/83747/)
 - 【2018-4-28】Dive into Python[中文版](https://woodpecker.org.cn/diveintopython/)
-- 【2018-5-6】[Machine Learning Plus](https://www.machinelearningplus.com/blog/),包含numpy、pandas、scikit-learn各种工具包的代码实战示例
+- 【2018-5-6】[Machine Learning Plus](https://www.machinelearningplus.com/blog/),包含numpy、pandas、scikit-learn各种工具包的代码实战示例，用python做科学计算-[Numpy快速数据处理](http://old.sebug.net/paper/books/scipydoc/numpy_intro.html)
+![numpy](http://old.sebug.net/paper/books/scipydoc/_images/numpy_intro_03.png)
 - [The Zen of Python(Python之禅)](http://blog.csdn.net/liang19890820/article/details/51734118)
 - ![python](http://img.blog.csdn.net/20160908133049363)
 - <font color='red' size=5>Python 之禅</font>， by Tim Peters
