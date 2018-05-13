@@ -420,6 +420,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![机器翻译简史](https://pic2.zhimg.com/80/v2-31559656eda02537d2d2b78e99052305_hd.jpg)
 - 【2018-4-16】谷歌发布的自然语言理解（NLU）体验，[Semantic Experiences](https://research.google.com/semanticexperiences/)，Talk to Books + Semantris
 - 【2018-4-19】[11款分词工具大比拼](https://segmentfault.com/a/1190000003971257),[jieba分词15min入门与进阶](https://blog.csdn.net/fontthrone/article/details/72782499)，jieba [Github地址](https://github.com/fxsjy/jieba)
+- 【2018-5-13】[100+ Chinese Word Vectors 上百种预训练中文词向量](https://github.com/Embedding/Chinese-Word-Vectors)
 #### RNN
 - 循环神经网络RNN:[BiLSTM iMDB影评分类可视化Demo](https://transcranial.github.io/keras-js/#/imdb-bidirectional-lstm)
 - 【2018-5-2】[可视化LSTM网络：探索「记忆」的形成](https://www.toutiao.com/a6539111834589331976/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1525255789&app=news_article&utm_source=mobile_qq&iid=29957305093&utm_medium=toutiao_android)。【2018-5-8】[对LSTM中M（Memory）的再思考](https://zhuanlan.zhihu.com/p/28263453?utm_source=wechat_session&utm_medium=social),[YJango的循环神经网络——实现LSTM](https://zhuanlan.zhihu.com/p/25518711)
