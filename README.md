@@ -403,6 +403,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [20个令人惊叹的深度学习应用(欢迎补充)：Demo+Paper+Code](https://zhuanlan.zhihu.com/p/26392608)
 - [2017-9-20][ClarifAI在线Demo（目标检测、人脸识别、色情识别、场景识别等）](https://clarifai.com/demo#)
 - 【2018-2-25】[在线demo：黑白图片着色](http://demos.algorithmia.com/colorize-photos/)
+- 【2018-5-13】[TensorFlow.js浏览器里的实时人体姿态估计](https://github.com/tensorflow/tfjs-models/tree/master/posenet/demos)
+- 【2018-5-13】[Kaggle Kernal免费GPU试用案例](https://www.kaggle.com/dansbecker/running-kaggle-kernels-with-a-gpu/code)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
@@ -443,6 +445,10 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚。【2018-5-12】神经网络机器翻译模型可视化(注意力Seq2seq模型机制)[《Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)》](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/). 
  ![attention](https://jalammar.github.io/images/attention.png)
  - 【2018-5-1】机器阅读理解google QANet的[Tensorflow实现](https://github.com/NLPLearn/QANet)
+---
+### 语音
+- 【2018-5-13】[音频样本浏览器](https://www.sononym.net/),支持音频分析、相似搜索、智能分类等
+- 【Google Duplex：通过电话进行自然对话以执行“真实世界”任务】[《Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone | Google AI Blog》](https://ai.googleblog.com/2018/05/duplex-ai-system-for-natural-conversation.html)
 ---
 #### 对抗生成学习
 VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a97_b.png)
