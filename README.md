@@ -342,7 +342,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [Michael Nielsen](http://michaelnielsen.org/)，这本书通俗易懂，由浅入深,细致讲解了神经网络，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[配套Code](https://github.com/mnielsen/neural-networks-and-deep-learning),[中文版CSDN下载地址](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元，[GitBook中文翻译地址](https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details)
 -【2017-12-13】Deep learning（AI圣经）。
  - （1）[Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[官方slides地址](http://www.deeplearningbook.org/lecture_slides.html),[github中文读书笔记](https://github.com/exacity/simplified-deeplearning)，[Deep Learning presented by Ian Goodfellow现场版（youtube）](https://www.youtube.com/watch?v=vi7lACKOUao).
- - （2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](http://www.mooc.ai/bbs/blog/423/show)
+ - （2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](http://www.mooc.ai/bbs/blog/423/show)，更完整的集合[AI研习社公开课年度盘点](http://www.mooc.ai/bbs/blog/2474/show)
  - （3）[清华读书会分享笔记（pdf）](https://pan.baidu.com/s/1pKCiBO3#list/path=%2F)
 
 | **时间** | **类型** | **名称** | **备注** |
