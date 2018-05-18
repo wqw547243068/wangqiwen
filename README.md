@@ -445,6 +445,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
  - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚。【2018-5-12】神经网络机器翻译模型可视化(注意力Seq2seq模型机制)[《Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)》](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/). 
  ![attention](https://jalammar.github.io/images/attention.png)
  - 【2018-5-1】机器阅读理解google QANet的[Tensorflow实现](https://github.com/NLPLearn/QANet)
+ - 【2018-5-18】[解密谷歌 Gmail 新功能：结合 BoW 模型和 RNN-LM，帮助用户快速写邮件](https://www.jiqizhixin.com/articles/051705)
 ---
 ### 语音
 - 【2018-5-13】[音频样本浏览器](https://www.sononym.net/),支持音频分析、相似搜索、智能分类等
