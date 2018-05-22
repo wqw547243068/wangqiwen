@@ -550,6 +550,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-4-2】[Heavens Above](http://www.heavens-above.com/), 查看天体运行，如特斯拉实时位置，天宫一号降落过程
 - 【2018-5-1】[《后端架构师技术图谱》](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md#innodb)
 - 【2018-5-20】[Linux,一生只为寻找欢笑](https://zhuanlan.zhihu.com/p/19796979)
+- 【2018-5-22】[基于HTML5超酷摄像头（HTML5 webcam）拍照功能实现代码](http://www.jb51.net/html5/67833.html),基于WebRTC技术
 ### 实验评估
 - 第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
  - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
