@@ -1,10 +1,9 @@
 # 资料汇总
-
-[TOC]
-
-## 新版代码(from win 10 sublime)
+目录：
+- [Github编辑](## Github编辑)
 
 积累平时的代码
+## Github编辑
 **名词解释**
     解释
         select * from table where a=3 limit 10;
@@ -71,7 +70,7 @@ cond(no)->sub->io
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
 Cloning into 'backend'...
 Username for 'https://github.com': wqw547243068
-Password for 'https://wqw547243068@github.com': 
+Password for 'https://wqw547243068@github.com':
 remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/p1cn/backend.git/'
 ```
@@ -151,7 +150,7 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
  - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
 ---
 - 费曼技巧：通过向别人清楚地解说一件事，来确认自己真的弄懂了这件事。参考：[号称终极快速学习法的费曼技巧，究竟是什么样的学习方法？](https://www.zhihu.com/question/20576786)
-- 
+-
 ![费曼技巧](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1505214981844&di=c9a85fee49f3eba5dbad2f575d260e69&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F001UzQQOgy72rDwKKBy40)
 ---
 - 学习金字塔
@@ -165,7 +164,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [3Blue1Brown](www.patreon.com/3blue1brown)出品（接受捐助）：[线性代数的本质-Essence of Linear Algebra-视频教程](http://www.3blue1brown.com/)，[Bilibili上《线性代数本质》双语视频教程](http://www.bilibili.com/video/av6731067/).类似视频还有微积分本质.[制作教学视频的代码](https://github.com/3b1b/manim)
 - 【2017-12-23】神经网络原理视频（十分直观形象），包含3部分，[直观理解反向传播](https://www.bilibili.com/video/av16577449/)
 - ![](http://www.tensorflownews.com/wp-content/uploads/2017/11/1511693406697-678x381.jpg)
-- [行列式的本质（马同学高等数学）](http://www.matongxue.com/madocs/247.html).《数学拾遗》[英文版百度云地址](https://pan.baidu.com/share/link?shareid=1204761446&uk=2416092239&fid=2111748288). 
+- [行列式的本质（马同学高等数学）](http://www.matongxue.com/madocs/247.html).《数学拾遗》[英文版百度云地址](https://pan.baidu.com/share/link?shareid=1204761446&uk=2416092239&fid=2111748288).
 - [矩阵分解(加法偏)](https://mp.weixin.qq.com/s?src=3&timestamp=1498919864&ver=1&signature=lwM3ouw-FlaVYwhol06JImHUQz-gJ00kBAYkssdiD3pSLwOS48Mv9ntL97readD8AZrXS2q0D28PegS*LE6Cxp88Hy8RPP9VLGdWA29zARcLVFuwHbJJl8SPtB*dq7njgt7suMGouSV-FP5b9BlFeWtQ8XNSO9aJyrh8mBJNYS8=),[矩阵分解(乘法篇)，很不错](https://mp.weixin.qq.com/s?src=3&timestamp=1498919864&ver=1&signature=lwM3ouw-FlaVYwhol06JImHUQz-gJ00kBAYkssdiD3q4iNXi-7lf9GzKeq2CvP0yAofBNF7OoCG21M1YDLrrhHHA15K4rrKyP1FFPjQtmNGv0yv5IFeA7LmvuBiea1Xrsa79Gf8c6IT1JiTdra-mU8JNHdj0zp-lYaJUUfp0CHw=)
 - [如何通俗的解释放射变换](http://www.matongxue.com/madocs/244.html),[生动讲解矩阵的空间变换](http://blog.csdn.net/a396901990/article/details/44905791)：平移、缩放、旋转、对称（xy或原点）、错切、组合。[行列式的本质是什么？---万门大学童哲的解释](https://www.zhihu.com/question/36966326/answer/70687817):行列式就是线性变换的放大率！理解了行列式的物理意义，很多性质你根本就瞬间理解到忘不了！
 
@@ -176,7 +175,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [最优化算法-避开鞍点](http://www.csuldw.com/2016/07/10/2016-07-10-saddlepoints/)
 - [频率学派与贝叶斯学派之争](http://www.cnblogs.com/549294286/archive/2013/04/08/3009073.html)：[知乎网友解释](https://www.zhihu.com/question/20587681/answer/21294468),频率学派最先出现，疯狂打压新生的贝叶斯学派，贝叶斯很凄惨，就跟艺术圈的梵高一样，死后的论文才被自己的学生发表，经过拉普拉斯之手发扬光大，目前二派就像华山派的剑宗和气宗。频率学派挺煞笔的，非得做大量实验才能给出结论，比如你今年高考考上北大的概率是多少啊？频率学派就让你考100次，然后用考上的次数除以100。而贝叶斯学派会找几个高考特级教师对你进行一下考前测验和评估，然后让这几个教师给出一个主观的可能性，比如说：你有9成的把握考上北大。
    - 这个区别说大也大，说小也小。（1）往大里说，世界观就不同，频率派认为参数是客观存在，不会改变，虽然未知，但却是固定值；贝叶斯派则认为参数是随机值，因为没有观察到，那么和是一个随机数也没有什么区别，因此参数也可以有分布，个人认为这个和量子力学某些观点不谋而合。（2） 往小处说，频率派最常关心的是似然函数，而贝叶斯派最常关心的是后验分布。我们会发现，后验分布其实就是似然函数乘以先验分布再normalize一下使其积分到1。因此两者的很多方法都是相通的。贝叶斯派因为所有的参数都是随机变量，都有分布，因此可以使用一些基于采样的方法（如MCMC）使得我们更容易构建复杂模型。频率派的优点则是没有假设一个先验分布，因此更加客观，也更加无偏，在一些保守的领域（比如制药业、法律）比贝叶斯方法更受到信任。
-   - 频率 vs 贝叶斯 =   P(X;w)  vs  P(X|w) 或 P(X,w) 
+   - 频率 vs 贝叶斯 =   P(X;w)  vs  P(X|w) 或 P(X,w)
    - 频率学派认为参数固定，通过无数字实验可以估计出参数值——客观；
    - 贝叶斯学派认为参数和数据都是随机的，参数也服从一定的分布，需要借助经验——主观
 - [统计学基础知识【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/5987845.html)
@@ -251,7 +250,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 《统计学习方法》总结：
 - ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
 
-- [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/) 
+- [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
 - 最优化：各种优化算法对比
 - ![表达式](https://raw.githubusercontent.com/SwordYork/simplified-deeplearning/master/sgd-comparison/figures/relation.png)
 - 最优化：各种优化算法对比
@@ -323,7 +322,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
   - ![LeNet-5结构](http://img.blog.csdn.net/20160107230058907)
  - [LeNet-5手写数字识别示意图](http://yann.lecun.com/exdb/lenet/),[CNN手写数字识别实时3D交互，能看到详细的参数（非常直观）](http://scs.ryerson.ca/~aharley/vis/conv/),【2017-8-8】更令人震惊的3D模拟效果（视频）[Neural Network 3D Simulation](https://www.youtube.com/watch?v=3JQ3hYko51Y)，[制作方官网提供的解释](https://www.cybercontrols.org/neuralnetworks),实时视频中的CNN各层效果[What convolutional neural networks see](https://www.youtube.com/watch?v=Gu0MkmynWkw),[Deep Visualization Toolbox](https://www.youtube.com/watch?v=AgkfIQ4IGaM)
  - ![LeNet-5 gif](http://yann.lecun.com/exdb/lenet/gifs/asamples.gif)
-  
+
   - 可视化资料:[Google PlayGround神经网络训练在线演示](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.45786&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false),【2017-12-28】汉化版，[好玩的神经网络](http://playground.tensorflowjiaocheng.com/),来自[Tensorflow教程网](http://www.tensorflowjiaocheng.com/). [ConvNetJS两层神经网络实时训练和可视化（可定制网络结构，看隐层空间,作者是Andrej Karpathy）](http://cs.stanford.edu/people/karpathy/convnetjs//demo/classify2d.html)，[Andrej Karpathy的其他Demo主页](http://cs.stanford.edu/people/karpathy/convnetjs/)
   - 【2018-3-21】[2分钟论文 | 用 谷歌「AI可解释性」 看懂机器学习](https://www.toutiao.com/a6534574654458167815/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1521592137&app=news_article&utm_source=mobile_qq&iid=28217844450&utm_medium=toutiao_android),[Building Blocks of AI Interpretability | Two Minute Papers #234](https://www.youtube.com/watch?v=pVgC-7QTr40)，可视化展示Web地址[The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 - 资料：[Deep Learning(ppt)](http://www.cs.nyu.edu/~yann/talks/lecun-20090720-vlpr-01.pdf),[Manifold](http://www.cs.nyu.edu/~yann/talks/lecun-20080905-mlss-manifold.pdf)
@@ -442,7 +441,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
   - 【2018-1-15】[李纪为创立的香侬科技获红杉千万投资](http://www.sohu.com/a/216713639_114778),金融搜索分析工具
  - 香港理工[李嫣然](http://yanran.li/about/)
  - 【2018-4-2】Google Brain开发者，[蔡善清](http://scai.io/#about), [Github主页](https://github.com/caisq), 2005进入清华，2012年MIT博士毕业， tensorflow debugger主要开发者(以后会集成到tensorboard中)，Eager动态计算图开发者
- - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚。【2018-5-12】神经网络机器翻译模型可视化(注意力Seq2seq模型机制)[《Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)》](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/). 
+ - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚。【2018-5-12】神经网络机器翻译模型可视化(注意力Seq2seq模型机制)[《Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)》](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/).
  ![attention](https://jalammar.github.io/images/attention.png)
  - 【2018-5-1】机器阅读理解google QANet的[Tensorflow实现](https://github.com/NLPLearn/QANet)
  - 【2018-5-18】[解密谷歌 Gmail 新功能：结合 BoW 模型和 RNN-LM，帮助用户快速写邮件](https://www.jiqizhixin.com/articles/051705)
@@ -481,7 +480,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 ### 数据挖掘
 - [谁说菜鸟不会数据分析【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/5997018.html?from=timeline)
 - [SQL必知必会【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/6024479.html)
-- SQL各种join区别: 
+- SQL各种join区别:
 ![join区别](http://images2015.cnblogs.com/blog/594609/201601/594609-20160120105945578-386143616.png)
 - 经验总结：[以什么姿势进入DataMining会少走弯路？](http://weibo.com/ttarticle/p/show?id=2309403973170330790744)
 - [大嘴巴漫谈数据挖掘](http://download.csdn.net/detail/laoge/9386026)（易向军），图解各种基础知识和算法概念——五星推荐
@@ -496,7 +495,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
 ![How a basic pipeline for detecting faces might work](https://cdn-images-1.medium.com/max/1600/1*WxBM1lB5WzDjrDXYfi9gtw.gif)
 - Face Point
-![Face Point](https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png)
+- ![Face Point](https://cdn-images-1.medium.com/max/1600/1*AbEg31EgkbXSQehuNJBlWg.png)
 - Face Compare
 ![Face Compare](https://cdn-images-1.medium.com/max/1600/1*n1R8VMyDRw3RNO3JULYBpQ.png)
 - [2017-9-20][CMU OpenPose姿势识别](https://github.com/hxl1990/openpose)
@@ -576,20 +575,20 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [The Zen of Python(Python之禅)](http://blog.csdn.net/liang19890820/article/details/51734118)
 - ![python](http://img.blog.csdn.net/20160908133049363)
 - <font color='red' size=5>Python 之禅</font>， by Tim Peters
- - 优美胜于丑陋（Python 以编写优美的代码为目标） 
- - 明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似） 
- - 简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现） 
- - 复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁） 
- - 扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套） 
- - 间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题） 
- - 可读性很重要（优美的代码是可读的） 
- - 即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上） 
- - 不要包容所有错误，除非你确定需要这样做（精准地捕获异常，不写except:pass风格的代码） 
- - 当存在多种可能，不要尝试去猜测 
- - 而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法） 
- - 虽然这并不容易，因为你不是 Python 之父（这里的 Dutch 是指 Guido） 
- - 做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量） 
- - 如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准） 
+ - 优美胜于丑陋（Python 以编写优美的代码为目标）
+ - 明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似）
+ - 简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现）
+ - 复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁）
+ - 扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套）
+ - 间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题）
+ - 可读性很重要（优美的代码是可读的）
+ - 即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上）
+ - 不要包容所有错误，除非你确定需要这样做（精准地捕获异常，不写except:pass风格的代码）
+ - 当存在多种可能，不要尝试去猜测
+ - 而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法）
+ - 虽然这并不容易，因为你不是 Python 之父（这里的 Dutch 是指 Guido）
+ - 做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量）
+ - 如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准）
  - 命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）
 - 【2017-11-23】python编码规范，目前有google和pep8两种，pylint默认pep8，[Google python编码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/)，[如何用pylint规范代码风格](https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/)
  - 安装方法：sudo pip install -U pep8/pylint
@@ -597,7 +596,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 老外的Matplotlib教程,[英文原文](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)_,[中文译文](https://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)，[Matplotlib官方艺术馆](http://matplotlib.org/gallery.html)
 - [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html),pandas cheetsheet, ![pandas](https://upload-images.jianshu.io/upload_images/2422746-c3dcf0bba1d9f616.png)
 - pandas读取excel数据示例
- [2016-7-30] 
+ [2016-7-30]
  - 【2018-5-2】6张python工具包总结图，见[python数据分析实用小抄](https://www.jianshu.com/p/7f4945b5d29c),[Top 28 Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/),[百度云地址](https://pan.baidu.com/s/1kUQxyUN#list/path=%2F)
 - 【2017-11-23】[史上最全设计模式导学目录](http://blog.csdn.net/lovelion/article/details/17517213)
 - 【2017-12-14】[字符编码详解——彻底理解掌握编码知识，“乱码”不复存在](http://blog.51cto.com/polaris/377468),[字符字节和编码](http://www.regexlab.com/zh/encoding.htm)
