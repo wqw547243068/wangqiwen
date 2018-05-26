@@ -1,6 +1,8 @@
 # 资料汇总
 目录：
-- [Github编辑](## Github编辑)
+- [Github编辑](##Github编辑)
+
+<a href="##macbook配置">`点这里从头再读一遍`</a>
 
 积累平时的代码
 ## Github编辑
@@ -15,6 +17,7 @@
 * [MarkDown语法笔记（完整版）](http://blog.csdn.net/witnessai1/article/details/52551362)
 * [马克飞象markdown语法在线测试](https://maxiang.io/ "可以在线测试MD语言！")
 * [Latex在线调试](https://latexbase.com/)
+* [Markdown如何插入目录](https://github.com/ekalinin/github-markdown-toc)
 ---
 ***流程图***：
 (代码引用示例之二)
