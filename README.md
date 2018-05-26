@@ -5,8 +5,8 @@
 积累平时的代码
 ## Github编辑
 **名词解释**
-    解释
-        select * from table where a=3 limit 10;
+    解释(代码引用示例之一)
+        `select * from table where a=3 limit 10;`
 > 备注信息：
 * [Git简易指南](http://www.bootcss.com/p/git-guide/),[图说Git](http://marklodato.github.io/visual-git-guide/index-en.html),[git文件状态和工作区域](https://www.cnblogs.com/polk6/p/git-fileStatus.html)
 * ![flow](https://images2017.cnblogs.com/blog/153475/201710/153475-20171013183602293-822234036.png)
@@ -17,6 +17,8 @@
 * [Latex在线调试](https://latexbase.com/)
 ---
 ***流程图***：
+(代码引用示例之二)
+```bash
 flow
 st=>start: Start:>https://www.zybuluo.com
 io=>inputoutput: verification
@@ -27,6 +29,7 @@ e=>end
 st->io->op->cond
 cond(yes)->e
 cond(no)->sub->io
+```
 ***
 ## macbook配置
 - 汇总
