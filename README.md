@@ -410,6 +410,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2018-2-25】[在线demo：黑白图片着色](http://demos.algorithmia.com/colorize-photos/)
 - 【2018-5-13】[TensorFlow.js浏览器里的实时人体姿态估计](https://github.com/tensorflow/tfjs-models/tree/master/posenet/demos)
 - 【2018-5-13】[Kaggle Kernal免费GPU试用案例](https://www.kaggle.com/dansbecker/running-kaggle-kernels-with-a-gpu/code)
+- 【2018-5-26】[无需深度学习框架，如何从零开始用Python构建神经网络](https://zhuanlan.zhihu.com/p/37340090)
 #### CNN
 - [ImageNet 缔造者：如何让冰冷的机器读懂照片背后的故事？](http://www.ifanr.com/648667), [TED视频](https://www.ted.com/talks/fei_fei_li_how_we_re_teaching_computers_to_understand_pictures?language=zh-cn#t-40455),[网易公开课](http://open.163.com/movie/2015/3/Q/R/MAKN9A24M_MAKN9QAQR.html)
 - [CS231n Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/neural-networks-3/),[Youtube视频地址](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)，[Andrej Karpathy Youtube主页](https://www.youtube.com/channel/UCPk8m_r6fkUSYmvgCBwq-sw)，[CS231n官方笔记授权翻译总集篇发布](https://zhuanlan.zhihu.com/p/21930884?utm_medium=social&utm_source=wechat_session&from=groupmessage)
