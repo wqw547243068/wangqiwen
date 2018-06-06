@@ -1,3 +1,4 @@
+#BP神经网络与Python实现:https://www.cnblogs.com/Finley/p/5946000.html
 import math
 import random
 
