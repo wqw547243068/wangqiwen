@@ -498,7 +498,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2017-12-13】知乎[如何快速成为分析师](https://www.zhihu.com/question/29265587),图表建议-思维指南
 - ![excel选图](https://pic1.zhimg.com/50/v2-15e812e7de4c1ddd23144e4e53826cf0_hd.jpg)
 - 【2017-12-14】知乎[数据分析&数据挖掘书籍推荐](https://www.zhihu.com/question/20757000)
-- 【2018-5-2】[你费那么大劲做的数据分析，有用吗](https://zhuanlan.zhihu.com/p/21378331),左耳朵耗子-陈皓的[数据的游戏：冰与火](https://coolshell.cn/articles/10192.html)
+- 【2018-5-2】[你费那么大劲做的数据分析，有用吗](https://zhuanlan.zhihu.com/p/21378331),左耳朵耗子-陈皓的[数据的游戏：冰与火](https://coolshell.cn/articles/10192.html)，博主的视频简介，[二叉树视频](https://time.geekbang.org/column/intro/48?code=GGVOKz%2FyFTRtOnWIHYr%2FvFsgL3ON7Xqwkdz2f7yTqD4%3D&utm_source=weibo&utm_medium=geektime&utm_campaign=79-rise&utm_content=0613)
 ### 人脸识别
 - 权威书籍[Handbook of Face Recognition](https://cours.etsmtl.ca/sys828/REFS/Intro/Hanbook%20of%20Face%20Recognition.pdf)
 - [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
