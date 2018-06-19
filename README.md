@@ -366,7 +366,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 |吴恩达|[DeepLearning.ai学习笔记彩绘版](https://pan.baidu.com/s/1DtYg3TyplXQOVZ-YmplJaw),百度云地址|很好的资料,作者TessFerrandez的[信息图地址](https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng),相关[github地址](https://github.com/mbadry1/DeepLearning.ai-Summary)|
 |google|[Google AI 教学系列片 《Cloud AI Adventures》](https://zhuanlan.zhihu.com/p/33996430)||
 |机器学习概念图示|来自Chris Albon博士，[英文原版](https://machinelearningflashcards.com/)需要12$,中文版[百度网盘地址](https://pan.baidu.com/s/1hsTPt7A)（密码：hje1）由大数据文摘提供|参考资料：[300张小抄表搞定机器学习知识点](http://www.sohu.com/a/217940688_464065)|
-
+|语音识别实践|[解析深度学习：语音识别实践，pdf](https://download.csdn.net/download/qq_32716885/10389257)|[备份pdf链接](https://download.csdn.net/download/whl19841123/10395542)|
 
 #### 大神博客
 - [Andrej Karpathy博客](http://karpathy.github.io/neuralnets/),[Colah's Blog](http://colah.github.io/),[Neural Networks, Manifolds, and Topology](http://colah.github.io/posts/2014-03-NN-Manifolds-Topology/),[Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/),[印度人总结的cnn笔记](https://deepnotes.io/implementing-cnn)
