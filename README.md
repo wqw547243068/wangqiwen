@@ -570,7 +570,9 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
  - 此外，A/B测试并不能提供用户行为的具体细节。A/B测试的结果也仅限于被测试的两个选项：如果12号字比16号字为你的网站带来多1%的用户浏览时间，那10号字呢？8号呢？A/B测试并不能帮助你作更多的、长远的决定。
  - A/B测试还有别的缺点：需要的用户人数大，可能的影响因素多，可以测试的选项数有很大限制等等。
 - [吆喝科技-ab-test最佳实践](http://www.appadhoc.com/blog/category/appadhoc/)
-- 第二种：<font color=#0099ff size=5 face="黑体">interleaving</font>
+- 第二种：<font color=#0099ff size=5 face="黑体">interleaving</font>，参考美团分享的文章[沈国阳：美团推荐系统整体框架与关键工作](https://www.csdn.net/article/1970-01-01/2825455).
+   - abtest的好处是可以对多个策略给出定量评估，坏处是：①策略差异小时，评估结果波动大②需要较长时间反馈，导致迭代速度慢
+   - 改进：interleaving，所需流量小，灵敏度高（24h内），但只能给出定性结论。基本思想是将两个策略混合，对所有用户统计分析判断哪个好
 - [灰度发布和A/B Test](http://www.jianshu.com/p/88f206f48278)
 ## 编程语言
 - [命令式编程和声明式编程的区别](http://www.vaikan.com/imperative-vs-declarative/)
