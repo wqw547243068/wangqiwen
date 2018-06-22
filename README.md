@@ -149,12 +149,12 @@ echo '{"a":2,"b":[3,6,8]}' |JSON.sh
 ### 学习技巧
 - [@爱可可-爱生活(新浪微博)](http://weibo.com/fly51fly?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2#_rnd1501558283451)：
 >
- - 互联时代怎么阅读？
- - 读书重在结构生长，形成扎实的支撑；
- - 碎片阅读重在视野的纳新和扩展，开枝散叶；
- - 思考重在提炼和关联，勾画错综的经脉。
- - 学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。
- - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
+   - 互联时代怎么阅读？
+   - 读书重在结构生长，形成扎实的支撑；
+   - 碎片阅读重在视野的纳新和扩展，开枝散叶；
+   - 思考重在提炼和关联，勾画错综的经脉。
+   - 学习就是如此，由外而内，无广不精，无博不深，但能坚持必有所成。
+   - 网络阅读的最佳实践，不在“取”，在“舍”，知舍才能知关键，料不在多，有感悟一二足矣。
 ---
 - 费曼技巧：通过向别人清楚地解说一件事，来确认自己真的弄懂了这件事。参考：[号称终极快速学习法的费曼技巧，究竟是什么样的学习方法？](https://www.zhihu.com/question/20576786)
 -
@@ -187,11 +187,11 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
    - 贝叶斯学派认为参数和数据都是随机的，参数也服从一定的分布，需要借助经验——主观
 - [统计学基础知识【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/5987845.html)
 - 大矩阵相乘：[分布式版本](http://weibo.com/ttarticle/p/show?id=2309404091643656571557),[MapReduce实现矩阵相乘](http://blog.csdn.net/jiangsanfeng1111/article/details/51025744)，[Hadoop实现大矩阵相乘之我见](http://www.cnblogs.com/eczhou/p/3340731.html)
- - A大B小(内存受限)
+   - A大B小(内存受限)
  ![图](http://images.cnitblog.com/blog/310680/201309/26133812-99b31a08aa934015a11a19cc178713db.png)
- - AB都大(内存受限)
+   - AB都大(内存受限)
  ![图](http://images.cnitblog.com/blog/310680/201309/26133859-83d01098a7ac4192a7ff02fbaacb2369.png)
- - 不受内存限制（最小粒度）
+   - 不受内存限制（最小粒度）
  ![图](http://images.cnitblog.com/blog/310680/201309/26134115-f5041d455fbe4ef98e3653a77cb31774.png)
 - Colah的[Visual Information Theory](http://colah.github.io/posts/2015-09-Visual-Information/)，[中文翻译](http://blog.csdn.net/xtydtc/article/details/52265952)
 - 【2017-11-24】遇见数学，[图解普林斯顿微积分系列](https://www.toutiao.com/i6489560900662460942/)
@@ -211,33 +211,33 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - [flume+kafka+hdfs+storm组合](http://www.aboutyun.com/thread-6855-1-1.html)
 ### 推荐系统
 - [项量：关于LDA，pLSA，SVD和Word2vector的一些看法](https://zhuanlan.zhihu.com/p/21377575)：
-  - SVD算法是指在SVD的基础上引入隐式反馈，使用用户的历史浏览数据、用户历史评分数据、电影的历史浏览数据、电影的历史评分数据等作为新的参数
-  - LSA最初是用在语义检索上，为了解决一词多义和一义多词的问题,将词语（term）中的concept提取出来，建立一个词语和概念的关联关系（t-c relationship），这样一个文档就能表示成为概念的向量。这样输入一段检索词之后，就可以先将检索词转换为概念，再通过概念去匹配文档。在实际实现这个思想时，LSA使用了SVD分解的数学手段.x=T*S*D
-  - PLSA和LSA基础思想是相同的，都是希望能从term中抽象出概念，但是具体实现的方法不相同。PLSA使用了概率模型，并且使用EM算法来估计P（t|c）和P（c|d）矩阵.LDA是pLSA的generalization：一方面LDA的hyperparameter设为特定值的时候，就specialize成pLSA了
-  - NMF：一种矩阵分解，要求输入矩阵元素非负，目标和 SVD 一样。
-  - pLSA：SVD 的一种概率解释方法——要求矩阵元素是非负整数。LDA：pLSA 加上 topics 的 Dirichlet 先验分布后得到的 Bayesian model，数学上更漂亮。为什么是 Dirichlet 先验分布，主要是利用了 Dirichlet 和 multinomial 分布的共轭性，方便计算。
+   - SVD算法是指在SVD的基础上引入隐式反馈，使用用户的历史浏览数据、用户历史评分数据、电影的历史浏览数据、电影的历史评分数据等作为新的参数
+   - LSA最初是用在语义检索上，为了解决一词多义和一义多词的问题,将词语（term）中的concept提取出来，建立一个词语和概念的关联关系（t-c relationship），这样一个文档就能表示成为概念的向量。这样输入一段检索词之后，就可以先将检索词转换为概念，再通过概念去匹配文档。在实际实现这个思想时，LSA使用了SVD分解的数学手段.x=T*S*D
+   - PLSA和LSA基础思想是相同的，都是希望能从term中抽象出概念，但是具体实现的方法不相同。PLSA使用了概率模型，并且使用EM算法来估计P（t|c）和P（c|d）矩阵.LDA是pLSA的generalization：一方面LDA的hyperparameter设为特定值的时候，就specialize成pLSA了
+   - NMF：一种矩阵分解，要求输入矩阵元素非负，目标和 SVD 一样。
+   - pLSA：SVD 的一种概率解释方法——要求矩阵元素是非负整数。LDA：pLSA 加上 topics 的 Dirichlet 先验分布后得到的 Bayesian model，数学上更漂亮。为什么是 Dirichlet 先验分布，主要是利用了 Dirichlet 和 multinomial 分布的共轭性，方便计算。
 - [从item-base到svd再到rbm，多种Collaborative Filtering(协同过滤算法)从原理到实现](http://blog.csdn.net/dark_scope/article/details/17228643)
 - 案例分享：[世纪佳缘推荐系统经验分享](http://www.csdn.net/article/2015-02-15/2823976)
 - 《推荐系统实践》[阅读笔记：LFM模型、图模型、slop one和SVD算法](http://www.aiuxian.com/article/p-952427.html)
 - 实时推荐系统
- - [实时推荐系统的三种方式](http://www.jianshu.com/p/356656ce2901)
+   - [实时推荐系统的三种方式](http://www.jianshu.com/p/356656ce2901)
 ### 机器学习
 #### 特征工程
 - 江湖名言：<font color=#0099ff size=5 face="黑体">数据和特征决定了机器学习的上限，而模型和算法只是逼近这个上限而已</font>
 - [知乎：特征工程到底是什么](https://www.zhihu.com/question/29316149)
- - [使用sklearn做特征工程](http://www.cnblogs.com/jasonfreak/p/5448385.html)
- - [使用python进行描述性统计](http://www.cnblogs.com/jasonfreak/p/5441512.html)
- - [使用sklearn优雅的进行数据挖掘](http://www.cnblogs.com/jasonfreak/p/5448462.html)
- - 使用sklearn进行集成学习:[理论](http://www.cnblogs.com/jasonfreak/p/5657196.html),[实践](http://www.cnblogs.com/jasonfreak/p/5720137.html)
+   - [使用sklearn做特征工程](http://www.cnblogs.com/jasonfreak/p/5448385.html)
+   - [使用python进行描述性统计](http://www.cnblogs.com/jasonfreak/p/5441512.html)
+   - [使用sklearn优雅的进行数据挖掘](http://www.cnblogs.com/jasonfreak/p/5448462.html)
+   - 使用sklearn进行集成学习:[理论](http://www.cnblogs.com/jasonfreak/p/5657196.html),[实践](http://www.cnblogs.com/jasonfreak/p/5720137.html)
 ![fe](http://images2015.cnblogs.com/blog/927391/201606/927391-20160628112051062-1290708859.jpg)
  特征工程常用方法：
 ![常用方法](https://pic3.zhimg.com/20e4522e6104ad71fc543cc21f402b36_r.png)
 - 不平衡数据集如何处理？研究表明，在某些应用下，1∶35的比例就会使某些分类方法无效，甚至1∶10的比例也会使某些分类方法无效。
- - [分类问题中不平衡数据集的解决方案](https://www.52ml.net/16294.html)，正负样本玄虚
- - 1.过抽样：简单赋值负样本——最常用，容易过拟合，SVM模型里用途不大
- - 2.欠抽样：随机减少正样本——造成信息丢失
- - 3.算法层面：（1）重构训练集，按错分代价对训练集重构（2）代价敏感函数，大样本高代价，小样本低代价
- - 4.特征选择：选取有区分度的特征
+   - [分类问题中不平衡数据集的解决方案](https://www.52ml.net/16294.html)，正负样本玄虚
+   - 1.过抽样：简单赋值负样本——最常用，容易过拟合，SVM模型里用途不大
+   - 2.欠抽样：随机减少正样本——造成信息丢失
+   - 3.算法层面：（1）重构训练集，按错分代价对训练集重构（2）代价敏感函数，大样本高代价，小样本低代价
+   - 4.特征选择：选取有区分度的特征
  - [解决真实世界的问题：如何在不平衡数据集上使用机器学习](https://www.52ml.net/17957.html?utm_source=tuicool&utm_medium=referral)
  ![图解](https://www.52ml.net/wp-content/uploads/2016/08/4ffce04d92a4d6cb21c1494cdfcd6dc1-7.jpg)
  - 【2017-12-25】知乎：[机器学习中的测试机和训练集如何划分？](https://www.zhihu.com/question/59683792)，与时间强相关的问题需要按照时间划分，否则（大部分ML问题）应该随机抽样，与时间无关（应用了未来函数）。随机划分保证了训练集和测试集的历史场景是类似的，就类似于这些数据都是同一台机器同一时期产生的两类数据集。这样计算出的准确率能最真实的反映模型对这段数据学习的效果
@@ -249,14 +249,13 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 #### 算法总结
 - 微软-ML算法指南：[pdf版下载地址](https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-algorithm-cheat-sheet)
 ![微软算法](微软-ML算法指南.png)
- - [详细讲解](How to choose algorithms for Microsoft Azure Machine Learning)
+   - [详细讲解](How to choose algorithms for Microsoft Azure Machine Learning)
 - [scikit-learn官方总结](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html#)，Scikit-learn Cookbook:[英文本](https://www.packtpub.com/big-data-and-business-intelligence/scikit-learn-cookbook),[中文译本](https://www.gitbook.com/book/wizardforcel/sklearn-cookbook/details)，[MarkDown格式](http://git.oschina.net/wizardforcel/sklearn-cb/blob/master/SUMMARY.md)。【2018-6-12】scikit-learn中文翻译版，[主页](http://sklearn.apachecn.org/),[scikit-learn网页版](http://sklearn.apachecn.org/cn/0.19.0/index.html)，[Github版](https://github.com/apachecn/scikit-learn-doc-zh),[wiki版](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030181),[视频版](http://i.youku.com/apachecn)。[sklearn库中文版完全手册下载](https://download.csdn.net/download/nndreamer/9823008)
 ![算法对比](http://scikit-learn.org/stable/_static/ml_map.png)
 - 【2017-12-20】[Dlib机器学习指南](https://www.cnblogs.com/oloroso/p/6607888.html),方法选择：![svg图](http://dlib.net/ml_guide.svg),中文版,![中文指南](http://images2015.cnblogs.com/blog/693958/201703/693958-20170323225348940-2043166934.png)
 - 算法对比
 《统计学习方法》总结：
 - ![算法总结](https://img3.doubanio.com/view/page_note/large/public/p27390874-1.jpg)
-
 - [xgboost: 速度快效果好的boosting模型](https://cos.name/2015/03/xgboost/)
 - 最优化：各种优化算法对比
 - ![表达式](https://raw.githubusercontent.com/SwordYork/simplified-deeplearning/master/sgd-comparison/figures/relation.png)
@@ -273,8 +272,8 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 #### 异常检测
 - IsolationForest。欺诈等是一系列的异常孤立点，而IsolationForest则是检测这类孤立点的一个有效算法。无需样本标记、线性时间复杂度。一般情况下要比OneClasSVM等表现要好。尤其是对非高斯分布的样本空间。
 - 【2017-7-31】[反欺诈(Fraud Detection)中所用到的机器学习模型有哪些？](https://www.zhihu.com/question/30508773/answer/205831957)：
- - （1）可视化：相关矩阵+多维尺度变换
- - （2）算法模型：时序相关（时间序列分析）、时序无关（无监督学习Isolation Forest、监督学习one-class SVM、统计学密度估计）
+   - （1）可视化：相关矩阵+多维尺度变换
+   - （2）算法模型：时序相关（时间序列分析）、时序无关（无监督学习Isolation Forest、监督学习one-class SVM、统计学密度估计）
 #### 机器学习经验总结
 - [Google机器学习经验总结](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [pluskid总结的SVM系列文章](http://blog.pluskid.org/?page_id=683)（浙大计算机，MIT博士，跟陈天奇和李沐一块做过Mxnet）
@@ -290,9 +289,9 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 #### 流形学习
 - 什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考[流形学习的简单介绍](https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/)
 - 流形学习：本质上，流形学习就是给数据降维的过程。这里假设数据是一个随机样本，采样自一个高维欧氏空间中的流形（manifold），流形学习的任务就是把这个高维流形映射到一个低维（例如2维）的空间里。流形学习可以分为线性算法和非线性算法，前者包括主成分分析（PCA）和线性判别分析（LDA），后者包括等距映射（Isomap），拉普拉斯特征映射（LE）等。流形学习可以用于特征的降维和提取，为后续的基于特征的分析，如聚类和分类，做铺垫，也可以直接应用于数据可视化等。注：摘自[集智百科流形学习（优质，包含代码及案例）](http://wiki.swarma.net/index.php/%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0)。
- - 拟合线性的流形学习模型：LLE, LTSA, Hessian LLE, 和Modified LLE
- - 拟合非线性的流形学习模型：Isomap，MDS和Spectral Embedding
- - 效果示意如下：![降维效果](http://wiki.swarma.net/images/thumb/a/ad/Manifoldlearning_figure_1.png/800px-Manifoldlearning_figure_1.png)
+   - 拟合线性的流形学习模型：LLE, LTSA, Hessian LLE, 和Modified LLE
+   - 拟合非线性的流形学习模型：Isomap，MDS和Spectral Embedding
+   - 效果示意如下：![降维效果](http://wiki.swarma.net/images/thumb/a/ad/Manifoldlearning_figure_1.png/800px-Manifoldlearning_figure_1.png)
  - [浙大何晓飞的流形学习ppt](http://www.cad.zju.edu.cn/reports/%C1%F7%D0%CE%D1%A7%CF%B0.pdf),讲的很清楚，全面，最佳资料
 #### 降维
  常见的pca属于无监督{【2017-12-28】【精华】[PCA可视化讲解](http://setosa.io/ev/principal-component-analysis/),马尔科夫链可视化讲解[Markov Chains](http://setosa.io/ev/markov-chains/)}，lda有监督,常用降维方法如下图。
@@ -325,13 +324,12 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - ![四大天王](http://upload.semidata.info/new.eefocus.com/article/image/2017/11/01/59f91af871499-thumb.png)
 - ![关系](http://images0.cnblogs.com/blog2015/678029/201508/221936578479366.png)
 - ![关系](http://images2015.cnblogs.com/blog/899685/201612/899685-20161211130512538-166288396.jpg)
- - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
-  - ![LeNet-5结构](http://img.blog.csdn.net/20160107230058907)
+   - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
+   - ![LeNet-5结构](http://img.blog.csdn.net/20160107230058907)
  - [LeNet-5手写数字识别示意图](http://yann.lecun.com/exdb/lenet/),[CNN手写数字识别实时3D交互，能看到详细的参数（非常直观）](http://scs.ryerson.ca/~aharley/vis/conv/),【2017-8-8】更令人震惊的3D模拟效果（视频）[Neural Network 3D Simulation](https://www.youtube.com/watch?v=3JQ3hYko51Y)，[制作方官网提供的解释](https://www.cybercontrols.org/neuralnetworks),实时视频中的CNN各层效果[What convolutional neural networks see](https://www.youtube.com/watch?v=Gu0MkmynWkw),[Deep Visualization Toolbox](https://www.youtube.com/watch?v=AgkfIQ4IGaM)
  - ![LeNet-5 gif](http://yann.lecun.com/exdb/lenet/gifs/asamples.gif)
-
-  - 可视化资料:[Google PlayGround神经网络训练在线演示](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.45786&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false),【2017-12-28】汉化版，[好玩的神经网络](http://playground.tensorflowjiaocheng.com/),来自[Tensorflow教程网](http://www.tensorflowjiaocheng.com/). [ConvNetJS两层神经网络实时训练和可视化（可定制网络结构，看隐层空间,作者是Andrej Karpathy）](http://cs.stanford.edu/people/karpathy/convnetjs//demo/classify2d.html)，[Andrej Karpathy的其他Demo主页](http://cs.stanford.edu/people/karpathy/convnetjs/)
-  - 【2018-3-21】[2分钟论文 | 用 谷歌「AI可解释性」 看懂机器学习](https://www.toutiao.com/a6534574654458167815/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1521592137&app=news_article&utm_source=mobile_qq&iid=28217844450&utm_medium=toutiao_android),[Building Blocks of AI Interpretability | Two Minute Papers #234](https://www.youtube.com/watch?v=pVgC-7QTr40)，可视化展示Web地址[The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
+    - 可视化资料:[Google PlayGround神经网络训练在线演示](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.45786&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false),【2017-12-28】汉化版，[好玩的神经网络](http://playground.tensorflowjiaocheng.com/),来自[Tensorflow教程网](http://www.tensorflowjiaocheng.com/). [ConvNetJS两层神经网络实时训练和可视化（可定制网络结构，看隐层空间,作者是Andrej Karpathy）](http://cs.stanford.edu/people/karpathy/convnetjs//demo/classify2d.html)，[Andrej Karpathy的其他Demo主页](http://cs.stanford.edu/people/karpathy/convnetjs/)
+    - 【2018-3-21】[2分钟论文 | 用 谷歌「AI可解释性」 看懂机器学习](https://www.toutiao.com/a6534574654458167815/?tt_from=mobile_qq&utm_campaign=client_share&timestamp=1521592137&app=news_article&utm_source=mobile_qq&iid=28217844450&utm_medium=toutiao_android),[Building Blocks of AI Interpretability | Two Minute Papers #234](https://www.youtube.com/watch?v=pVgC-7QTr40)，可视化展示Web地址[The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
 - 资料：[Deep Learning(ppt)](http://www.cs.nyu.edu/~yann/talks/lecun-20090720-vlpr-01.pdf),[Manifold](http://www.cs.nyu.edu/~yann/talks/lecun-20080905-mlss-manifold.pdf)
 - [Google AI实验室](https://aiexperiments.withgoogle.com/)，包含多种AI Demo(手写预测，[卷积网络可视化](https://aiexperiments.withgoogle.com/what-neural-nets-see)，[高维数据可视化](http://projector.tensorflow.org/)，autodraw，quickdraw，[摄像头物品识别](https://aiexperiments.withgoogle.com/giorgio-cam/view/)，声音合成，[实物翻译](https://oxism.com/thing-translator/)，手势控制)。
 - 【2017-12-26】[AI人工智能不断前进，看神经网络如何玩超级玛丽（视频）](https://www.yidianzixun.com/article/V_01NRsCrl?title_sn/0&s=9&appid=xiaomi&ver=4.5.4.0&utk=a8pzx7na)
@@ -347,9 +345,9 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 -【2017-8-5】**Neural Network and Deep Learning(神经网络与深度学习)**
 - [Michael Nielsen](http://michaelnielsen.org/)，这本书通俗易懂，由浅入深,细致讲解了神经网络，[英文版(官网)](http://neuralnetworksanddeeplearning.com/index.html),[配套Code](https://github.com/mnielsen/neural-networks-and-deep-learning),[中文版CSDN下载地址](http://download.csdn.net/download/pb09210/9556832)，书籍开源，作者求捐助5美元，[GitBook中文翻译地址](https://www.gitbook.com/book/tigerneil/neural-networks-and-deep-learning-zh/details)
 -【2017-12-13】Deep learning（AI圣经）。
- - （1）[Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[官方slides地址](http://www.deeplearningbook.org/lecture_slides.html),[github中文读书笔记](https://github.com/exacity/simplified-deeplearning)，[Deep Learning presented by Ian Goodfellow现场版（youtube）](https://www.youtube.com/watch?v=vi7lACKOUao).
- - （2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](http://www.mooc.ai/bbs/blog/423/show)，更完整的集合[AI研习社公开课年度盘点](http://www.mooc.ai/bbs/blog/2474/show)
- - （3）[清华读书会分享笔记（pdf）](https://pan.baidu.com/s/1pKCiBO3#list/path=%2F)
+   - （1）[Deep Learning中文版](https://exacity.github.io/deeplearningbook-chinese/),[英文版](http://www.deeplearningbook.org/front_matter.pdf),[官方slides地址](http://www.deeplearningbook.org/lecture_slides.html),[github中文读书笔记](https://github.com/exacity/simplified-deeplearning)，[Deep Learning presented by Ian Goodfellow现场版（youtube）](https://www.youtube.com/watch?v=vi7lACKOUao).
+   - （2）[雷锋网读书会历次分享集合：Deep Learning解读合辑](http://www.mooc.ai/bbs/blog/423/show)，更完整的集合[AI研习社公开课年度盘点](http://www.mooc.ai/bbs/blog/2474/show)
+   - （3）[清华读书会分享笔记（pdf）](https://pan.baidu.com/s/1pKCiBO3#list/path=%2F)
 
 | **时间** | **类型** | **名称** | **备注** |
 | --- | --- | --- | --- |
@@ -385,14 +383,14 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - BP算法解释（多图）：[Principles of training multi-layer neural network using backpropagation](http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html)。[BP算法推导](http://blog.csdn.net/sheng_ai/article/details/19931347),[A Gentle Introduction to Artificial Neural Networks](https://theclevermachine.wordpress.com/tag/backpropagation/),[一文弄懂神经网络中的反向传播法——BackPropagation](http://www.cnblogs.com/charlotte77/p/5629865.html),[如何直观地解释 back propagation 算法？](https://www.zhihu.com/question/27239198?rf=24827633)
 - [寒小阳：深度学习视频](http://my.tv.sohu.com/pl/9161916/84849655.shtml)
 - 【2017-8-22】非常好的机器学习/深度学习系列教程：[Machine Learning is Fun](https://medium.com/@ageitgey)，作者[Adam Geitgey](https://twitter.com/ageitgey),[知乎专栏中文翻译(来自混沌巡洋舰)](https://zhuanlan.zhihu.com/c_29122335)，系列：
- - [第一章：最简入门指南](https://zhuanlan.zhihu.com/p/24450104)
- - [第二章：用机器学习制作超级马里奥关卡](https://zhuanlan.zhihu.com/p/24344720)
- - [第三章：图像识别，鸟还是飞机？深度学习与卷积网络](https://zhuanlan.zhihu.com/p/24524583)
- - [第四章：用深度学习识别人脸](https://zhuanlan.zhihu.com/p/24567586)
- - [第五章：谷歌翻译背后的黑科技：神经网络和端到端学习](https://zhuanlan.zhihu.com/p/24590838),[Machine Learning is Fun Part 5: Language Translation with Deep Learning and the Magic of Sequences](https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa)
- - [第六章：如何用深度学习进行语音识别？](https://zhuanlan.zhihu.com/p/24703268)，[Machine Learning is Fun Part 6: How to do Speech Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a)
- - [第七章：未翻译](),[Machine Learning is Fun Part 7: Abusing Generative Adversarial Networks to Make 8-bit Pixel Art](https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7)
- - [第八章：未翻译](),[Machine Learning is Fun Part 8: How to Intentionally Trick Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196)
+   - [第一章：最简入门指南](https://zhuanlan.zhihu.com/p/24450104)
+   - [第二章：用机器学习制作超级马里奥关卡](https://zhuanlan.zhihu.com/p/24344720)
+   - [第三章：图像识别，鸟还是飞机？深度学习与卷积网络](https://zhuanlan.zhihu.com/p/24524583)
+   - [第四章：用深度学习识别人脸](https://zhuanlan.zhihu.com/p/24567586)
+   - [第五章：谷歌翻译背后的黑科技：神经网络和端到端学习](https://zhuanlan.zhihu.com/p/24590838),[Machine Learning is Fun Part 5: Language Translation with Deep Learning and the Magic of Sequences](https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa)
+   - [第六章：如何用深度学习进行语音识别？](https://zhuanlan.zhihu.com/p/24703268)，[Machine Learning is Fun Part 6: How to do Speech Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a)
+   - [第七章：未翻译](),[Machine Learning is Fun Part 7: Abusing Generative Adversarial Networks to Make 8-bit Pixel Art](https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7)
+   - [第八章：未翻译](),[Machine Learning is Fun Part 8: How to Intentionally Trick Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196)
 - [2017-8-23]MRSA KaiMing He[Tutorial: Deep Learning for Objects and Scenes](https://www.youtube.com/watch?v=jHv37mKAhV4)
 - [2017-8-23][Machine Learning Mindmap / Cheatsheet](https://github.com/dformoso/machine-learning-mindmap),[sklearn](https://github.com/dformoso/sklearn-classification),[Data Science, Classification Analysis Jupyter notebook](https://github.com/dformoso/sklearn-classification/blob/master/Data%20Science%20Workbook%20-%20Census%20Income%20Dataset.ipynb)
 - 【2017-10-10】[26种神经网络激活函数可视化](https://www.jiqizhixin.com/articles/2017-10-10-3),[Visualising Activation Functions in Neural Networks](https://dashee87.github.io/data%20science/deep%20learning/visualising-activation-functions-in-neural-networks/)(可交互)
@@ -444,13 +442,13 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-12-29】[Embedding Projector](http://projector.tensorflow.org/). ![](https://2.bp.blogspot.com/-Uql7bl2KEYM/WEfQ4Kl_0YI/AAAAAAAABck/GkktuPM8KoMcMl2Tot6GzH3-NgwPNETMgCLcB/s1600/image03.png)
 - 【2017-12-11】CMU,[Neural Network for NLP](http://phontron.com/class/nn4nlp2017/schedule.html)
 - 【2017-12-12】NLP牛人
- - 斯坦福[李纪为](https://web.stanford.edu/~jiweil/)
-  - [李纪为：用于对话生成的深度强化学习](https://baijia.baidu.com/s?old_id=545627)
-  - [让机器像人一样交流：斯坦福李纪为博士毕业论文](https://www.jiqizhixin.com/articles/2017-11-14)
-  - 【2018-1-15】[李纪为创立的香侬科技获红杉千万投资](http://www.sohu.com/a/216713639_114778),金融搜索分析工具
- - 香港理工[李嫣然](http://yanran.li/about/)
- - 【2018-4-2】Google Brain开发者，[蔡善清](http://scai.io/#about), [Github主页](https://github.com/caisq), 2005进入清华，2012年MIT博士毕业， tensorflow debugger主要开发者(以后会集成到tensorboard中)，Eager动态计算图开发者
- - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚。【2018-5-12】神经网络机器翻译模型可视化(注意力Seq2seq模型机制)[《Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)》](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/).
+   - 斯坦福[李纪为](https://web.stanford.edu/~jiweil/)
+     - [李纪为：用于对话生成的深度强化学习](https://baijia.baidu.com/s?old_id=545627)
+     - [让机器像人一样交流：斯坦福李纪为博士毕业论文](https://www.jiqizhixin.com/articles/2017-11-14)
+     - 【2018-1-15】[李纪为创立的香侬科技获红杉千万投资](http://www.sohu.com/a/216713639_114778),金融搜索分析工具
+   - 香港理工[李嫣然](http://yanran.li/about/)
+   - 【2018-4-2】Google Brain开发者，[蔡善清](http://scai.io/#about), [Github主页](https://github.com/caisq), 2005进入清华，2012年MIT博士毕业， tensorflow debugger主要开发者(以后会集成到tensorboard中)，Eager动态计算图开发者
+   - 【2018-4-27】[完全图解RNN、RNN变体、Seq2Seq、Attention机制](https://zhuanlan.zhihu.com/p/28054589),将各自的关系讲的清清楚楚。【2018-5-12】神经网络机器翻译模型可视化(注意力Seq2seq模型机制)[《Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)》](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/).
  ![attention](https://jalammar.github.io/images/attention.png)
  - 【2018-5-1】机器阅读理解google QANet的[Tensorflow实现](https://github.com/NLPLearn/QANet)
  - 【2018-5-18】[解密谷歌 Gmail 新功能：结合 BoW 模型和 RNN-LM，帮助用户快速写邮件](https://www.jiqizhixin.com/articles/051705)
@@ -536,12 +534,12 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-4-25】[阿布量化](https://github.com/bbfamily/abu?from=groupmessage&isappinstalled=0)
 ## 工具
 - 视频下载工具：[流媒体下载的10种方法](http://www.jianshu.com/p/e7d2c3a624f6)
- - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
- - [维棠](http://www.vidown.cn/)
- - YouTube视频下载：(更多方法参考知乎帖子：[如何下载youtube视频](https://www.zhihu.com/question/51714507?sort=created))
-  - （1）每个视频域名稍作修改即可（youtube.com->kissyoutube.com）,[SaveMedia](https://savemedia.com/)提供，在线下载+系列视频自动推荐
-  - (2) python代码下载,pip3 install you-get,you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw', 支持的视频网站范围广
-  - (3) [clipconverter](http://www.clipconverter.cc/)
+   - [硕鼠](http://www.flvcd.com/)(可以下载流视频，可按专辑下载)，[硕鼠Mac版下载地址](http://www.pc6.com/mac/118056.html)（官网地址有问题）
+   - [维棠](http://www.vidown.cn/)
+   - YouTube视频下载：(更多方法参考知乎帖子：[如何下载youtube视频](https://www.zhihu.com/question/51714507?sort=created))
+   - （1）每个视频域名稍作修改即可（youtube.com->kissyoutube.com）,[SaveMedia](https://savemedia.com/)提供，在线下载+系列视频自动推荐
+   - (2) python代码下载,pip3 install you-get,you-get 'https://www.youtube.com/watch?v=jNQXAC9IVRw', 支持的视频网站范围广
+   - (3) [clipconverter](http://www.clipconverter.cc/)
 - 【2018-6-21】webrtc [peer to peer文件传输工具](https://reep.io/), 基于浏览器，直接选中本地文件，生成下载链接，速度400kb，示例：[mathematical下载](https://reep.io/d/9vsymkgm3e)
 - [lantern下载](https://github.com/getlantern/forum/issues/833)，[蓝灯无限制版](https://github.com/JuncoJet/unlimited-landeng-for-win)
 - 在线代码着色（高亮）：[国外：含语言类型自动识别（优）](http://markup.su/highlighter/),[国内：在线代码着色器（需要自己勾选）](http://tool.oschina.net/highlight),[实时英文拼写检测](https://app.grammarly.com/)
@@ -561,14 +559,14 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-5-22】[基于HTML5超酷摄像头（HTML5 webcam）拍照功能实现代码](http://www.jb51.net/html5/67833.html),基于WebRTC技术
 ### 实验评估
 - 第一种：<font color=#0099ff size=5 face="黑体">A/B-Test</font>. [什么是ab-test？](https://www.zhihu.com/question/20045543/answer/59025552)
- - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
- - [工程实施：叫你如何对产品进行AB Test？](http://blog.csdn.net/weiguang_123/article/details/49203239)，包含服务端、客户端如何实施ab-test，及各自的优缺点
+   - A/B Test,也称为对比测试,是让两个版本的登陆页面的相互pk测试。看看哪个版本能更好地引导访问者达到你的预设目标,如注册或订阅。
+   - [工程实施：叫你如何对产品进行AB Test？](http://blog.csdn.net/weiguang_123/article/details/49203239)，包含服务端、客户端如何实施ab-test，及各自的优缺点
 - [ab-test有什么局限性？](https://www.zhihu.com/question/19631253)
- - 首先，A/B测试只有在关键效绩指标(KPI, or Key Performance Indicator)单一，且这个单一明确的目标可以被电脑量化时，适用
- - 其次，A/B测试相比起一些别的测试手段，如纸本原型(paper prototyping)，需要的工作量大、时间长，对设计的要求也相对较高。
- - 另外，A/B测试之所以进行，唯一原因是对结果的追求。但相对应的测试结果通常是短期、即刻的用户行为，比如购买、注册、点击等。
- - 此外，A/B测试并不能提供用户行为的具体细节。A/B测试的结果也仅限于被测试的两个选项：如果12号字比16号字为你的网站带来多1%的用户浏览时间，那10号字呢？8号呢？A/B测试并不能帮助你作更多的、长远的决定。
- - A/B测试还有别的缺点：需要的用户人数大，可能的影响因素多，可以测试的选项数有很大限制等等。
+   - 首先，A/B测试只有在关键效绩指标(KPI, or Key Performance Indicator)单一，且这个单一明确的目标可以被电脑量化时，适用
+   - 其次，A/B测试相比起一些别的测试手段，如纸本原型(paper prototyping)，需要的工作量大、时间长，对设计的要求也相对较高。
+   - 另外，A/B测试之所以进行，唯一原因是对结果的追求。但相对应的测试结果通常是短期、即刻的用户行为，比如购买、注册、点击等。
+   - 此外，A/B测试并不能提供用户行为的具体细节。A/B测试的结果也仅限于被测试的两个选项：如果12号字比16号字为你的网站带来多1%的用户浏览时间，那10号字呢？8号呢？A/B测试并不能帮助你作更多的、长远的决定。
+   - A/B测试还有别的缺点：需要的用户人数大，可能的影响因素多，可以测试的选项数有很大限制等等。
 - [吆喝科技-ab-test最佳实践](http://www.appadhoc.com/blog/category/appadhoc/)
 - 第二种：<font color=#0099ff size=5 face="黑体">interleaving</font>，参考美团分享的文章[沈国阳：美团推荐系统整体框架与关键工作](https://www.csdn.net/article/1970-01-01/2825455).
    - abtest的好处是可以对多个策略给出定量评估，坏处是：①策略差异小时，评估结果波动大②需要较长时间反馈，导致迭代速度慢
@@ -589,31 +587,31 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [The Zen of Python(Python之禅)](http://blog.csdn.net/liang19890820/article/details/51734118)
 - ![python](http://img.blog.csdn.net/20160908133049363)
 - <font color='red' size=5>Python 之禅</font>， by Tim Peters
- - 优美胜于丑陋（Python 以编写优美的代码为目标）
- - 明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似）
- - 简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现）
- - 复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁）
- - 扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套）
- - 间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题）
- - 可读性很重要（优美的代码是可读的）
- - 即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上）
- - 不要包容所有错误，除非你确定需要这样做（精准地捕获异常，不写except:pass风格的代码）
- - 当存在多种可能，不要尝试去猜测
- - 而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法）
- - 虽然这并不容易，因为你不是 Python 之父（这里的 Dutch 是指 Guido）
- - 做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量）
- - 如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准）
- - 命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）
+   - 优美胜于丑陋（Python 以编写优美的代码为目标）
+   - 明了胜于晦涩（优美的代码应当是明了的，命名规范，风格相似）
+   - 简洁胜于复杂（优美的代码应当是简洁的，不要有复杂的内部实现）
+   - 复杂胜于凌乱（如果复杂不可避免，那代码间也不能有难懂的关系，要保持接口简洁）
+   - 扁平胜于嵌套（优美的代码应当是扁平的，不能有太多的嵌套）
+   - 间隔胜于紧凑（优美的代码有适当的间隔，不要奢望一行代码解决问题）
+   - 可读性很重要（优美的代码是可读的）
+   - 即便假借特例的实用性之名，也不可违背这些规则（这些规则至高无上）
+   - 不要包容所有错误，除非你确定需要这样做（精准地捕获异常，不写except:pass风格的代码）
+   - 当存在多种可能，不要尝试去猜测
+   - 而是尽量找一种，最好是唯一一种明显的解决方案（如果不确定，就用穷举法）
+   - 虽然这并不容易，因为你不是 Python 之父（这里的 Dutch 是指 Guido）
+   - 做也许好过不做，但不假思索就动手还不如不做（动手之前要细思量）
+   - 如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准）
+   - 命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）
 - 【2017-11-23】python编码规范，目前有google和pep8两种，pylint默认pep8，[Google python编码规范](https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/)，[如何用pylint规范代码风格](https://www.ibm.com/developerworks/cn/linux/l-cn-pylint/)
- - 安装方法：sudo pip install -U pep8/pylint
+   - 安装方法：sudo pip install -U pep8/pylint
 - [给深度学习入门者的Python快速教程 - 基础篇](https://zhuanlan.zhihu.com/p/24162430),[numpy和Matplotlib篇](https://zhuanlan.zhihu.com/p/24309547).[Python超简洁教程,含图示,在线调试](https://jizhi.im/blog/post/pythonbasics)
 - 老外的Matplotlib教程,[英文原文](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)_,[中文译文](https://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)，[Matplotlib官方艺术馆](http://matplotlib.org/gallery.html)
 - [Pandas学习笔记](http://blog.csdn.net/u012675539/article/details/47113147)，[十分钟搞定pandas](http://www.cnblogs.com/chaosimple/p/4153083.html),pandas cheetsheet, ![pandas](https://upload-images.jianshu.io/upload_images/2422746-c3dcf0bba1d9f616.png)
 - pandas读取excel数据示例
  [2016-7-30]
- - 【2018-5-2】6张python工具包总结图，见[python数据分析实用小抄](https://www.jianshu.com/p/7f4945b5d29c),[Top 28 Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/),[百度云地址](https://pan.baidu.com/s/1kUQxyUN#list/path=%2F)
- - 【2018-6-6】[python最强思维导图合集](https://mp.weixin.qq.com/s/9a7_gq6eBHKJ8Hb5EJsxFA),来自[数林觅风](https://woaielf.github.io/)的github
- - 【2018-6-10】【精】[数据科学知识图谱](https://woaielf.github.io/2016/09/11/data-science/)，数林觅风，精美的脑图笔记
+   - 【2018-5-2】6张python工具包总结图，见[python数据分析实用小抄](https://www.jianshu.com/p/7f4945b5d29c),[Top 28 Cheat Sheets for Machine Learning, Data Science, Probability, SQL & Big Data](https://www.analyticsvidhya.com/blog/2017/02/top-28-cheat-sheets-for-machine-learning-data-science-probability-sql-big-data/),[百度云地址](https://pan.baidu.com/s/1kUQxyUN#list/path=%2F)
+   - 【2018-6-6】[python最强思维导图合集](https://mp.weixin.qq.com/s/9a7_gq6eBHKJ8Hb5EJsxFA),来自[数林觅风](https://woaielf.github.io/)的github
+   - 【2018-6-10】【精】[数据科学知识图谱](https://woaielf.github.io/2016/09/11/data-science/)，数林觅风，精美的脑图笔记
 - 【2017-11-23】[史上最全设计模式导学目录](http://blog.csdn.net/lovelion/article/details/17517213)
 - 【2017-12-14】[字符编码详解——彻底理解掌握编码知识，“乱码”不复存在](http://blog.51cto.com/polaris/377468),[字符字节和编码](http://www.regexlab.com/zh/encoding.htm)
 - 【2017-12-16】编码总结
@@ -627,7 +625,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 ## 视频资源
 ### 公开课
 - 哈佛大学《公正》系列公开课：[哈佛英文主页](http://justiceharvard.org/justicecourse/),[网易中文翻译](http://v.163.com/special/sandel/episode06.html)
- - 自律更自由：康德
+   - 自律更自由：康德
  - [一张图弄明白：从零维到十维空间](http://www.sohu.com/a/116444282_482877),[11分钟带你进入十次元的世界(video)](http://video.tudou.com/v/XMTc4ODE0ODAwMA==.html),[GuoKr's explornation](http://www.guokr.com/post/433527/)
  - [懂了这些之后 才知道如何去赚钱](https://www.youtube.com/watch?v=MtKHKPCy0cI)(经济学原理)
 - 【2017-8-25】[宇宙揭秘：电子双缝干涉实验，绝对颠覆你的三观甚至让你怀疑人生](http://www.365yg.com/group/6457791347830030861/)
