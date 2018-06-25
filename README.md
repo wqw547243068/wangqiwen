@@ -71,6 +71,7 @@ cond(no)->sub->io
 |mac下excel打开csv中文乱码|原因是mac底下中文一律utf8编码，而excel文档默认中文是gbk编码，需要单独设置下才行。http://blog.csdn.net/wqdwin/article/details/76058154|亲测有效|
 |【2018-1-11】|[网易mumu模拟器](http://mumu.163.com/)||
 |【2018-1-11】|[mac下安装adb，调试Android](https://www.jianshu.com/p/1b3fb1f27b67)|brew cask install android-platform-tools|
+|【2018-6-25】|[crossover mac版](http://www.pc6.com/mac/111646.html)|mac上运行ie浏览器,[使用步骤](https://jingyan.baidu.com/article/dca1fa6f78ea48f1a5405210.html)|
 ---
 ```shell
 wqw:code wangqiwen$ git clone https://github.com/p1cn/backend.git
