@@ -584,6 +584,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-4-28】Dive into Python[中文版](https://woodpecker.org.cn/diveintopython/)
 - 【2018-6-4】[图解深拷贝和浅拷贝](https://www.cnblogs.com/wilber2013/p/4645353.html)
 - 【2018-5-30】request发明人的python教程：[The Hitchhiker’s Guide to Python!](http://docs.python-guide.org/en/latest/),[Python大神，requests库的作者放大招了](https://www.toutiao.com/a6533719066996113928/)
+- 【2018-6-28】[python函数到底是传参还是传引用？](http://python.jobbole.com/87801/)
 - 【2018-5-6】[Machine Learning Plus](https://www.machinelearningplus.com/blog/),包含numpy、pandas、scikit-learn各种工具包的代码实战示例，用python做科学计算-[Numpy快速数据处理](http://old.sebug.net/paper/books/scipydoc/numpy_intro.html)
 - ![numpy](http://old.sebug.net/paper/books/scipydoc/_images/numpy_intro_03.png)
 - [The Zen of Python(Python之禅)](http://blog.csdn.net/liang19890820/article/details/51734118)
