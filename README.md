@@ -287,7 +287,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-12-22】[knn原理及代码实现（含kd树）](http://www.hankcs.com/ml/k-nearest-neighbor-method.html)，[详解kd树](http://blog.csdn.net/silangquan/article/details/41483689)
 - ![kd-tree](http://img.blog.csdn.net/20141125162151359)
 - 【2018-3-23】[概率图模型体系：HMM、MEMM、CRF](https://zhuanlan.zhihu.com/p/33397147),精华
-- 【2018-7-6】[Bayesian Methods in Machine Learning – Spring 2018](https://www.cse.wustl.edu/~garnett/cse515t/spring_2018/),机器学习中的贝叶斯方法，涉及贝叶斯调参
+- 【2018-7-6】[Bayesian Methods in Machine Learning – Spring 2018](https://www.cse.wustl.edu/~garnett/cse515t/spring_2018/),机器学习中的贝叶斯方法，涉及贝叶斯调参,Radford M. Neal的[Bayesian Methods for Machine Learning](ftp://www.cs.toronto.edu/pub/radford/bayes-tut.pdf)
 #### 流形学习
 - 什么是流形学习？传统的机器学习方法中，数据点和数据点之间的距离和映射函数f都是定义在欧式空间中的，然而在实际情况中，这些数据点可能不是分布在欧式空间中的，因此传统欧式空间的度量难以用于真实世界的非线性数据，从而需要对数据的分布引入新的假设。流形(Manifold)是局部具有欧式空间性质的空间，包括各种纬度的曲线曲面，例如球体、弯曲的平面等。流形是线性子空间的一种非线性推广。参考[流形学习的简单介绍](https://jlunevermore.github.io/2016/06/25/43.%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0/)
 - 流形学习：本质上，流形学习就是给数据降维的过程。这里假设数据是一个随机样本，采样自一个高维欧氏空间中的流形（manifold），流形学习的任务就是把这个高维流形映射到一个低维（例如2维）的空间里。流形学习可以分为线性算法和非线性算法，前者包括主成分分析（PCA）和线性判别分析（LDA），后者包括等距映射（Isomap），拉普拉斯特征映射（LE）等。流形学习可以用于特征的降维和提取，为后续的基于特征的分析，如聚类和分类，做铺垫，也可以直接应用于数据可视化等。注：摘自[集智百科流形学习（优质，包含代码及案例）](http://wiki.swarma.net/index.php/%E6%B5%81%E5%BD%A2%E5%AD%A6%E4%B9%A0)。
