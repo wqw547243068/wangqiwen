@@ -317,6 +317,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 ![all type of nerual network](https://cdn-images-1.medium.com/max/2000/1*cuTSPlTq0a_327iTPJyD-Q.png)
 
 ![发展外因](http://www.36dsj.com/wp-content/uploads/2016/01/418.jpg)
+
 #### 深度学习大牛
  - Geoffrey Hinton ：深度学习鼻祖
  - [Yann Lecun(杨立昆)](http://yann.lecun.com/),CNN发明人，Goeffery Hinton的学生，首创LeNet
@@ -399,6 +400,7 @@ _ [在线几何作图GeoGebra](https://www.geogebra.org/apps/)（源自 [马同
 - 【2017-12-14】Google deepmind [深度学习实践和发展趋势](https://pan.baidu.com/s/1mhWGSpq)
 - 【2018-4-10】Google AI面试题[https://medium.com/acing-ai/google-ai-interview-questions-acing-the-ai-interview-1791ad7dc3ae](https://medium.com/acing-ai/google-ai-interview-questions-acing-the-ai-interview-1791ad7dc3ae)
 - 【2018-4-13】[Tensorflow中国社区](https://www.tensorflowers.cn/)
+- 【2018-7-12】[为什么神经网络非凸？](https://www.zhihu.com/question/265516791)
 #### 案例及Demo
 - [ClarifAI图像视频物体识别](https://www.clarifai.com/demo)
 - 【2017-8-31】[Toranto Deep Learning Demos](http://deeplearning.cs.toronto.edu/i2t),涉及图像分类+图像标注，服务性能有限，响应不及时
