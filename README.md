@@ -484,11 +484,13 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-5-1】【主动学习：优化!=改进】[《Active Learning: Optimization != Improvement》](https://lighttag.io/blog/active-learning-optimization-is-not-imporvement/) by LightTag。注：主动学习是指监督学习中，用较少的训练样本来获得性能较好的分类器
 ![主动学习](https://images2015.cnblogs.com/blog/1082072/201701/1082072-20170115172446635-1237681929.png)
 - 【2018-5-12】【无需博士学位的TensorFlow深度强化学习教程】《TensorFlow and deep reinforcement learning, without a PhD (Google I/O '18) - YouTube》by Martin Gorner. [Youtube地址](http://t.cn/R3bErsa), [Bilibili地址](https://www.bilibili.com/video/av23286922/)
+
 ### 知识图谱
 - [精益知识图谱方法论](http://blog.memect.cn/?p=2005)，文因互联鲍捷组件的[北京知识图谱学习班](https://github.com/memect/kg-beijing),[知识管理和语义搜索的哲学思考](http://blog.memect.cn/?p=3022),更多资料参考[将门创业历届活动嘉宾视频及ppt](https://mp.weixin.qq.com/s?__biz=MzAxMzc2NDAxOQ==&mid=502876225&idx=1&sn=25894a894cc2c58214ddde13e0a8ef93&chksm=03907c9d34e7f58b57b068d0e7e74ac3db935a131cc7955478b58a98b9bc5c2b239c8ee03129&mpshare=1&scene=23&srcid=1201jRGgplUzlGGggjBesJuI#rd), [八一八聊天机器人](https://zhuanlan.zhihu.com/p/25190575)，[聊天机器人终极设计指南](http://www.woshipm.com/pd/441725.html)，[一文看懂聊天机器人的所有猫腻](http://www.eeworld.com.cn/qrs/article_2016081529734.html)，【2018-5-8】[自己动手做聊天机器人](https://github.com/warmheartli/ChatBotCourse)
 - 【2017-12-22】李文哲[知识图谱的应用](https://zhuanlan.zhihu.com/liwenzhe/20394260) ![kg](http://pic1.zhimg.com/v2-5635f23d2df3ff971fa12a563510b1c0_b.jpg)
 - 【2018-4-9】[十分钟上手图数据库](https://www.jianshu.com/p/97c6752e928b)
 - 【2018-4-17】狗尾草CTO王昊奋[When KB meets Chatbots](http://blog.openkg.cn/%E7%8E%8B%E6%98%8A%E5%A5%8B-when-kg-meets-chatbots/)，知识图谱[Zhishi.me](http://zhishi.me/)，开放的知识图谱社区[OpenKG.cn](http://blog.openkg.cn/page/2/)
+
 ### 数据挖掘
 - [谁说菜鸟不会数据分析【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/5997018.html?from=timeline)
 - [SQL必知必会【脑图笔记】](http://www.cnblogs.com/xiaofeng1234/p/6024479.html)
@@ -502,6 +504,7 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - ![excel选图](https://pic1.zhimg.com/50/v2-15e812e7de4c1ddd23144e4e53826cf0_hd.jpg)
 - 【2017-12-14】知乎[数据分析&数据挖掘书籍推荐](https://www.zhihu.com/question/20757000)
 - 【2018-5-2】[你费那么大劲做的数据分析，有用吗](https://zhuanlan.zhihu.com/p/21378331),左耳朵耗子-陈皓的[数据的游戏：冰与火](https://coolshell.cn/articles/10192.html)，博主的视频简介，[二叉树视频](https://time.geekbang.org/column/intro/48?code=GGVOKz%2FyFTRtOnWIHYr%2FvFsgL3ON7Xqwkdz2f7yTqD4%3D&utm_source=weibo&utm_medium=geektime&utm_campaign=79-rise&utm_content=0613)
+
 ### 人脸识别
 - 权威书籍[Handbook of Face Recognition](https://cours.etsmtl.ca/sys828/REFS/Intro/Hanbook%20of%20Face%20Recognition.pdf)
 - [Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78)
@@ -518,6 +521,8 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - 【2018-7-15】[人脸识别入门大全faceai](https://github.com/vipstone/faceai)：含情绪、性别识别，表情替换等
 - ![情绪识别](https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png)
  - ![着色](https://camo.githubusercontent.com/a1059094bff9f4598eda3ca8a7fda683c675a94a/687474703a2f2f6963646e2e617069676f2e636e2f636f6c6f72697a652d6661636561692e706e67)
+- 【2018-7-15】基于tensorflow的实时目标检测
+- ![目标检测](https://3.bp.blogspot.com/-yhT4sLCfdLM/W0h-_C1IEJI/AAAAAAAADIE/igiq1dweB8srJBFP9mK2kHSIn4fYYJJsACLcBGAs/s1600/ssd_at_big_table_compressed.gif)
 
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
