@@ -515,6 +515,9 @@ VAE和GAN，[VAE和GAN](https://pic4.zhimg.com/v2-380cde71a2f6ece28b46038ea2455a
 - [2017-9-21]自拍照三维重建[3D Face Reconstruction from a Single Image](http://www.cs.nott.ac.uk/~psxasj/3dme/index.php)
 - ![demo](https://cdn.vox-cdn.com/thumbor/fXbE0rbXW6WlcmtB1cKBiTsV1b0=/0x0:482x334/1820x1213/filters:focal(203x129:279x205):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/56734861/3d_mark_take_2.0.gif)
 - 【2018-2-25】[人脸识别：含年龄性别表情人种](https://www.haystack.ai/)
+- 【2018-7-15】[人脸识别入门大全faceai](https://github.com/vipstone/faceai)：含情绪、性别识别，表情替换等
+- ![情绪识别](https://raw.githubusercontent.com/vipstone/faceai/master/res/emotion.png)
+ - ![着色](https://camo.githubusercontent.com/a1059094bff9f4598eda3ca8a7fda683c675a94a/687474703a2f2f6963646e2e617069676f2e636e2f636f6c6f72697a652d6661636561692e706e67)
 
 ## IT资讯
 - 查公司信息：[天眼查](http://www.tianyancha.com/),[IT桔子](https://www.itjuzi.com/)
