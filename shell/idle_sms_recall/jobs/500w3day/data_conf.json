@@ -1,0 +1,44 @@
+{
+  "name":"500w三天发",
+  "input_str":"user_id,mobile_number,gender,msg_num,like_num,age,name",
+  "input_check":
+  {
+    "user_id":{"value":"number","max":2147483647,"action":"pass"},
+    "mobile_number":{"value":"number"},
+    "gender":["male","female"],
+    "msg_num":{"value":"number","max":10,"action":"cut"},
+    "like_num":{"value":"number","max":10,"action":"cut"},
+    "age":{"value":"number","max":110,"action":"cut"}
+  },
+  "output_str":"user_id,phone,net,name,gender,group,dt,newNum,cwType,hourNum,distNum",
+  "check_key":"net,gender,group,newNum,cwType,hourNum,distNum",
+  "adjust_key":"newNum,hourNum,distNum",
+  "map":{"phone":"mobile_number","group":1,"name":"name","dt":"-","newNum":"multi","hourNum":"rand","distNum":"rand","cwType":"default"},
+  "multi_newNum":{"default":"3","key_dict":{"msg_num":"real_new","like_num":"real_like"}},
+  "rand_newNum":{"male":[2,5],"female":[5,9]},
+  "rand_hourNum":{"male":[1,5],"female":[1,5]},
+  "rand_distNum":{"male":[0.5,3.0],"female":[0.5,3.0]},
+  "net_file":"../../conf/net",
+  "net_pass": true,
+  "input_file": "input.txt",
+  "output_file":"output.txt",
+  "black_file":"../../conf/black_list.txt",
+  "quit_file":"../../conf/quit_list.txt",
+  "partition":
+  {
+    "key":"user_id","num":20,"control":[0],
+    "experiment":
+    {
+    },
+    "exp_age":{
+      "range":[1,2,3,4,5],
+      "male":[[20,22],[23,31],[32,110]],
+      "female":[[20,22],[23,25],[26,31],[32,110]]
+    }
+  },
+  "other":"-",
+  "max_workday":4250000,
+  "max_friday":5200000,
+  "max_weekend":5400000,
+  "info":"csv格式->\t分隔"
+}
