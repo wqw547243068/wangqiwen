@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <style type="text/css">
+      body,html,#container{
+        height: 100%;
+        margin: 0px;
+        font: 12px Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial;
+      }
+      .title{
+        margin: 0px;
+        color: white;
+        font-size: 14px;
+        background-color: rgba(0,155,255,0.8);
+        line-height: 22px;
+        padding: 0px 0 0 6px;
+        font-weight: lighter;
+        letter-spacing: 1px;
+      }
+      .content{
+        padding: 4px;
+        color: #666;
+        line-height: 18px;
+      }
+      .amap-info-content{
+        padding: 0 0 2px 0px;
+      }
+    </style>
+    <title>聚类结果展示</title>
+  </head>
+  <body onLoad="clusterVisualize()">
+   <div id="container" tabindex="0"></div>
+   <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=ddb12712f0528934ab85b8ebaa8add75"></script>
+   <script type="text/javascript">
+   /** 格式化输入字符串**/
+   //用法: "hello{0}".format('world')；返回'hello world'
+        String.prototype.format= function(){
+          var args = arguments;
+          return this.replace(/\{(\d+)\}/g,function(s,i){return args[i];});
+        }
+   var GPS = {
+       PI : 3.14159265358979324,
+       x_pi : 3.14159265358979324 * 3000.0 / 180.0,
+       delta : function (lat, lon) {
+           // Krasovsky 1940
+           //
+           // a = 6378245.0, 1/f = 298.3
+           // b = a * (1 - f)
+           // ee = (a^2 - b^2) / a^2;
+           var a = 6378245.0; //  a: 卫星椭球坐标投影到平面地图坐标系的投影因子。
+           var ee = 0.00669342162296594323; //  ee: 椭球的偏心率。
+           var dLat = this.transformLat(lon - 105.0, lat - 35.0);
+           var dLon = this.transformLon(lon - 105.0, lat - 35.0);
+           var radLat = lat / 180.0 * this.PI;
+           var magic = Math.sin(radLat);
+           magic = 1 - ee * magic * magic;
+           var sqrtMagic = Math.sqrt(magic);
+           dLat = (dLat * 180.0) / ((a * (1 - ee)) / (magic * sqrtMagic) * this.PI);
+           dLon = (dLon * 180.0) / (a / sqrtMagic * Math.cos(radLat) * this.PI);
+           return {'lat': dLat, 'lon': dLon};
+       },
+
+       //WGS-84 to GCJ-02
+       gcj_encrypt : function (wgsLat, wgsLon) {
+           if (this.outOfChina(wgsLat, wgsLon))
+               return {'lat': wgsLat, 'lon': wgsLon};
+
+           var d = this.delta(wgsLat, wgsLon);
+           return {'lat' : wgsLat + d.lat,'lon' : wgsLon + d.lon};
+       },
+       //GCJ-02 to WGS-84
+       gcj_decrypt : function (gcjLat, gcjLon) {
+           if (this.outOfChina(gcjLat, gcjLon))
+               return {'lat': gcjLat, 'lon': gcjLon};
+
+           var d = this.delta(gcjLat, gcjLon);
+           return {'lat': gcjLat - d.lat, 'lon': gcjLon - d.lon};
+       },
+       //GCJ-02 to WGS-84 exactly
+       gcj_decrypt_exact : function (gcjLat, gcjLon) {
+           var initDelta = 0.01;
+           var threshold = 0.000000001;
+           var dLat = initDelta, dLon = initDelta;
+           var mLat = gcjLat - dLat, mLon = gcjLon - dLon;
+           var pLat = gcjLat + dLat, pLon = gcjLon + dLon;
+           var wgsLat, wgsLon, i = 0;
+           while (1) {
+               wgsLat = (mLat + pLat) / 2;
+               wgsLon = (mLon + pLon) / 2;
+               var tmp = this.gcj_encrypt(wgsLat, wgsLon)
+               dLat = tmp.lat - gcjLat;
+               dLon = tmp.lon - gcjLon;
+               if ((Math.abs(dLat) < threshold) && (Math.abs(dLon) < threshold))
+                   break;
+
+               if (dLat > 0) pLat = wgsLat; else mLat = wgsLat;
+               if (dLon > 0) pLon = wgsLon; else mLon = wgsLon;
+
+               if (++i > 10000) break;
+           }
+           //console.log(i);
+           return {'lat': wgsLat, 'lon': wgsLon};
+       },
+       //GCJ-02 to BD-09
+       bd_encrypt : function (gcjLat, gcjLon) {
+           var x = gcjLon, y = gcjLat;
+           var z = Math.sqrt(x * x + y * y) + 0.00002 * Math.sin(y * this.x_pi);
+           var theta = Math.atan2(y, x) + 0.000003 * Math.cos(x * this.x_pi);
+           bdLon = z * Math.cos(theta) + 0.0065;
+           bdLat = z * Math.sin(theta) + 0.006;
+           return {'lat' : bdLat,'lon' : bdLon};
+       },
+       //BD-09 to GCJ-02
+       bd_decrypt : function (bdLat, bdLon) {
+           var x = bdLon - 0.0065, y = bdLat - 0.006;
+           var z = Math.sqrt(x * x + y * y) - 0.00002 * Math.sin(y * this.x_pi);
+           var theta = Math.atan2(y, x) - 0.000003 * Math.cos(x * this.x_pi);
+           var gcjLon = z * Math.cos(theta);
+           var gcjLat = z * Math.sin(theta);
+           return {'lat' : gcjLat, 'lon' : gcjLon};
+       },
+       //WGS-84 to Web mercator
+       //mercatorLat -> y mercatorLon -> x
+       mercator_encrypt : function(wgsLat, wgsLon) {
+           var x = wgsLon * 20037508.34 / 180.;
+           var y = Math.log(Math.tan((90. + wgsLat) * this.PI / 360.)) / (this.PI / 180.);
+           y = y * 20037508.34 / 180.;
+           return {'lat' : y, 'lon' : x};
+           /*
+           if ((Math.abs(wgsLon) > 180 || Math.abs(wgsLat) > 90))
+               return null;
+           var x = 6378137.0 * wgsLon * 0.017453292519943295;
+           var a = wgsLat * 0.017453292519943295;
+           var y = 3189068.5 * Math.log((1.0 + Math.sin(a)) / (1.0 - Math.sin(a)));
+           return {'lat' : y, 'lon' : x};
+           //*/
+       },
+       // Web mercator to WGS-84
+       // mercatorLat -> y mercatorLon -> x
+       mercator_decrypt : function(mercatorLat, mercatorLon) {
+           var x = mercatorLon / 20037508.34 * 180.;
+           var y = mercatorLat / 20037508.34 * 180.;
+           y = 180 / this.PI * (2 * Math.atan(Math.exp(y * this.PI / 180.)) - this.PI / 2);
+           return {'lat' : y, 'lon' : x};
+           /*
+           if (Math.abs(mercatorLon) < 180 && Math.abs(mercatorLat) < 90)
+               return null;
+           if ((Math.abs(mercatorLon) > 20037508.3427892) || (Math.abs(mercatorLat) > 20037508.3427892))
+               return null;
+           var a = mercatorLon / 6378137.0 * 57.295779513082323;
+           var x = a - (Math.floor(((a + 180.0) / 360.0)) * 360.0);
+           var y = (1.5707963267948966 - (2.0 * Math.atan(Math.exp((-1.0 * mercatorLat) / 6378137.0)))) * 57.295779513082323;
+           return {'lat' : y, 'lon' : x};
+           //*/
+       },
+       // two points's distance
+       distance : function (latA, lonA, latB, lonB) {
+           var earthR = 6371000.;
+           var x = Math.cos(latA * this.PI / 180.) * Math.cos(latB * this.PI / 180.) * Math.cos((lonA - lonB) * this.PI / 180);
+           var y = Math.sin(latA * this.PI / 180.) * Math.sin(latB * this.PI / 180.);
+           var s = x + y;
+           if (s > 1) s = 1;
+           if (s < -1) s = -1;
+           var alpha = Math.acos(s);
+           var distance = alpha * earthR;
+           return distance;
+       },
+       outOfChina : function (lat, lon) {
+           if (lon < 72.004 || lon > 137.8347)
+               return true;
+           if (lat < 0.8293 || lat > 55.8271)
+               return true;
+           return false;
+       },
+       transformLat : function (x, y) {
+           var ret = -100.0 + 2.0 * x + 3.0 * y + 0.2 * y * y + 0.1 * x * y + 0.2 * Math.sqrt(Math.abs(x));
+           ret += (20.0 * Math.sin(6.0 * x * this.PI) + 20.0 * Math.sin(2.0 * x * this.PI)) * 2.0 / 3.0;
+           ret += (20.0 * Math.sin(y * this.PI) + 40.0 * Math.sin(y / 3.0 * this.PI)) * 2.0 / 3.0;
+           ret += (160.0 * Math.sin(y / 12.0 * this.PI) + 320 * Math.sin(y * this.PI / 30.0)) * 2.0 / 3.0;
+           return ret;
+       },
+       transformLon : function (x, y) {
+           var ret = 300.0 + x + 2.0 * y + 0.1 * x * x + 0.1 * x * y + 0.1 * Math.sqrt(Math.abs(x));
+           ret += (20.0 * Math.sin(6.0 * x * this.PI) + 20.0 * Math.sin(2.0 * x * this.PI)) * 2.0 / 3.0;
+           ret += (20.0 * Math.sin(x * this.PI) + 40.0 * Math.sin(x / 3.0 * this.PI)) * 2.0 / 3.0;
+           ret += (150.0 * Math.sin(x / 12.0 * this.PI) + 300.0 * Math.sin(x / 30.0 * this.PI)) * 2.0 / 3.0;
+           return ret;
+       }
+   };
+
+   // 数据集[all_num,real_num,cluster_num,[cluster_id,hash_num,points_num,cluster_avg,cluster_mean,cluster_var,cluster_score]]
+   var data = {"newver": [116.309940116, 40.0780878802, 116.230596381, 40.0653239205], "uid": "358584050978536", "all_num": 30, "oldver": [0.0, 0.0, 0.0, 0.0], "points": [[116.30978423214285, 40.07821571428572, "2016-06-07 04:17:02", "2016-08-25 06:49:26", "weekend:25#workday:31#0:2#3:1#4:3#5:1#6:3#7:4#17:1#19:1#20:3#21:2#22:7#23:3", 56, 53, 0, 32], [116.31024607692308, 40.07779438461538, "2016-07-19 07:01:44", "2016-08-08 20:10:08", "weekend:5#workday:8#1:1#6:1#7:3#20:2#21:1", 13, 13, 0, 8], [116.30924733333332, 40.079432, "2016-05-13 20:06:15", "2016-06-24 19:29:17", "weekend:0#workday:3#19:2#20:1", 3, 2, 0, 2], [116.30994873076922, 40.07801855128205, "2016-05-13 07:36:37", "2016-08-25 07:39:34", "weekend:21#workday:57#0:1#3:1#6:1#7:8#17:1#20:2#21:13#22:15#23:15", 78, 76, 0, 40], [116.29105, 40.093903, "2016-06-12 08:30:22", "2016-06-14 08:27:16", "weekend:1#workday:1#8:1", 2, 0, 0, 2], [116.268153, 40.087227, "2016-07-12 08:43:05", "2016-07-13 21:36:33", "weekend:0#workday:2#8:1#21:1", 2, 0, 0, 2], [116.2304145, 40.06560575, "2016-05-17 18:37:08", "2016-07-11 15:59:46", "weekend:0#workday:4#13:1#15:1#16:1#18:1", 4, 2, 0, 4], [116.30988428205129, 40.07817226923077, "2016-06-07 04:27:22", "2016-08-22 22:48:32", "weekend:35#workday:43#0:5#3:1#4:1#7:1#18:3#20:4#21:5#22:15#23:8", 78, 77, 0, 35], [116.05756600000001, 39.17477875, "2016-08-16 21:20:22", "2016-08-17 10:12:08", "weekend:0#workday:4#10:2#21:2", 4, 0, 0, 2], [116.30864266666667, 40.081125, "2016-06-04 08:27:17", "2016-08-07 07:18:18", "weekend:2#workday:1#7:1", 3, 0, 0, 3], [116.23060915577892, 40.0653033718593, "2016-06-12 10:34:08", "2016-08-25 19:37:50", "weekend:35#workday:164#8:13#9:11#10:5#11:23#12:45#13:15#14:2#15:5#16:5#17:3#18:17#19:11#20:7#21:1#22:1", 199, 191, 0, 41], [116.31023007407406, 40.077761203703695, "2016-06-19 09:05:26", "2016-08-22 22:27:55", "weekend:26#workday:28#6:4#7:9#20:1#21:2#22:7#23:5", 54, 52, 0, 30], [116.23103585714284, 40.06501085714286, "2016-05-25 13:11:23", "2016-08-12 12:51:53", "weekend:0#workday:7#9:2#12:1#13:3#15:1", 7, 1, 0, 6], [116.30903333333333, 40.07851866666667, "2016-06-06 20:53:22", "2016-08-22 21:54:50", "weekend:1#workday:2#20:1#21:1", 3, 1, 0, 3], [116.3098035, 40.0780935, "2016-06-07 21:11:31", "2016-08-23 07:16:01", "weekend:0#workday:2#7:1#21:1", 2, 2, 0, 2], [116.30887799999999, 40.077858500000005, "2016-08-17 21:14:39", "2016-08-21 21:56:03", "weekend:1#workday:1#21:1", 2, 2, 0, 2], [116.23753566666666, 40.07231766666666, "2016-05-12 08:34:34", "2016-07-18 08:27:58", "weekend:0#workday:3#8:3", 3, 0, 0, 3], [116.30905225000001, 40.07946675, "2016-06-27 20:29:19", "2016-08-12 20:50:07", "weekend:0#workday:4#19:1#20:3", 4, 0, 0, 3], [116.310137703125, 40.077732687499996, "2016-05-13 07:09:04", "2016-08-22 22:07:25", "weekend:33#workday:31#0:3#6:1#7:5#15:1#20:1#21:7#22:8#23:5", 64, 59, 0, 33], [116.31011458571429, 40.07782812857142, "2016-05-22 18:23:15", "2016-08-24 07:12:27", "weekend:39#workday:31#0:2#3:2#6:1#7:3#15:1#19:1#20:2#21:5#22:8#23:6", 70, 68, 0, 33], [116.29458857894736, 40.09061015789474, "2016-05-13 08:15:53", "2016-08-24 08:13:11", "weekend:0#workday:19#7:4#8:15", 19, 0, 0, 16], [116.30908600000001, 40.07951, "2016-06-27 19:25:11", "2016-08-12 21:02:32", "weekend:0#workday:2#19:1#21:1", 2, 1, 0, 2], [116.2898305, 40.0931415, "2016-07-07 08:09:26", "2016-07-12 08:30:52", "weekend:0#workday:2#8:2", 2, 0, 0, 2], [116.291162, 40.094136, "2016-07-13 08:10:52", "2016-07-16 08:35:17", "weekend:1#workday:1#8:1", 2, 0, 0, 2], [116.23042772413793, 40.065501620689645, "2016-05-23 11:32:27", "2016-08-25 19:49:34", "weekend:1#workday:28#8:5#9:2#11:4#12:2#13:1#15:3#16:1#18:3#19:6#20:1", 29, 27, 0, 19], [116.3097868965517, 40.078383, "2016-06-19 21:02:41", "2016-08-25 03:47:16", "weekend:92#workday:82#0:11#2:2#3:1#6:10#7:7#16:1#17:1#18:1#19:2#20:2#21:16#22:11#23:17", 174, 167, 0, 46], [116.2947475, 40.090943, "2016-08-05 08:28:58", "2016-08-09 07:58:48", "weekend:0#workday:2#7:1#8:1", 2, 0, 0, 2], [116.298836, 40.085185, "2016-06-23 08:12:45", "2016-07-22 07:55:54", "weekend:0#workday:2#7:1#8:1", 2, 0, 0, 2], [116.29498975, 40.09043175, "2016-06-23 08:35:18", "2016-07-22 08:21:22", "weekend:0#workday:4#7:2#8:2", 4, 0, 0, 4], [116.30989685714287, 40.078351, "2016-06-19 23:10:47", "2016-07-17 06:59:08", "weekend:6#workday:1#21:1", 7, 7, 0, 5]], "real_num": 28, "clusters": [[116.294603714, 40.0906418571, "2016-05-13 08:15:53", "2016-08-24 08:13:11", "weekend:0#workday:21#7:5#8:16", 21, 0, 0, 17, 0.005866680725089279, 0.006283601456110658], [116.309940116, 40.0780878802, "2016-05-13 07:09:04", "2016-08-25 07:39:34", "weekend:284#workday:317#0:24#1:1#2:2#3:6#4:4#5:1#6:21#7:41#15:2#16:1#17:3#18:4#19:4#20:18#21:55#22:71#23:59", 601, 577, 0, 65, 0.9840031342285279, 0.010942701268734202], [116.230596381, 40.0653239205, "2016-05-17 18:37:08", "2016-08-25 19:49:34", "weekend:36#workday:203#8:18#9:15#10:5#11:27#12:48#13:20#14:2#15:10#16:7#17:3#18:21#19:17#20:8#21:1#22:1", 239, 221, 0, 52, 0.018508901155584095, 0.9516779794803681]], "gps": 1, "cluster_num": 3, "gps_hc": 1, "cluster_result": [[2, 4, 239, [27, 4, 41], [116.230596381, 40.0653239205], [6.67839383348, 116.2304145, 116.231035857, 40.0650108571, 40.06560575], 10.591580765062304, 0.3450780425096318, [116.230609156, 40.0653033719], "2016-05-17 18:37:08", "2016-08-25 19:49:34", "weekend:36#workday:203#8:18#9:15#10:5#11:27#12:48#13:20#14:2#15:10#16:7#17:3#18:21#19:17#20:8#21:1#22:1", 239, 221, 0, 52, 0.018508901155584095, 0.9516779794803681], [3, 2, 21, [85, 2, 16], [116.294603714, 40.0906418571], [35.649541569, 116.294588579, 116.2947475, 40.0906101579, 40.090943], 0.0, 2.0, [116.294588579, 40.0906101579], "2016-05-13 08:15:53", "2016-08-24 08:13:11", "weekend:0#workday:21#7:5#8:16", 21, 0, 0, 17, 0.005866680725089279, 0.006283601456110658], [1, 12, 601, [97, 7, 46], [116.309940116, 40.0780878802], [27.0653705372, 116.308878, 116.310246077, 40.0777326875, 40.0785186667], 14.140513472365756, 0.7925754976475682, [116.309948731, 40.0780185513], "2016-05-13 07:09:04", "2016-08-25 07:39:34", "weekend:284#workday:317#0:24#1:1#2:2#3:6#4:4#5:1#6:21#7:41#15:2#16:1#17:3#18:4#19:4#20:18#21:55#22:71#23:59", 601, 577, 0, 65, 0.9840031342285279, 0.010942701268734202]]}
+
+   var marker_list = []; // 坐标点集合
+   var cluster;
+   var illegal_value = new Array('','-','0','0.0','null','NULL','Null',0,0.0);
+   var center_init = [116.480983, 39.989628];
+   if(data.hasOwnProperty('points')&&data['points'].length>0){
+     if(typeof(data['points'][0][0]) == typeof(0.0)){
+       center_init = [data['points'][0][0],data['points'][0][1]];
+     }else{
+       center_init = [parseFloat(data['points'][0][0]),parseFloat(data['points'][0][1])];
+     }
+   }
+   // 地图初始化
+    var map = new AMap.Map('container',{
+            resizeEnable: true,
+            zoom: 16,
+            center: center_init
+    });
+    // 添加各种插件
+   AMap.plugin(['AMap.MapType','AMap.ToolBar','AMap.Scale','AMap.OverView'],
+       function(){
+           map.addControl(new AMap.MapType());//初始状态使用2D地图
+           map.addControl(new AMap.ToolBar());//在地图中添加ToolBar插件
+           map.addControl(new AMap.Scale());// 缩放插件
+           map.addControl(new AMap.OverView({isOpen:true})); //在地图中添加鹰眼插件
+   });
+
+   function clusterVisualize()
+   {
+
+     //alert("aaaaaa")
+     //confirm("aaaaaaaaaaaa")
+     //console.log("aaaaaaabbbbaaaaaaa")
+     //[118.784157508, 32.0384510154, 0.0, 0.0]
+     // 显示标注的家和公司
+     //if(data.hasOwnProperty('home')&& !contains(illegal_value,data.hasOwnProperty('home')[0]))
+     if(data.hasOwnProperty('home') && illegal_value.indexOf(data['home'][0]) == -1 && illegal_value.indexOf(data['home'][1]) == -1)
+     {
+       new_location = gps2gaode(data['home'][0], data['home'][1],key='gps_hc');
+       var marker = new AMap.Marker({
+               position: [new_location['lon'], new_location['lat']],
+               //icon : 'http://webapi.amap.com/images/marker_sprite.png',//24px*24px
+               icon : 'http://webapi.amap.com/images/1.png'
+       });
+       marker.setMap(map);
+       // 设置鼠标划过点标记显示的文字提示
+       marker.setTitle(type+':'+new_location['lon']+','+new_location['lat']);
+       // 设置label标签
+       marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+         offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+         content:  '标注的家',
+         offset:new AMap.Pixel(20,20),
+         size:new AMap.Size(100,0)
+         });
+     }
+     // 公司
+     //if(data.hasOwnProperty('company') && !contains(illegal_value,data.hasOwnProperty('company')[0]))
+     if(data.hasOwnProperty('company') && illegal_value.indexOf(data['company'][0]) == -1 && illegal_value.indexOf(data['company'][1]) == -1)
+     {
+       new_location = gps2gaode(data['company'][0], data['company'][1],key='gps_hc');
+       var marker = new AMap.Marker({
+               position: [new_location['lon'], new_location['lat']],
+               //icon : 'http://webapi.amap.com/images/marker_sprite.png',//24px*24px
+               icon : 'http://webapi.amap.com/images/2.png'
+       });
+       marker.setMap(map);
+       // 设置鼠标划过点标记显示的文字提示
+       marker.setTitle(new_location['lon']+','+new_location['lat']);
+       // 设置label标签
+       marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+         offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+         content:  '标注的公司',
+                 offset:new AMap.Pixel(20,20),
+                 size:new AMap.Size(100,0)
+         });
+     }
+     if(data.hasOwnProperty('oldver')){
+       pointMarker(data['oldver'][0],data['oldver'][1],type=1,text='家(旧)'); // A
+       pointMarker(data['oldver'][2],data['oldver'][3],type=2,text='公司(旧)');// B
+     }
+     if(data.hasOwnProperty('newver')){
+       pointMarker(data['newver'][0],data['newver'][1],type=3,text='家(新)'); //C
+       pointMarker(data['newver'][2],data['newver'][3],type=4,text='公司(新)');//D
+     }
+     if(data.hasOwnProperty('points'))
+     {
+       // [116.942274, 39.291966, 1, 0, "2016-08-07 19:55:08", "0.01"]
+       // [start_date lon lat total_cnt day_cnt speed pass]
+       // ["2016-06-10 15:49:41", 116.42481009999999, 40.0677918, 10, 7, 0.05869853376771319, 0]
+       // 添加坐标点
+       var points_type = '高德'; // 坐标系初始值
+       var new_location = {'lon':0,'lat':0}; // 坐标转换初始值
+       for(var i=0;i<data['points'].length;i++)
+       {
+          if(data['points'][i].length<7||illegal_value.indexOf(data['points'][i][0]) != -1 || illegal_value.indexOf(data['points'][i][1]) != -1 ){continue;} // 经纬度取值合法性判断
+          new_location = gps2gaode(data['points'][i][0], data['points'][i][1],key='gps');
+          var icon_url = 'http://webapi.amap.com/theme/v1.3/markers/n/mark_b.png'; //'http://webapi.amap.com/theme/v1.3/markers/n/mark_r.png'
+          var marker = new AMap.Marker({
+                  position: [new_location['lon'], new_location['lat']],
+                  icon : icon_url
+          });
+          marker.setMap(map);
+          //[ lon lat start end hour total wifi navi day]]
+          //[118.78433799999999, 32.03876833333333, "2016-06-26 15:34:17", "2016-08-03 14:28:16", "weekend:2#workday:4#12:3#14:1", 6, 0, 0, 3]
+          marker.setTitle('GPS坐标:['+data['points'][i][0]+','+data['points'][i][1]+']|时间范围:['+data['points'][i][2]+','+data['points'][i][3]+']|频次:'+data['points'][i][5]+'|wifi:'+data['points'][i][6]+'|导航次数:'+data['points'][i][7]+'|天数:'+data['points'][i][8]+'|时间分布:'+data['points'][i][4]);
+          marker_list.push(marker);
+        }
+      }
+    // 绘制聚类结果
+    if(data.hasOwnProperty('cluster_result'))
+    {
+      //alert('找到cluster_result'+data['cluster_result'])
+      var new_location = {'lon':0,'lat':0}; // 坐标转换初始值
+      //for(var i=0;i<data['cluster_result'].length;i++)
+      for(var i=data['cluster_result'].length-1;i>=0;i--) // 逆序绘制
+      {
+        if(illegal_value.indexOf(data['cluster_result'][i][4][0]) != -1 || illegal_value.indexOf(data['cluster_result'][i][4][1]) != -1 ){continue;} // 经纬度取值合法性判断
+        new_location = gps2gaode(data['cluster_result'][i][4][0], data['cluster_result'][i][4][1],key='gps');
+        if(data['cluster_result'][i][4].length<1){continue;}
+        // 质心
+        var marker = new AMap.Marker({
+                position: [new_location['lon'], new_location['lat']],
+                icon : 'http://vdata.amap.com/icons/b18/1/2.png',//24px*24px
+                draggable: true  //是否可拖动
+        });
+
+        marker.setMap(map);
+        // 设置鼠标划过点标记显示的文字提示
+        marker.setTitle('质心坐标:'+new_location['lon']+','+new_location['lat']);
+        // 设置label标签
+        // [ [id lon lat all real cluster hash point dayinfo range var score center]  [start last hour total wifi navi day home_per company_per]
+        // [1, 10, 195, [8, 4, 10], [118.784157508, 32.0384510154], [23.9137976555, 118.783014375, 118.784794857, 32.0381261429, 32.03913125], 27.80402315434089, 0.3471737245320523, [118.784250351, 32.0384246667], "2016-06-19 23:38:49", "2016-08-23 19:02:44", "weekend:73#workday:122#9:11#11:10#12:7#13:52#14:10#19:5#20:27", 195, 162, 0, 12, 0.8823459305487529, 0.474739523163449]
+        marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+          offset: new AMap.Pixel(10, 10),//修改label相对于maker的位置
+          content:  '<div class="title">第'+data['cluster_result'][i][0]+'/'+data['cluster_num']+'类聚类结果('+data['all_num']+','+data['real_num']+')</div><div class="content">'+
+          '聚类中心:质心[{0},{1}],中心[{2},{3}],{4}个hash块,{5}个点,'.format(data['cluster_result'][i][4][0],data['cluster_result'][i][4][1],data['cluster_result'][i][8][0],data['cluster_result'][i][8][1],data['cluster_result'][i][1],data['cluster_result'][i][2])+'<br>时间信息:范围:跨度{0}天(从{1}到{2}),出现天数{3},hash块最大天数{4},wifi天数{5},导航天数{6},<br>小时分布:{7}'.format(data['cluster_result'][i][3][0],data['cluster_result'][i][9],data['cluster_result'][i][10],data['cluster_result'][i][3][1],data['cluster_result'][i][3][2],data['cluster_result'][i][13],data['cluster_result'][i][14],data['cluster_result'][i][11])+'<br>平均距离:'+data['cluster_result'][i][5][0]+',标准差:'+data['cluster_result'][i][6]+',得分:'+data['cluster_result'][i][7]+'<br>点集范围:经度从{0}到{1},维度从{2}到{3}'.format(data['cluster_result'][i][5][1],data['cluster_result'][i][5][2],data['cluster_result'][i][5][3],data['cluster_result'][i][5][4])+'<br>预测结果:家{0},公司{1}'.format(data['cluster_result'][i][16],data['cluster_result'][i][17]),
+                  offset:new AMap.Pixel(20,-60),
+                  size:new AMap.Size(100,0)
+          });
+        // 添加圆圈覆盖
+        var circle = new AMap.Circle({
+            //center: new AMap.LngLat("116.403322", "39.920255"),// 圆心位置
+            center: new AMap.LngLat(new_location['lon'],new_location['lat']),
+            //radius: 100*(i+1), //半径
+            radius:data['cluster_result'][i][5][0],
+            strokeColor: "#F33", //线颜色
+            strokeOpacity: 0.3, //线透明度
+            strokeWeight: 1, //线粗细度
+            fillColor: "#ee2200", //填充颜色
+            fillOpacity: 0.35//填充透明度
+        });
+        circle.setMap(map);
+        //addCluster(0);//点聚合
+        // 中心点
+        new_location = gps2gaode(data['cluster_result'][i][8][0], data['cluster_result'][i][8][1],key='gps');
+        data['cluster_result'][i][8][0] = new_location['lon'];
+        data['cluster_result'][i][8][1] = new_location['lat'];
+        var marker = new AMap.Marker({
+                position: [new_location['lon'], new_location['lat']],
+                //icon : 'http://vdata.amap.com/icons/b18/1/2.png',//24px*24px
+                icon:'http://webapi.amap.com/theme/v1.3/markers/n/mark_r.png',
+                draggable: true  //是否可拖动
+        });
+        marker.setMap(map);
+        // 设置鼠标划过点标记显示的文字提示
+        marker.setTitle('中心点坐标:'+data['cluster_result'][i][8][0]+','+data['cluster_result'][i][8][1]);
+        // 设置label标签
+        marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+            offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+            content: "中心点"
+        });
+        if(data['cluster_result'][i][5].length<5){continue;}
+        //var bak = data['cluster_result'][i][5];
+        // 多边形覆盖簇的聚类结果集
+        var polygonArr = new Array();//多边形覆盖物节点坐标数组
+        new_location = gps2gaode(data['cluster_result'][i][5][1], data['cluster_result'][i][5][3],key='gps');
+        //alert('lon='+data['cluster_result'][i][5][1]+',lat='+data['cluster_result'][i][5][3]+';<br>new_lon='+new_location['lon']+',new_lat='+new_location['lat']);
+        data['cluster_result'][i][5][1] = new_location['lon'];
+        data['cluster_result'][i][5][3] = new_location['lat'];
+        new_location = gps2gaode(data['cluster_result'][i][5][2], data['cluster_result'][i][5][4],key='gps')
+        data['cluster_result'][i][5][2] = new_location['lon'];
+        data['cluster_result'][i][5][4] = new_location['lat'];
+        polygonArr.push([data['cluster_result'][i][5][1], data['cluster_result'][i][5][3]]);
+        polygonArr.push([data['cluster_result'][i][5][1], data['cluster_result'][i][5][4]]);
+        polygonArr.push([data['cluster_result'][i][5][2], data['cluster_result'][i][5][4]]);
+        polygonArr.push([data['cluster_result'][i][5][2], data['cluster_result'][i][5][3]]);
+        var  polygon = new AMap.Polygon({
+            path: polygonArr,//设置多边形边界路径
+            strokeColor: "#FF33FF", //线颜色
+            strokeOpacity: 0.2, //线透明度
+            strokeWeight: 3,    //线宽
+            fillColor: "#1791fc", //填充色
+            fillOpacity: 0.35//填充透明度
+        });
+        polygon.setMap(map);
+      }// end for
+    }
+    // 将js数据变量放到页面文本框中
+    document.getElementById("user_input").value=JSON.stringify(data)
+ }
+  function gps2gaode(lon,lat,key='gps')
+  {
+    if(typeof(lon) != typeof(0.0)){lon = parseFloat(lon);}
+    if(typeof(lat) != typeof(0.0)){lat = parseFloat(lat);}
+    var location = {'lon':lon,'lat':lat};
+    if(illegal_value.indexOf(lon) != -1 || illegal_value.indexOf(lat) != -1){return location;}
+    if(data.hasOwnProperty(key)&&data[key]==1)
+    {// GPS坐标转高德坐标,地球→火星
+      location = GPS.gcj_encrypt(lat,lon);
+    }
+    //console.log(location);
+    //alert('后:'+location['lon']+','+location['lat'])
+    return location;
+  }
+function pointMarker(lon,lat,type=1,text='默认标注点')
+{                     // 类别(1:家,2:公司,3:其它) text:标注的文本
+  //alert('输入数据：'+lon+','+lat+','+type+','+text)
+  if(illegal_value.indexOf(lon) == -1 && illegal_value.indexOf(lat) == -1)
+  {
+    logo = 'http://webapi.amap.com/images/'+type+'.png'; // ABCD...
+    new_location = gps2gaode(lon,lat,key='gps_hc');
+    //alert('坐标转换后:'+lon+','+lat)
+    var marker = new AMap.Marker({
+            position: [new_location['lon'], new_location['lat']],
+            //icon : 'http://webapi.amap.com/images/marker_sprite.png'//24px*24px
+            icon : logo
+    });
+    marker.setMap(map);
+    // 设置鼠标划过点标记显示的文字提示
+    marker.setTitle(text+':'+new_location['lon']+','+new_location['lat']);
+    // 设置label标签
+    marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+      offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+      content:  text,
+      offset:new AMap.Pixel(20,20),
+      size:new AMap.Size(100,0)
+      });
+  }
+}
+   function refreshData()
+   {
+   	//从网页获取用户输入轨迹数据
+   	raw_input = document.getElementById("user_input").value;
+   	if (raw_input.length == 0)
+   	{
+   		alert('输入数据获取失败！采用默认值：'+raw_input);
+   		raw_input ='{"points": [[116.424769, 40.067856], [116.42477, 40.058265], [116.434775, 40.088266], [116.434767, 40.067865]], "company": [116.55772626399995, 39.925398495695866], "cluster_result": [[1, 8, 13, [116.298357631, 40.0934269576], 0, 0, 1], [3, 8, 13, [116.293357631, 40.0734269576], 0, 0, 1]], "real_num": 1000, "home": [116.43292039632799, 39.98512122287466], "all_num": 5345, "cluster_num": 165}';
+   	}else{
+   		alert('你输入了:'+raw_input);
+   	}
+   	//清除上一次的痕迹
+   	map.clearMap();
+   	//初始化数组
+   	marker_list=[];
+    data = JSON.parse(raw_input); // 或,var obj = str.parseJSON(); var last=JSON.stringify(obj);var last=obj.toJSONString();
+    //var arr2 = GPS.gcj_encrypt(39.933676862706776, 116.35608315379092);
+    //alert(JSON.stringify(data));
+   	//重新画图
+   	clusterVisualize();
+   	//addCluster(0);//点聚合
+   }
+    //addCircle(116.482983, 39.98978);
+    function addCircle(x,y)
+    { // 添加圆覆盖物
+       circle = new AMap.Circle({
+       center:new AMap.LngLat(x,y),// 圆心位置
+       redius: 100,
+       fillOpacity:0.3,
+       fillColor:'#09f',
+       strokeColor:'#09f',
+       strokeWeight:1
+       });
+       circle.setMap(map);
+    }
+    function addCluster(tag)
+    { // 点聚合函数
+    	if(cluster) {
+    		cluster.setMap(null);
+    	}
+    	if(tag==1) {
+    		var sts=[{url:"/Public/images/js_1.png",size:new AMap.Size(32,32),offset:new AMap.Pixel(-16,-30)},
+    				   {url:"/Public/images/js_2.png",size:new AMap.Size(32,32),offset:new AMap.Pixel(-16,-30)},
+    				   {url:"/Public/images/js_3.png",size:new AMap.Size(48,48),offset:new AMap.Pixel(-24,-45), textColor:'#CC0066'}];
+    		map.plugin(["AMap.MarkerClusterer"],function(){
+    			cluster = new AMap.MarkerClusterer(map,marker_list,{styles:sts});
+    		});
+    	}
+    	else {
+    		map.plugin(["AMap.MarkerClusterer"],function(){
+    			cluster = new AMap.MarkerClusterer(map,marker_list);
+    		});
+    	}
+    }
+
+   </script>
+
+   <div style="padding:2px 0px 0px 5px;font-size:12px;position:fixed;top:10px;left:80px" >
+   <br>   <font color="#660000">请输入轨迹字符串：<br>json串: </font><br>
+
+   <textarea rows="5" cols="100" id="user_input" name="user_input" size="100" style="background-color:#FFFFFF"onfocus="if (value =='Dreamweaver'){value =''};style.backgroundColor='#FFFF00'" onblur="style.backgroundColor='#FFFFFF'">
+   </textarea><br>
+   <!--<input type="text" id="user_input" name="user_input" size="100" style="background-color:#FFFFFF"onfocus="if (value =='Dreamweaver'){value =''};style.backgroundColor='#FFFF00'" onblur="style.backgroundColor='#FFFFFF'"/> -->
+   <input type="button"  value="开始绘制聚类效果" onClick="javascript:refreshData()"/>
+   </div>
+
+  </body>
+</html>

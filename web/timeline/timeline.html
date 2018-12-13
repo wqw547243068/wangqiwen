@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/about.css">
+    <style>
+        .page {
+            width: 100%;
+            background: #F0F0F0 url('643.jpg') repeat-x;
+        }
+    </style>
+    <title>静态可以折叠时光轴</title>
+</head>
+<body>
+    <div class="page">
+        <div class="box">
+            <ul class="event_year">
+                <li class="current"><label for="20170111">20170111</label></li>
+                <li><label for="20170112">20170112</label></li>
+                <li><label for="20170113">20170113</label></li>
+            </ul>
+            <ul class="event_list">
+                <div>
+                    <h3 id="20170111">20170111</h3>
+                    <li>
+                        <span>20170111 22:32:45</span>
+                        <p><span>出入口系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p>
+                    </li>
+                    <li>
+                        <span>20170111 21:00:31</span>
+                        <p><span>停车场系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p>
+                    </li>
+                    <li>
+                        <span>20170111 17:30:45</span>
+                        <p><span>楼宇门禁系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p>
+                    </li>
+ 
+                </div>
+                <div>
+                    <h3 id="20170112">20170112</h3>
+                    <li>
+                        <span>20170112 14:03:41</span>
+                        <p><span>视频监控系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p>
+                    </li>
+                    <li>
+                        <span>20170112 11:24:47</span>
+                        <p><span>电子巡更系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p>
+                    </li>
+                </div>
+                <div>
+                    <h3 id="20170113">20170113</h3>
+                    <li><span>20170112 14:03:41</span><p><span>视频监控系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p></li>
+                    <li><span>20170112 14:03:41</span><p><span>视频监控系统<a href="f?p='||V('APP_ID')||':122:'||V('SESSION')||':::::"></a></span></p></li>
+                </div>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- <script src="js/jquery.min_v1.0.js" type="text/javascript"></script> -->
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('label').click(function () {
+                $('.event_year>li').removeClass('current');
+                $(this).parent('li').addClass('current');
+                var year = $(this).attr('for');
+                $('#' + year).parent().prevAll('div').slideUp(800);
+                $('#' + year).parent().slideDown(800).nextAll('div').slideDown(800);
+            });
+        });
+    </script>
+</body>
+</html>
