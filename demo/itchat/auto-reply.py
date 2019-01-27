@@ -44,7 +44,8 @@ def handler_receive_msg(msg):  # 处理收到的消息
     reply = json.dumps(msg, ensure_ascii=False)
     reply = '你发了：%s'%message
     #{"MsgId": "9212371634710588729", "FromUserName": "@ad238825281702d637159eab5f24f89e", "ToUserName": "@ad238825281702d637159eab5f24f89e", "MsgType": 1, "Content": "你", "Status": 3, "ImgStatus": 1, "CreateTime": 1541315145, "VoiceLength": 0, "PlayLength": 0, "FileName": "", "FileSize": "", "MediaId": "", "Url": "", "AppMsgType": 0, "StatusNotifyCode": 0, "StatusNotifyUserName": "", "RecommendInfo": {"UserName": "", "NickName": "", "QQNum": 0, "Province": "", "City": "", "Content": "", "Signature": "", "Alias": "", "Scene": 0, "VerifyFlag": 0, "AttrStatus": 0, "Sex": 0, "Ticket": "", "OpCode": 0}, "ForwardFlag": 0, "AppInfo": {"AppID": "", "Type": 0}, "HasProductId": 0, "Ticket": "", "ImgHeight": 0, "ImgWidth": 0, "SubMsgType": 0, "NewMsgId": 9212371634710588729, "OriContent": "", "EncryFileName": "", "User": {"MemberList": [], "UserName": "@ad238825281702d637159eab5f24f89e", "City": "海淀", "DisplayName": "", "PYQuanPin": "wangqiwen", "RemarkPYInitial": "", "Province": "北京", "KeyWord": "wqw", "RemarkName": "", "PYInitial": "WQW", "EncryChatRoomId": "", "Alias": "", "Signature": "自律更自由", "NickName": "王奇文", "RemarkPYQuanPin": "", "HeadImgUrl": "/cgi-bin/mmwebwx-bin/webwxgeticon?seq=661826231&username=@ad238825281702d637159eab5f24f89e&skey=@crypt_15c532e6_ba943df756f74fb80686ff7d62c8c677", "UniFriend": 0, "Sex": 1, "AppAccountFlag": 0, "VerifyFlag": 0, "ChatRoomId": 0, "HideInputBarFlag": 0, "AttrStatus": 33656871, "SnsFlag": 17, "MemberCount": 0, "OwnerUin": 0, "ContactFlag": 3, "Uin": 965715160, "StarFriend": 0, "Statues": 0, "WebWxPluginSwitch": 0, "HeadImgFlag": 1, "IsOwner": 0}, "Type": "Text", "Text": "你"}
-    if toName in ('@ad238825281702d637159eab5f24f89e', "filehelper" ):
+    #if toName in ('@ad238825281702d637159eab5f24f89e', "filehelper" ):
+    if toName == "filehelper":
         if message == "cap":  # 拍照
             #  要使用摄像头，需要使用cv2.VideoCapture(0)创建VideoCapture对象，
             # 参数：0指的是摄像头的编号。如果你电脑上有两个摄像头的话，访问第2个摄像头就可以传入1
@@ -59,8 +60,10 @@ def handler_receive_msg(msg):  # 处理收到的消息
             im = ImageGrab.grab()  # 实现截屏功能
             im.save(path, 'JPEG')  # 设置保存路径和图片格式
             itchat.send_image(path, toName)
+    # 微信表情符对照表：https://www.cnblogs.com/xuange306/p/7098236.html
+    emoji = [')', 'B', 'X', 'Z', 'Q', 'T', 'L', 'g', '|', '<','>', '~', '’(', '$', '!','O', 'P', '+','*']
 
-    robots = ['-^-','^-^','~v~']
+    robots = ['/::%s'%(i) for i in emoji]
     reply = get_response(msg['Text'])+random.choice(robots)
     res = '收到%s的消息[%s], 回复:[%s]'%(toName, message, reply)
     print(sys.stderr, res)
