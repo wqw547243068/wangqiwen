@@ -11,17 +11,20 @@ This script is the environment part of this example. The RL is in RL_brain.py.
 View more on my tutorial page: https://morvanzhou.github.io/tutorials/
 """
 
-
 import numpy as np
 import time
 import sys
+
 if sys.version_info.major == 2:
     import Tkinter as tk
 else:
     import tkinter as tk
 
 
-UNIT = 40   # pixels
+UNIT = 100   # pixels 格子大小，初始值为40
+HALF_UNIT = UNIT/2 # 格子位置基准
+MOVE_HALF = UNIT/2.5 # 运动节点的半径
+BOUND = 5 # 边界
 MAZE_H = 4  # grid height
 MAZE_W = 4  # grid width
 
@@ -31,7 +34,7 @@ class Maze(tk.Tk, object):
         super(Maze, self).__init__()
         self.action_space = ['u', 'd', 'l', 'r']
         self.n_actions = len(self.action_space)
-        self.title('maze')
+        self.title('maze迷宫问题')
         self.geometry('{0}x{1}'.format(MAZE_H * UNIT, MAZE_H * UNIT))
         self._build_maze()
 
@@ -39,44 +42,38 @@ class Maze(tk.Tk, object):
         self.canvas = tk.Canvas(self, bg='white',
                            height=MAZE_H * UNIT,
                            width=MAZE_W * UNIT)
-
-        # create grids
+        # create grids 画网格
         for c in range(0, MAZE_W * UNIT, UNIT):
-            x0, y0, x1, y1 = c, 0, c, MAZE_H * UNIT
+            x0, y0, x1, y1 = c, 0+BOUND, c, MAZE_H * UNIT
             self.canvas.create_line(x0, y0, x1, y1)
         for r in range(0, MAZE_H * UNIT, UNIT):
-            x0, y0, x1, y1 = 0, r, MAZE_W * UNIT, r
+            x0, y0, x1, y1 = 0+BOUND, r, MAZE_W * UNIT, r
             self.canvas.create_line(x0, y0, x1, y1)
-
         # create origin
-        origin = np.array([20, 20])
-
+        origin = np.array([HALF_UNIT, HALF_UNIT])
         # hell
         hell1_center = origin + np.array([UNIT * 2, UNIT])
         self.hell1 = self.canvas.create_rectangle(
-            hell1_center[0] - 15, hell1_center[1] - 15,
-            hell1_center[0] + 15, hell1_center[1] + 15,
+            hell1_center[0] - MOVE_HALF, hell1_center[1] - MOVE_HALF,
+            hell1_center[0] + MOVE_HALF, hell1_center[1] + MOVE_HALF,
             fill='black')
         # hell
         hell2_center = origin + np.array([UNIT, UNIT * 2])
         self.hell2 = self.canvas.create_rectangle(
-            hell2_center[0] - 15, hell2_center[1] - 15,
-            hell2_center[0] + 15, hell2_center[1] + 15,
+            hell2_center[0] - MOVE_HALF, hell2_center[1] - MOVE_HALF,
+            hell2_center[0] + MOVE_HALF, hell2_center[1] + MOVE_HALF,
             fill='black')
-
         # create oval
         oval_center = origin + UNIT * 2
         self.oval = self.canvas.create_oval(
-            oval_center[0] - 15, oval_center[1] - 15,
-            oval_center[0] + 15, oval_center[1] + 15,
+            oval_center[0] - MOVE_HALF, oval_center[1] - MOVE_HALF,
+            oval_center[0] + MOVE_HALF, oval_center[1] + MOVE_HALF,
             fill='yellow')
-
         # create red rect
         self.rect = self.canvas.create_rectangle(
-            origin[0] - 15, origin[1] - 15,
-            origin[0] + 15, origin[1] + 15,
+            origin[0] - MOVE_HALF, origin[1] - MOVE_HALF,
+            origin[0] + MOVE_HALF, origin[1] + MOVE_HALF,
             fill='red')
-
         # pack all
         self.canvas.pack()
 
@@ -84,10 +81,10 @@ class Maze(tk.Tk, object):
         self.update()
         time.sleep(0.5)
         self.canvas.delete(self.rect)
-        origin = np.array([20, 20])
+        origin = np.array([HALF_UNIT, HALF_UNIT])
         self.rect = self.canvas.create_rectangle(
-            origin[0] - 15, origin[1] - 15,
-            origin[0] + 15, origin[1] + 15,
+            origin[0] - MOVE_HALF, origin[1] - MOVE_HALF,
+            origin[0] + MOVE_HALF, origin[1] + MOVE_HALF,
             fill='red')
         # return observation
         return self.canvas.coords(self.rect)

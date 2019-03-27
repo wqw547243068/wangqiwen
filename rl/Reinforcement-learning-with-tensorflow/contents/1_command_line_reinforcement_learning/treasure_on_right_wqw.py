@@ -5,7 +5,6 @@ An agent "o" is on the left of a 1 dimensional world, the treasure is on the rig
 Run this program and to see how the agent will improve its strategy of finding the treasure.
 
 View more on my tutorial page: https://morvanzhou.github.io/tutorials/
-modified by wqw547243068@163.com, 2019-01-26
 """
 
 import numpy as np
@@ -67,7 +66,7 @@ def choose_action(state, q_table):
     """
     # 获取该状态下所有动作奖励列表
     state_actions = q_table.iloc[state, :]
-    if (np.random.uniform() > EPSILON) or ((state_actions == 0).all()):  
+    if (np.random.uniform() > EPSILON) or ((state_actions == 0).all()):
         # 随机模式（探索）act non-greedy or state-action have no value
         action_name = np.random.choice(ACTIONS)
     else:   # 贪婪模式（利用）act greedy 
@@ -78,7 +77,7 @@ def choose_action(state, q_table):
 
 def get_env_feedback(S, A):
     """
-        agent从环境中获取反馈，S状态下采取A获得的奖励R
+        agent从环境中获取反馈，S状态下采取A获得的奖励R (S, A) -> R
         This is how agent will interact with the environment
     """
     if A == 'right':
@@ -89,8 +88,7 @@ def get_env_feedback(S, A):
         else:
             S_ = S + 1
             R = 0
-    else:
-        # move left
+    else:   # move left
         R = 0
         if S == 0:
             S_ = S  # reach the wall
@@ -116,8 +114,10 @@ def update_env(S, episode, step_counter):
 
 
 def rl():
+    """ 强化学习程序主体 """
     # main part of RL loop
     q_table = build_q_table(N_STATES, ACTIONS)
+    # 最多玩MAX_EPISODE局
     for episode in range(MAX_EPISODES):
         step_counter = 0
         S = 0
@@ -127,11 +127,14 @@ def rl():
             A = choose_action(S, q_table)
             S_, R = get_env_feedback(S, A)  # take action & get next state and reward
             q_predict = q_table.loc[S, A]
+            # Q Learning算法
             if S_ != 'terminal':
                 q_target = R + GAMMA * q_table.iloc[S_, :].max()   # next state is not terminal
             else:
                 q_target = R     # next state is terminal
                 is_terminated = True    # terminate this episode
+                # 输出Q表
+                print('\rQ-table: %s\n' % (q_table))
             q_table.loc[S, A] += ALPHA * (q_target - q_predict)  # update
             S = S_  # move to next state
             update_env(S, episode, step_counter+1)
